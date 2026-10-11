@@ -1,0 +1,1202 @@
+{
+  "0022040346e947f2345baab010ddc1b624abef86fa850aaf71a9e09d1e768038.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790562141.4348876,
+    "observed": 1
+  },
+  "00659d4215b0f9858752e01f1250340da0ca19beddb8e023039b9f0ec3c82e1b.txt": {
+    "accepted": 1,
+    "confidence": 0.25,
+    "contradictions": 0,
+    "evidence": 1,
+    "last_verified": 1790562151.5983627,
+    "observed": 1
+  },
+  "00674bca254bd70cad091c94f0e387b37e54c502b7de7725e984c2a02da0e759.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790562163.4977846,
+    "observed": 1
+  },
+  "00d37988e3b9bc05d376c68c043563cd13c8aebcd1f3c83df66790d16af76559.txt": {
+    "accepted": 1,
+    "confidence": 0.25,
+    "contradictions": 0,
+    "evidence": 1,
+    "last_verified": 1790562174.396884,
+    "observed": 1
+  },
+  "00ea62cd160eab3a33297c69b3a6c237193d3c1a370da62f6aef4f79632dffb6.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790562186.324453,
+    "observed": 1
+  },
+  "010140e77e6b148b0b695d86c6af51d2715787be07669e9e5786788d326f0165.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790562197.6195652,
+    "observed": 1
+  },
+  "010f894e2762ba144c0bd9daaed18f922d540fb771790a99884365ce6ac344a0.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790566050.776788,
+    "observed": 1
+  },
+  "0125592c4a4732a6a3fed127423d52faade1ec47664dfa24c2009071c8674c49.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790566062.7217736,
+    "observed": 1
+  },
+  "0137c56d4ea2960aca1b79d7f40c95d3041855e33a2da6206d2321d9fb462730.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790644067.6115048,
+    "observed": 1
+  },
+  "014047c5ad937932e37b27a4c839fb759e2bcf9b901e9d54df896cb9d27853a5.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790625605.1991358,
+    "observed": 1
+  },
+  "01516c534c82c218cea4f54816ffdeb00c903fa212904b460c2a95bf0a35f72b.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790625616.6907635,
+    "observed": 1
+  },
+  "015c8aeba622a893e88b47bba17d7fb00b0eede21bbd22923a232f5c77a1c190.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790625828.6694388,
+    "observed": 1
+  },
+  "016c74569f831329f2e608210e08b2daa3e8444748d079f26192e021645227ec.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790625851.5951698,
+    "observed": 1
+  },
+  "02129df2e42475d8fa820c40e330e66cb2cf2d2a4e726fa0bbbf26162c481ca1.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790625907.0174484,
+    "observed": 1
+  },
+  "0215b067a22cb54f2c1b8d0748d1f2a956b42caa6fc185167c7366d65fe4451c.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790625933.8626564,
+    "observed": 1
+  },
+  "024dbfe432a8ab2ec41be1ef4796ded8fc9453493f33992638abb86721de3204.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790625956.4792955,
+    "observed": 1
+  },
+  "024f6536f1c7944a0abd4964aa4b96619e69051968116a0af8b81fca4a14ff6f.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790625974.896397,
+    "observed": 1
+  },
+  "02840c85d939b89b1d2e80bafeed513758b06120ff6b775b44c62c0d5c8198a6.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790625994.6675212,
+    "observed": 1
+  },
+  "02892e9068f1b83cddb4644ca03ff25fca2fdd477911b5cd90d19534af7ad130.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790626015.413856,
+    "observed": 1
+  },
+  "028b319f896e18daed3f3bfaee1113c86d2a3d8426629b342f178aa0a43c0cfd.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790626035.9090018,
+    "observed": 1
+  },
+  "0290059ec993f2bcbc2f4e188967316daf13acd3cc135aa40d2d0c009f8b3a65.txt": {
+    "accepted": 1,
+    "confidence": 0.25,
+    "contradictions": 0,
+    "evidence": 1,
+    "last_verified": 1790626068.9575741,
+    "observed": 1
+  },
+  "02a57bc334e00c79370569d0ab6278d809d13e39c952d1eaf5e3643eb8671b61.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790626183.1002123,
+    "observed": 1
+  },
+  "02e89bd1d982134edf057e467d028817d5c3f08d3b87c857848f96346d988b97.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790626194.404831,
+    "observed": 1
+  },
+  "0321441b50577beafdd128b8d12724a1a1ed0f5a75b94866d50ce9790a3078ee.txt": {
+    "accepted": 1,
+    "confidence": 0.25,
+    "contradictions": 0,
+    "evidence": 1,
+    "last_verified": 1790642991.8867092,
+    "observed": 1
+  },
+  "03b3331514bd03164f7045cd61fef1792d1b2b49ad5520629b209e2bbdc8563a.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790644079.570375,
+    "observed": 1
+  },
+  "03cb65e3fc2e44f1e595c078b42a87ef3e14f2b7bbfcfeff944cda3d1b644ed6.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790644366.0053906,
+    "observed": 1
+  },
+  "03cc79589e3658372d945985fc70b5e11c930b5063cfa0165be53f0c9b5160e0.txt": {
+    "accepted": 1,
+    "confidence": 0.25,
+    "contradictions": 0,
+    "evidence": 1,
+    "last_verified": 1790644379.618698,
+    "observed": 1
+  },
+  "03e1eaace7d4be8e4af380349abd9aaf34dd5a226508bb66bae80839337f0ced.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790644393.292702,
+    "observed": 1
+  },
+  "03e65acf9905042e76673278cc5eb71f26d14a719ca121c79b6cd68fbcbb28c6.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790644405.2574022,
+    "observed": 1
+  },
+  "03f1d2732a388fa238b7b61bdd35618b5e7d9d2f503a5b39082e66a4807a0aa8.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790644979.6530364,
+    "observed": 1
+  },
+  "03fb249b8d68e537ab0341196e432cd15beaaa2b195da1947c06b1bcd63a8af2.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790644991.8271763,
+    "observed": 1
+  },
+  "044cb7a19affadcf73db55c8cb6c70ea0f7a232fd4801ba0e929309b9dd299cb.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790646373.663573,
+    "observed": 1
+  },
+  "046e651bee8d59f0d559c942a9638c669f6c2785ca58be45afb88ebbe6212b1c.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790646496.9560845,
+    "observed": 1
+  },
+  "047b1aca4c5aac32aa16c956c29c9740be9fd312ff56a0e0bce7cc03aa9cdd1d.txt": {
+    "accepted": 1,
+    "confidence": 0.25,
+    "contradictions": 0,
+    "evidence": 1,
+    "last_verified": 1790646551.5564895,
+    "observed": 1
+  },
+  "047e9dc93414b3f5226a3c1d6683adfb31968b29138d393ff80055d0df70a687.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790646647.3154464,
+    "observed": 1
+  },
+  "048fba18efebe0136d4cf6f073dbdd52edbf9a6971bec5618ed7c3bb88087238.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790646703.832885,
+    "observed": 1
+  },
+  "04b9160809774ca484b8d45e92dcc4baa3246322c45a8d338d8bf2cc0db62c63.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790647458.9698613,
+    "observed": 1
+  },
+  "04e4942e1591cf8c642b8d59dc2f156ff37f51dfd11fff2f6f974ea1b72d1c7c.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790647473.2032328,
+    "observed": 1
+  },
+  "04e7f4c1ca052c11416c22f38046bbfbf1041ee0f4f964a9a2f84397cddd8971.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790649082.8373227,
+    "observed": 1
+  },
+  "0511eae8239f972d086ad89619f5a5fd2ff8f8c9b04cba67b915b5a0511acd61.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790649095.5322752,
+    "observed": 1
+  },
+  "0513fdfbec8e8fcc210608bb0e61ea529344dc933f5b4f2b2e5a2401946b99fa.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790649696.95988,
+    "observed": 1
+  },
+  "051d0e41ffe8108a91b4c31ceb3642a80c74be81f083a9fc607e6fdef05c74b5.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790649709.382071,
+    "observed": 1
+  },
+  "05364ad51eaa4bb10d7680abc25f181668fdde5a816b3ee842d72649d47be9a0.txt": {
+    "accepted": 1,
+    "confidence": 0.25,
+    "contradictions": 0,
+    "evidence": 1,
+    "last_verified": 1790650645.1067958,
+    "observed": 1
+  },
+  "053b2c495f6d1e17c199ccb8ff725d9651b4529bdfb8b561e2f89c3a5625e976.txt": {
+    "accepted": 1,
+    "confidence": 0.25,
+    "contradictions": 0,
+    "evidence": 1,
+    "last_verified": 1790650661.9402783,
+    "observed": 1
+  },
+  "0560383f4b6c2916ffcee0c9789e95b681b12b88c01829fbaa1c9cfd94cd3c8d.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790650690.3378656,
+    "observed": 1
+  },
+  "057cf00110c63759d5bf376790fe402bfe7f5d2015e62d365701ed2bbfd148ad.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790650704.867807,
+    "observed": 1
+  },
+  "058669670c8bc011ad32c92426d82b940c184b286817dcc73f06d8625f3c6764.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790650992.214586,
+    "observed": 1
+  },
+  "05960f00ad2ba63f86d6d28b81f2eeedccfa7395783108f7eba7215bc03a4368.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790651005.7680132,
+    "observed": 1
+  },
+  "05abc850dc2f6e73238b8954249e88135b0533def1e69f81fc2c5d3d812e878a.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790651199.342348,
+    "observed": 1
+  },
+  "05ec5eed3a24de3ba92dbd0829e8b9ffdab06104edc6f5e254c9ad2724307013.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790651211.071758,
+    "observed": 1
+  },
+  "0606dbd84e28b23544224cbde7471e828f4ad70618591eab2ea7cb9aa2e91a8c.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790651249.5216866,
+    "observed": 1
+  },
+  "0608dace22bc23283b55518b63bceb394e46e0a13f024ee493efdb93ad304161.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790651262.3528998,
+    "observed": 1
+  },
+  "06731ea5b31335a3144ea0a376992e11e22e6354de94b15f8c1649890c1ac228.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790651852.3539462,
+    "observed": 1
+  },
+  "0685c9ccfd26ae921d26ae2fff4f599e6b489584967d54a723101f151fc47405.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790651864.1487744,
+    "observed": 1
+  },
+  "069c13f5c42d04caf256da051a2dc9dfc57c9fa3f0aa1de539569ffaf1a0da8f.txt": {
+    "accepted": 1,
+    "confidence": 0.25,
+    "contradictions": 0,
+    "evidence": 1,
+    "last_verified": 1790652746.4125972,
+    "observed": 1
+  },
+  "06a9720fde183787fa4e4d8ae36e50ebef36d2fffdef15ec452e08d5d4e32d4a.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790652761.8739057,
+    "observed": 1
+  },
+  "06a9bcf4b710fc21a88c533fd55d960be9c2be04af1b5b60160a19e00be02489.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790652775.0780988,
+    "observed": 1
+  },
+  "06c9ec05cf45ff0f4cf5c2121ae24b61e26bf600d0b985de5fa19d1435febe03.txt": {
+    "accepted": 1,
+    "confidence": 0.25,
+    "contradictions": 0,
+    "evidence": 1,
+    "last_verified": 1790653825.5184107,
+    "observed": 1
+  },
+  "06dbd5560a55430d48da63f2a9bae6293c8a42f1723a8945670e0aa6c0d5de5b.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790653843.2894661,
+    "observed": 1
+  },
+  "06ecb695d9de2b38723d097fb210f257eeb563a75382ca3fb9c2732d77d143d0.txt": {
+    "accepted": 1,
+    "confidence": 0.25,
+    "contradictions": 0,
+    "evidence": 1,
+    "last_verified": 1790653855.6272864,
+    "observed": 1
+  },
+  "06f57644718d4884dd103d6b1cd211c0199ef286773031d214450ef95e02defd.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790653872.384519,
+    "observed": 1
+  },
+  "0715714cdd27aeee72a8efd2972129bcc1d12b57d954d35673ff5085f74ba4c8.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790653884.769628,
+    "observed": 1
+  },
+  "071fbd4e4746222deadd56e3909284029feb1c5f6e8436be903189031532e1ba.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790654370.3433611,
+    "observed": 1
+  },
+  "07231823f7ba799202245a53b8d91dc9ecab7551a171bd5d86cdcbf3b63c9dd8.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790654385.6981714,
+    "observed": 1
+  },
+  "07454cd8eb7ae260cb7c616bea79bdb3dc9961745e52e60f39c45fd0062c72fc.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790655519.0266767,
+    "observed": 1
+  },
+  "0747e0655b825bebf678ce1f4a9ea254ef414492710c2d38897ae9de1d446063.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790655534.9583848,
+    "observed": 1
+  },
+  "074d76882ea26178bc1cba6027f3a9bf6307a1c63e9726dee83672029224ee7d.txt": {
+    "accepted": 1,
+    "confidence": 0.25,
+    "contradictions": 0,
+    "evidence": 1,
+    "last_verified": 1790696539.9219031,
+    "observed": 1
+  },
+  "075182e635bd2901a86e76c73619371c13353f2960916ca9dcbb1fb780e2c9f9.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790696621.7230644,
+    "observed": 1
+  },
+  "078ef84538a10f048afc5a9758f2e94588bc180f268802240bc66b4a0f76afb6.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790696666.7911994,
+    "observed": 1
+  },
+  "07adeaba4ca301d4c7ed5627b40523c71d31ede6e931d557ca3254a55bcde0e1.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790696688.3695457,
+    "observed": 1
+  },
+  "07b487c51590b42a1b2e7876a438da438847a241975709deb745b40f1de71898.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790696712.7981427,
+    "observed": 1
+  },
+  "07dfc181b7199f6823e80189c399415bdee1a59e2914d500bda8596cf1085fc2.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790701620.2627428,
+    "observed": 1
+  },
+  "07f5f051f871cf6c2abcb4625522ea0c98c3904297a55de6756f5a72fff86bed.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790701645.6662636,
+    "observed": 1
+  },
+  "0825da5a6b86b5c168ffd484f2b60bfffa19428b37df935a8c42460b2459cbd0.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790701674.4782987,
+    "observed": 1
+  },
+  "0880cef91159fef1d57c717fd25fe2687344e22db92af74bc545f71065c84b76.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790701703.330457,
+    "observed": 1
+  },
+  "0893f22c84665612d03eca0a5768b32f813461f9ce5413b9fd16eec5763f0c26.txt": {
+    "accepted": 1,
+    "confidence": 0.25,
+    "contradictions": 0,
+    "evidence": 1,
+    "last_verified": 1790701798.6795216,
+    "observed": 1
+  },
+  "08a655c0878f934c1278932a024983cb3f4761b83b9e015165d957a134e03f48.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790701857.2780266,
+    "observed": 1
+  },
+  "08bda5a9e0d81b372ffcdebd435e16c83e96c3e9bf4ac8f1fc9aabcf270f04aa.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790701989.120745,
+    "observed": 1
+  },
+  "08d28bd233d25b66847f091d670cb92338e1f02f2b4696e01646e245c7ab2d3f.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790702019.6636524,
+    "observed": 1
+  },
+  "08f1373b34d624291dc185e3614757f891292cbbf444447e698d628a69a51dfe.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790702379.5997758,
+    "observed": 1
+  },
+  "08fc71caff400fe94d2e6bb3d040eccf5b880430c03a728743b2523eb968d320.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790702413.0049267,
+    "observed": 1
+  },
+  "09018f3f7a5dc6c58d7e8c621bdea8dd9795771edc000c2b8b0980116313a493.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790702456.0148332,
+    "observed": 1
+  },
+  "0911590ef0a30c415047af51666e31382faa84e6ecb80cb6559a46c8fb4836e6.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790702482.9659402,
+    "observed": 1
+  },
+  "0aa25b24222d83f44d3ad3f56b939c0d6d034856b94f1bf04d55e5a303f9987d.txt": {
+    "accepted": 6,
+    "confidence": 0.8081787109374999,
+    "contradictions": 1,
+    "evidence": 6,
+    "last_verified": 1790735112.868057,
+    "observed": 7
+  },
+  "0da98956be3ee7c31644d90ffd2356659a0e12865c0312c184a06af048b9456c.txt": {
+    "accepted": 1,
+    "confidence": 0.25,
+    "contradictions": 0,
+    "evidence": 1,
+    "last_verified": 1790815565.1948726,
+    "observed": 1
+  },
+  "20c6d48db990c25faf67d3b0159377209e73de562d7c2c21c0fa311e25b2ccae.txt": {
+    "accepted": 3,
+    "confidence": 0.578125,
+    "contradictions": 0,
+    "evidence": 3,
+    "last_verified": 1790741903.6828675,
+    "observed": 3
+  },
+  "21a023706bfbb4d21a6c97c36b3ccbcdcd94c527620c50523d6403f08274cb8c.txt": {
+    "accepted": 5,
+    "confidence": 0.8489553831859666,
+    "contradictions": 2,
+    "evidence": 12,
+    "last_verified": 1790736555.0860264,
+    "observed": 14
+  },
+  "223d92b4719ec114fc050c99e4e2af9dd11e354367f358520fca8363e3bbf656.txt": {
+    "accepted": 0,
+    "confidence": 0.12109375,
+    "contradictions": 2,
+    "evidence": 2,
+    "last_verified": 1790560872.5910609,
+    "observed": 4
+  },
+  "2904677d2d0f2810232ab9b7682250a1c030ab321b5664ce671d826a898d89c1.txt": {
+    "accepted": 18,
+    "confidence": 0.5724515429593645,
+    "contradictions": 22,
+    "evidence": 23,
+    "last_verified": 1790821404.5857518,
+    "observed": 45
+  },
+  "2c017ac105d113d52f4fc19b4c383a86f8b3907eeca33076ed39f2d0b48b52f2.txt": {
+    "accepted": 2,
+    "confidence": 0.4375,
+    "contradictions": 0,
+    "evidence": 2,
+    "last_verified": 1790744868.3969085,
+    "observed": 2
+  },
+  "2df38d7792fbee28f3456fc13d977ab619027fd879ac1cae820550327bec21f1.txt": {
+    "accepted": 5,
+    "confidence": 0.804466962814331,
+    "contradictions": 1,
+    "evidence": 8,
+    "last_verified": 1790736432.2237363,
+    "observed": 9
+  },
+  "2e1b0c71ca9cbdf091fb510a5fb511de4e22b63b1b68b88faad40c6415989556.txt": {
+    "accepted": 1,
+    "confidence": 0.25,
+    "contradictions": 0,
+    "evidence": 1,
+    "last_verified": 1790805816.0058935,
+    "observed": 1
+  },
+  "320c4dbcbfb5742f0a158d229ccfe678c814dbfb7428555f433b560e9a3af8e1.txt": {
+    "accepted": 1,
+    "confidence": 0.023796655025448872,
+    "contradictions": 30,
+    "evidence": 5,
+    "last_verified": 1790800512.8665087,
+    "observed": 35
+  },
+  "34b26fd2b434ff8511dc4b6783a86eea4048fa989638e0aec91abd424950c837.txt": {
+    "accepted": 7,
+    "confidence": 0.22217596946038665,
+    "contradictions": 91,
+    "evidence": 23,
+    "last_verified": 1790824384.9078546,
+    "observed": 114
+  },
+  "3a7ef25cd37cc242d78182036bc022fe51dc2ff66ccf5ba0dc8ee5872f5f26ae.txt": {
+    "accepted": 1,
+    "confidence": 0.25,
+    "contradictions": 0,
+    "evidence": 1,
+    "last_verified": 1790805833.880382,
+    "observed": 1
+  },
+  "476b584a859315c0af0ab7810337b847f16470b038db53f38a3d216e230c5634.txt": {
+    "accepted": 1,
+    "confidence": 0.25,
+    "contradictions": 0,
+    "evidence": 1,
+    "last_verified": 1790805861.7293215,
+    "observed": 1
+  },
+  "50040dec6bb3f790e917160e6620909956970a3bdd74318f397a276ce950f869.txt": {
+    "accepted": 1,
+    "confidence": 0.25,
+    "contradictions": 0,
+    "evidence": 1,
+    "last_verified": 1790557945.9744172,
+    "observed": 1
+  },
+  "56cf2cbb2a5f64063121cb2c709ed82726670751bb9558e68dfc218bdb92646a.txt": {
+    "accepted": 1,
+    "confidence": 0.25,
+    "contradictions": 0,
+    "evidence": 1,
+    "last_verified": 1790805914.5708804,
+    "observed": 1
+  },
+  "5865f7ca69391b57edd32ad78c5faca404b7a6c25b3061b58b730d14ce1aa3ed.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 34,
+    "evidence": 0,
+    "last_verified": 1790718822.4699917,
+    "observed": 34
+  },
+  "58b201644f360dd6890020e63b12f1b7c93912bd9b7373c79c885fab137985f3.txt": {
+    "accepted": 1,
+    "confidence": 0.361419677734375,
+    "contradictions": 1,
+    "evidence": 4,
+    "last_verified": 1790745590.6669762,
+    "observed": 5
+  },
+  "613bef68e27fa32200c1f50c91471e9c4ae4498b43eba9445799d865092a699a.txt": {
+    "accepted": 6,
+    "confidence": 0.822021484375,
+    "contradictions": 0,
+    "evidence": 6,
+    "last_verified": 1790736464.0173454,
+    "observed": 6
+  },
+  "6fbce1ae19df8df232458eb5c6a3114ddefd1f07774233bf65c29dbe25db0b03.txt": {
+    "accepted": 1,
+    "confidence": 0.25,
+    "contradictions": 1,
+    "evidence": 1,
+    "last_verified": 1790560946.9781191,
+    "observed": 2
+  },
+  "7324297d9759c20f683e076fd4f9d8911b41b2a51fd773bb309fe813bf95ab89.txt": {
+    "accepted": 0,
+    "confidence": 0.0625,
+    "contradictions": 2,
+    "evidence": 1,
+    "last_verified": 1790824040.915147,
+    "observed": 3
+  },
+  "76c4ff8f780f1c19327e0e97fb1efdce8aaa7f9f4d2fe4832d69a41a322022a0.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 27,
+    "evidence": 0,
+    "last_verified": 1790718850.6553357,
+    "observed": 27
+  },
+  "79e6588d2e951bec77ce1220972b5c9a2e3bd325a2cc04b1f4377d050f9b1d9a.txt": {
+    "accepted": 0,
+    "confidence": 0.07227178615214838,
+    "contradictions": 27,
+    "evidence": 2,
+    "last_verified": 1790825168.3212976,
+    "observed": 29
+  },
+  "7c24ca5cbf45149ac8743dabcf9b60590c687db31f2f4a04d016232ea5b936a7.txt": {
+    "accepted": 1,
+    "confidence": 0.38201904296875,
+    "contradictions": 1,
+    "evidence": 4,
+    "last_verified": 1790745086.4074273,
+    "observed": 5
+  },
+  "7ca0bf6c20c17d6b380f723e0b696a48d40b8bf64f9e1038c24b490697583fd0.txt": {
+    "accepted": 1,
+    "confidence": 0.25,
+    "contradictions": 0,
+    "evidence": 1,
+    "last_verified": 1790805965.048942,
+    "observed": 1
+  },
+  "7dd944207a1f3a9ce6b7ec467638c8d949c362dd0bb9473b8e5125cd11829a8a.txt": {
+    "accepted": 1,
+    "confidence": 0.296875,
+    "contradictions": 1,
+    "evidence": 2,
+    "last_verified": 1790800521.8780394,
+    "observed": 3
+  },
+  "831c02dbc7245ad3667cd5d55cab0c633b54d009a0446bc999b05a7d946893a8.txt": {
+    "accepted": 1,
+    "confidence": 0.25,
+    "contradictions": 0,
+    "evidence": 1,
+    "last_verified": 1790806016.8503647,
+    "observed": 1
+  },
+  "888b7133db7b6a4955db278241745dbe92b51a45d1fc8a2ab96b05747ea002d9.txt": {
+    "accepted": 8,
+    "confidence": 0.8659104919433593,
+    "contradictions": 2,
+    "evidence": 8,
+    "last_verified": 1790737323.4215012,
+    "observed": 10
+  },
+  "8b4295d334a22e8995391b215bfb2b4b5c193c0971f2810b45a2938a8c6934ff.txt": {
+    "accepted": 6,
+    "confidence": 0.822021484375,
+    "contradictions": 0,
+    "evidence": 6,
+    "last_verified": 1790736519.908251,
+    "observed": 6
+  },
+  "990b4cde35adf498dda85cc8271c10caf0ef600a9d1e757f374b5a2a3fc44abd.txt": {
+    "accepted": 1,
+    "confidence": 0.25,
+    "contradictions": 0,
+    "evidence": 1,
+    "last_verified": 1790806065.753983,
+    "observed": 1
+  },
+  "9ae776c36e0dc960985e82226f7e94053ec5cc09008cb70f3c47bced75a72a02.txt": {
+    "accepted": 5,
+    "confidence": 0.7626953125,
+    "contradictions": 0,
+    "evidence": 5,
+    "last_verified": 1790736331.4013069,
+    "observed": 5
+  },
+  "9c03e91aeedbd4f3d9f4c6cba358917acd8cfa0de41e8240e822c8e3febb3aec.txt": {
+    "accepted": 1,
+    "confidence": 0.25,
+    "contradictions": 0,
+    "evidence": 1,
+    "last_verified": 1790806133.8308933,
+    "observed": 1
+  },
+  "9e9b7231ab8e3b9d33addb91399cfa3f9b259ff6c58e4ff165d4418aede17693.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 1,
+    "evidence": 0,
+    "last_verified": 1790560075.6065795,
+    "observed": 1
+  },
+  "a.txt": {
+    "accepted": 0,
+    "confidence": 0.0625,
+    "contradictions": 0,
+    "evidence": 1,
+    "last_verified": 1790729387.9483342,
+    "observed": 1
+  },
+  "a1c48831cd2cf760ed5172feefe979715303f0d9d1821a89cd8fb834ff2ac2fa.txt": {
+    "accepted": 1,
+    "confidence": 0.001304662591483924,
+    "contradictions": 55,
+    "evidence": 3,
+    "last_verified": 1790804011.3409019,
+    "observed": 58
+  },
+  "a2687583925b872b0590180240f26384e4c7b95f65bf72f3c833050d8e640d1d.txt": {
+    "accepted": 0,
+    "confidence": 0.28944667242467403,
+    "contradictions": 13,
+    "evidence": 6,
+    "last_verified": 1790821722.1231012,
+    "observed": 19
+  },
+  "ab7be8d18ab81c130254dc59ca83b3e057904959e61ac71b732ef43c9deb759b.txt": {
+    "accepted": 1,
+    "confidence": 0.25,
+    "contradictions": 0,
+    "evidence": 1,
+    "last_verified": 1790806199.4048884,
+    "observed": 1
+  },
+  "ac45c81b6c25909a2de1f748d950b9cbf3de008e0a62a46bb9b2a2a747d626bc.txt": {
+    "accepted": 1,
+    "confidence": 0.25,
+    "contradictions": 0,
+    "evidence": 1,
+    "last_verified": 1790806297.129088,
+    "observed": 1
+  },
+  "b.txt": {
+    "accepted": 0,
+    "confidence": 0.0625,
+    "contradictions": 0,
+    "evidence": 1,
+    "last_verified": 1790729389.4352348,
+    "observed": 1
+  },
+  "b31ebd782ef10f8c1f25857563cece845d87883d78ac81f53a8ab65eaeb9e508.txt": {
+    "accepted": 3,
+    "confidence": 0.578125,
+    "contradictions": 0,
+    "evidence": 3,
+    "last_verified": 1790741950.2159204,
+    "observed": 3
+  },
+  "b6d12f7816c57a842c651a757189040cd481faeba3f1e630bebe407634b6a71f.txt": {
+    "accepted": 0,
+    "confidence": 0.0,
+    "contradictions": 5,
+    "evidence": 0,
+    "last_verified": 1790802461.1895854,
+    "observed": 5
+  },
+  "b8a7087e4bf51bf47030545e3b04fbe33473e3bd8d7f459c8b3709531e2c4b04.txt": {
+    "accepted": 0,
+    "confidence": 0.2503177883476019,
+    "contradictions": 8,
+    "evidence": 6,
+    "last_verified": 1790824104.3701797,
+    "observed": 14
+  },
+  "ba6ca842d2852202fd4eff19c81df596c6165862644cf212afb9fd223b668fdb.txt": {
+    "accepted": 1,
+    "confidence": 0.010597789568804049,
+    "contradictions": 31,
+    "evidence": 1,
+    "last_verified": 1790718873.587362,
+    "observed": 32
+  },
+  "be361fea7888a8fbc78e433a5a9c6c292dab8ed011ce8f56330100e5e21dd03e.txt": {
+    "accepted": 0,
+    "confidence": 0.16088111193468568,
+    "contradictions": 12,
+    "evidence": 5,
+    "last_verified": 1790825107.3324516,
+    "observed": 17
+  },
+  "big.txt": {
+    "accepted": 0,
+    "confidence": 0.12109375,
+    "contradictions": 0,
+    "evidence": 2,
+    "last_verified": 1790696039.8133142,
+    "observed": 2
+  },
+  "book.txt": {
+    "accepted": 0,
+    "confidence": 0.9763225989034365,
+    "contradictions": 0,
+    "evidence": 58,
+    "last_verified": 1790650446.4583318,
+    "observed": 58
+  },
+  "c075184584282739e0ac8f01336a9b8523c37c484e7dd976141140753eb71fa7.txt": {
+    "accepted": 1,
+    "confidence": 0.25,
+    "contradictions": 0,
+    "evidence": 1,
+    "last_verified": 1790807248.0464919,
+    "observed": 1
+  },
+  "c45f027a535f69c68a790535411c4a029f4bf80faf8304d12856a140329cf445.txt": {
+    "accepted": 0,
+    "confidence": 0.3634992279112339,
+    "contradictions": 2,
+    "evidence": 7,
+    "last_verified": 1790824331.2841856,
+    "observed": 9
+  },
+  "c546761a68c497b1d326e332d583c2499528a60ee766dc13037fae2a4614015f.txt": {
+    "accepted": 0,
+    "confidence": 0.0625,
+    "contradictions": 4,
+    "evidence": 1,
+    "last_verified": 1790802479.1313214,
+    "observed": 5
+  },
+  "cb961134fbd91047797d6485c5226b57bbc18376fe97bb42d5a9ad54f0634f97.txt": {
+    "accepted": 1,
+    "confidence": 0.361419677734375,
+    "contradictions": 1,
+    "evidence": 4,
+    "last_verified": 1790745696.2859313,
+    "observed": 5
+  },
+  "cfa569b5ebcbb45d8d1c97137c680bad063623d35cc47000dcc7e47d64612d5b.txt": {
+    "accepted": 1,
+    "confidence": 0.38201904296875,
+    "contradictions": 1,
+    "evidence": 4,
+    "last_verified": 1790817462.3564093,
+    "observed": 5
+  },
+  "d0.txt": {
+    "accepted": 0,
+    "confidence": 0.0625,
+    "contradictions": 0,
+    "evidence": 1,
+    "last_verified": 1790655640.3637598,
+    "observed": 1
+  },
+  "d1.txt": {
+    "accepted": 0,
+    "confidence": 0.0625,
+    "contradictions": 0,
+    "evidence": 1,
+    "last_verified": 1790655641.5267637,
+    "observed": 1
+  },
+  "d11feb976b065a61929c25e1d89a67ee69581e68ef1dc073c2c03d35e1a2786f.txt": {
+    "accepted": 0,
+    "confidence": 0.11455097717285158,
+    "contradictions": 13,
+    "evidence": 3,
+    "last_verified": 1790823186.1709824,
+    "observed": 16
+  },
+  "d1f11c37ff77b9d455962c74a016f25537cae80190e574043ff0069982062b99.txt": {
+    "accepted": 1,
+    "confidence": 0.25,
+    "contradictions": 0,
+    "evidence": 1,
+    "last_verified": 1790813307.537802,
+    "observed": 1
+  },
+  "d3f7a8548454790756adf9b482874f92ce90108fc74a4349223c7f6756934f72.txt": {
+    "accepted": 5,
+    "confidence": 0.7626953125,
+    "contradictions": 0,
+    "evidence": 5,
+    "last_verified": 1790736386.0911949,
+    "observed": 5
+  },
+  "d7110b03ec43964ff6fd7f306f87f67835786d6ed2542b361fa03116bd73dd1a.txt": {
+    "accepted": 1,
+    "confidence": 0.25,
+    "contradictions": 0,
+    "evidence": 1,
+    "last_verified": 1790813344.9332166,
+    "observed": 1
+  },
+  "dca3e462caf21c3dfbe149e12a994b97a3d1011431fd786cb351fb3b99397cf8.txt": {
+    "accepted": 1,
+    "confidence": 0.25,
+    "contradictions": 0,
+    "evidence": 1,
+    "last_verified": 1790813591.9306576,
+    "observed": 1
+  },
+  "doc0.txt": {
+    "accepted": 0,
+    "confidence": 0.0625,
+    "contradictions": 0,
+    "evidence": 1,
+    "last_verified": 1790651899.2833486,
+    "observed": 1
+  },
+  "doc1.txt": {
+    "accepted": 0,
+    "confidence": 0.0625,
+    "contradictions": 0,
+    "evidence": 1,
+    "last_verified": 1790651899.8021724,
+    "observed": 1
+  },
+  "doc2.txt": {
+    "accepted": 0,
+    "confidence": 0.0625,
+    "contradictions": 0,
+    "evidence": 1,
+    "last_verified": 1790651913.783785,
+    "observed": 1
+  },
+  "doc3.txt": {
+    "accepted": 0,
+    "confidence": 0.0625,
+    "contradictions": 0,
+    "evidence": 1,
+    "last_verified": 1790651914.4190974,
+    "observed": 1
+  },
+  "e1adc243bbb1636fc53da86f29b2a2f05b425d705a839a02ab18e337cd37f861.txt": {
+    "accepted": 3,
+    "confidence": 0.578125,
+    "contradictions": 0,
+    "evidence": 3,
+    "last_verified": 1790744177.8398688,
+    "observed": 3
+  },
+  "e411366dac00d00e5a46566a5a5cea59db037935c225642e8005645168647ad1.txt": {
+    "accepted": 1,
+    "confidence": 0.25,
+    "contradictions": 0,
+    "evidence": 1,
+    "last_verified": 1790813668.016581,
+    "observed": 1
+  },
+  "ef2927374f85f47bfe2e7f332fe78b155e8ce196048e94d018dd1460ac450279.txt": {
+    "accepted": 6,
+    "confidence": 0.822021484375,
+    "contradictions": 0,
+    "evidence": 6,
+    "last_verified": 1790736492.8988516,
+    "observed": 6
+  },
+  "f10e6216ebcafd6db3ba63ebf1072a6870e4cd93b9c3b434ee3f6c0796b32c08.txt": {
+    "accepted": 5,
+    "confidence": 0.5092897939453125,
+    "contradictions": 6,
+    "evidence": 5,
+    "last_verified": 1790800414.30661,
+    "observed": 11
+  },
+  "f8e0816515e1c1317774be267066dbf7b89294180a085de2c7a3825579c330a3.txt": {
+    "accepted": 1,
+    "confidence": 0.25,
+    "contradictions": 0,
+    "evidence": 1,
+    "last_verified": 1790815634.443997,
+    "observed": 1
+  },
+  "s1": {
+    "accepted": 2,
+    "confidence": 0.6108503275138446,
+    "contradictions": 5,
+    "evidence": 12,
+    "last_verified": 1790557189.1852374,
+    "observed": 28
+  }
+}

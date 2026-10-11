@@ -1,0 +1,21 @@
+{
+  "capacity_growth": {
+    "approved": true,
+    "approved_at": 1790640681.7924562,
+    "architecture_version": "0.7",
+    "cause": "insufficient model capacity",
+    "change": 0.604236,
+    "from_layers": 4,
+    "frustration_index": 0.95,
+    "helped": false,
+    "holdout_at_approval": 4.0,
+    "holdout_at_review": 4.604235649108887,
+    "kept": false,
+    "proposed_at": 1790640681.7852151,
+    "proposed_at_cycle": 1,
+    "reverted_to": null,
+    "reviewed_at": 1790655385.4076636,
+    "source": "book.txt",
+    "to_layers": 5
+  }
+}

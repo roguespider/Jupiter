@@ -1,0 +1,187 @@
+{
+  "cycles": 10,
+  "results": [
+    {
+      "label": "baseline",
+      "smoothing": 1,
+      "windows": 1,
+      "cycles": 10,
+      "ran": true,
+      "seconds": 172.84236359596252,
+      "verdicts": [
+        "REJECT",
+        "DEFER",
+        "DEFER",
+        "DEFER",
+        "DEFER",
+        "DEFER",
+        "DEFER",
+        "DEFER",
+        "DEFER",
+        "DEFER"
+      ],
+      "real_gains": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "label": "smoothed",
+      "smoothing": 16,
+      "windows": 1,
+      "cycles": 10,
+      "ran": true,
+      "seconds": 177.18244767189026,
+      "verdicts": [
+        "REJECT",
+        "REJECT",
+        "REJECT",
+        "ACCEPT",
+        "REJECT",
+        "ACCEPT",
+        "REJECT",
+        "REJECT",
+        "ACCEPT",
+        "REJECT"
+      ],
+      "real_gains": [
+        0.0,
+        0.0,
+        0.0,
+        -0.14414310455322266,
+        0.0,
+        0.0832220713297529,
+        0.0,
+        0.0,
+        0.05680664380391409,
+        0.0
+      ]
+    },
+    {
+      "label": "windows",
+      "smoothing": 1,
+      "windows": 8,
+      "cycles": 10,
+      "ran": true,
+      "seconds": 176.82031893730164,
+      "verdicts": [
+        "DEFER",
+        "DEFER",
+        "DEFER",
+        "DEFER",
+        "DEFER",
+        "DEFER",
+        "REJECT",
+        "DEFER",
+        "REVIEW",
+        "DEFER"
+      ],
+      "real_gains": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "label": "smoothed+windows",
+      "smoothing": 16,
+      "windows": 8,
+      "cycles": 10,
+      "ran": true,
+      "seconds": 177.1902723312378,
+      "verdicts": [
+        "ACCEPT",
+        "REVIEW",
+        "ACCEPT",
+        "REJECT",
+        "REJECT",
+        "REJECT",
+        "REJECT",
+        "REJECT",
+        "REJECT",
+        "REJECT"
+      ],
+      "real_gains": [
+        -0.09593605995178223,
+        0.0,
+        0.09511160850524902,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "judged": {
+    "baseline": {
+      "n": 10,
+      "accept": 0,
+      "reject": 1,
+      "defer": 9,
+      "review": 0,
+      "precision": null,
+      "recall": null,
+      "spurious_rejects": 0,
+      "missed": 0,
+      "total_real_gain": 0.0,
+      "accepted_real_gain": 0
+    },
+    "smoothed": {
+      "n": 10,
+      "accept": 3,
+      "reject": 7,
+      "defer": 0,
+      "review": 0,
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "spurious_rejects": 0,
+      "missed": 0,
+      "total_real_gain": -0.004114389419555664,
+      "accepted_real_gain": -0.004114389419555664
+    },
+    "windows": {
+      "n": 10,
+      "accept": 0,
+      "reject": 1,
+      "defer": 8,
+      "review": 1,
+      "precision": null,
+      "recall": null,
+      "spurious_rejects": 0,
+      "missed": 0,
+      "total_real_gain": 0.0,
+      "accepted_real_gain": 0
+    },
+    "smoothed+windows": {
+      "n": 10,
+      "accept": 2,
+      "reject": 7,
+      "defer": 0,
+      "review": 1,
+      "precision": 0.5,
+      "recall": 1.0,
+      "spurious_rejects": 0,
+      "missed": 0,
+      "total_real_gain": -0.0008244514465332031,
+      "accepted_real_gain": -0.0008244514465332031
+    }
+  }
+}

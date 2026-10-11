@@ -1,0 +1,14 @@
+{
+  "architecture_version": "0.11",
+  "config": {
+    "bias": true,
+    "block_size": 512,
+    "dropout": 0.0,
+    "n_embd": 448,
+    "n_head": 4,
+    "n_layer": 9,
+    "vocab_size": 5256
+  },
+  "tokenizer": "bpe",
+  "written": 1791332324.9288564
+}

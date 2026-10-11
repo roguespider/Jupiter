@@ -1,0 +1,642 @@
+{
+  "files_seen": 39,
+  "accepted": 29,
+  "rejected": 0,
+  "duplicates": 8,
+  "conversational": 17,
+  "conversation_turns": 198871,
+  "prose": 20,
+  "contaminated": 2,
+  "contaminated_documents": [
+    {
+      "source": "data\\raw\\4830f71f9b94e9af6e5af748419cf17aed1a8ec195fb2852e00c312bdf7dd840.txt",
+      "template_artifacts": 3026,
+      "template_share": 0.10552,
+      "turns": 65,
+      "chars": 2303522
+    },
+    {
+      "source": "data\\raw\\gpt_120b_multilingual_thinking.txt",
+      "template_artifacts": 3026,
+      "template_share": 0.10552,
+      "turns": 65,
+      "chars": 2303522
+    }
+  ],
+  "structured": 6,
+  "structured_records": 147312,
+  "unrecognized_records": 0,
+  "structured_documents": [
+    {
+      "source": "data\\raw\\default_chat.part0000.txt",
+      "errors": [
+        {
+          "sample": 13867,
+          "reason": "default_chat.part0000.txt sample 13867 is not valid JSON: Expecting property name enclosed in double quotes"
+        }
+      ],
+      "format": "json-banners",
+      "container": "object/prompt-completion",
+      "records": 27732,
+      "extracted": 27732,
+      "unrecognized": 0
+    },
+    {
+      "source": "data\\raw\\default_chat.part0002.txt",
+      "errors": [
+        {
+          "sample": 1,
+          "reason": "default_chat.part0002.txt sample 1 is not valid JSON: Extra data"
+        },
+        {
+          "sample": 6852,
+          "reason": "default_chat.part0002.txt sample 6852 is not valid JSON: Expecting property name enclosed in double quotes"
+        }
+      ],
+      "format": "json-banners",
+      "container": "object/prompt-completion",
+      "records": 27402,
+      "extracted": 27402,
+      "unrecognized": 0
+    },
+    {
+      "source": "data\\raw\\default_chat.part0003.txt",
+      "errors": [
+        {
+          "sample": 1,
+          "reason": "default_chat.part0003.txt sample 1 is not valid JSON: Extra data"
+        }
+      ],
+      "format": "json-banners",
+      "container": "object/prompt-completion",
+      "records": 29326,
+      "extracted": 29326,
+      "unrecognized": 0
+    },
+    {
+      "source": "data\\raw\\default_safety.txt",
+      "errors": [],
+      "format": "json-banners",
+      "container": "object/prompt-completion",
+      "records": 62852,
+      "extracted": 62852,
+      "unrecognized": 0
+    }
+  ],
+  "unreadable": 0,
+  "unreadable_files": [],
+  "oversized": 0,
+  "oversized_files": [],
+  "split": 0,
+  "split_files": [],
+  "skipped_unsupported": 0,
+  "unsupported_files": [],
+  "documents": [
+    {
+      "source": "data\\raw\\01_learn_to_read_stories.txt",
+      "curated": "data\\curated\\613bef68e27fa32200c1f50c91471e9c4ae4498b43eba9445799d865092a699a.txt",
+      "sha256": "613bef68e27fa32200c1f50c91471e9c4ae4498b43eba9445799d865092a699a",
+      "chars": 8844664,
+      "source_kind": "text",
+      "records": null,
+      "kind": "prose",
+      "turns": 339,
+      "turn_share": 0.0054,
+      "template_artifacts": 0,
+      "template_share": 0.0,
+      "speakers": [
+        "The moral of the story is",
+        "Moral of the story",
+        "Mum",
+        "Mom",
+        "Lily",
+        "Lucy"
+      ]
+    },
+    {
+      "source": "data\\raw\\03_tokenizer_syntax_matrix.txt",
+      "curated": "data\\curated\\2904677d2d0f2810232ab9b7682250a1c030ab321b5664ce671d826a898d89c1.txt",
+      "sha256": "2904677d2d0f2810232ab9b7682250a1c030ab321b5664ce671d826a898d89c1",
+      "chars": 17201,
+      "source_kind": "text",
+      "records": null,
+      "kind": "conversation",
+      "turns": 72,
+      "turn_share": 0.6667,
+      "template_artifacts": 0,
+      "template_share": 0.0,
+      "speakers": [
+        "Keywords",
+        "Language"
+      ]
+    },
+    {
+      "source": "data\\raw\\04_symbolic_math_logic.txt",
+      "curated": "data\\curated\\21a023706bfbb4d21a6c97c36b3ccbcdcd94c527620c50523d6403f08274cb8c.txt",
+      "sha256": "21a023706bfbb4d21a6c97c36b3ccbcdcd94c527620c50523d6403f08274cb8c",
+      "chars": 3478705,
+      "source_kind": "text",
+      "records": null,
+      "kind": "conversation",
+      "turns": 12051,
+      "turn_share": 0.3056,
+      "template_artifacts": 0,
+      "template_share": 0.0,
+      "speakers": [
+        "Problem Statement",
+        "Step-by-Step Logic",
+        "Total",
+        "We have",
+        "Algebra",
+        "And"
+      ]
+    },
+    {
+      "source": "data\\raw\\223d92b4719ec114fc050c99e4e2af9dd11e354367f358520fca8363e3bbf656.txt",
+      "curated": "data\\curated\\223d92b4719ec114fc050c99e4e2af9dd11e354367f358520fca8363e3bbf656.txt",
+      "sha256": "223d92b4719ec114fc050c99e4e2af9dd11e354367f358520fca8363e3bbf656",
+      "chars": 12417558,
+      "source_kind": "text",
+      "records": null,
+      "kind": "prose",
+      "turns": 1799,
+      "turn_share": 0.0314,
+      "template_artifacts": 0,
+      "template_share": 0.0,
+      "speakers": [
+        "Note",
+        "Suzannah Niepold",
+        "Desalination",
+        "Location",
+        "Source",
+        "Answer"
+      ]
+    },
+    {
+      "source": "data\\raw\\50040dec6bb3f790e917160e6620909956970a3bdd74318f397a276ce950f869.txt",
+      "curated": "data\\curated\\50040dec6bb3f790e917160e6620909956970a3bdd74318f397a276ce950f869.txt",
+      "sha256": "50040dec6bb3f790e917160e6620909956970a3bdd74318f397a276ce950f869",
+      "chars": 419647,
+      "source_kind": "text",
+      "records": null,
+      "kind": "prose",
+      "turns": 500,
+      "turn_share": 0.0587,
+      "template_artifacts": 0,
+      "template_share": 0.0,
+      "speakers": [
+        "L",
+        "TypeError",
+        "AttributeError",
+        "Example",
+        "ValueError",
+        "Architecture "
+      ]
+    },
+    {
+      "source": "data\\raw\\6fbce1ae19df8df232458eb5c6a3114ddefd1f07774233bf65c29dbe25db0b03.txt",
+      "curated": "data\\curated\\79e6588d2e951bec77ce1220972b5c9a2e3bd325a2cc04b1f4377d050f9b1d9a.txt",
+      "sha256": "79e6588d2e951bec77ce1220972b5c9a2e3bd325a2cc04b1f4377d050f9b1d9a",
+      "chars": 69863,
+      "source_kind": "text",
+      "records": null,
+      "kind": "conversation",
+      "turns": 400,
+      "turn_share": 0.4,
+      "template_artifacts": 0,
+      "template_share": 0.0,
+      "speakers": [
+        "Platform Target",
+        "Pre-computed Token Length"
+      ]
+    },
+    {
+      "source": "data\\raw\\7c24ca5cbf45149ac8743dabcf9b60590c687db31f2f4a04d016232ea5b936a7.txt",
+      "curated": "data\\curated\\7c24ca5cbf45149ac8743dabcf9b60590c687db31f2f4a04d016232ea5b936a7.txt",
+      "sha256": "7c24ca5cbf45149ac8743dabcf9b60590c687db31f2f4a04d016232ea5b936a7",
+      "chars": 3615643,
+      "source_kind": "text",
+      "records": null,
+      "kind": "prose",
+      "turns": 7492,
+      "turn_share": 0.1246,
+      "template_artifacts": 0,
+      "template_share": 0.0,
+      "speakers": [
+        "Solution",
+        "Problem",
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "source": "data\\raw\\7dd944207a1f3a9ce6b7ec467638c8d949c362dd0bb9473b8e5125cd11829a8a.txt",
+      "curated": "data\\curated\\7dd944207a1f3a9ce6b7ec467638c8d949c362dd0bb9473b8e5125cd11829a8a.txt",
+      "sha256": "7dd944207a1f3a9ce6b7ec467638c8d949c362dd0bb9473b8e5125cd11829a8a",
+      "chars": 9410741,
+      "source_kind": "text",
+      "records": null,
+      "kind": "prose",
+      "turns": 8544,
+      "turn_share": 0.0496,
+      "template_artifacts": 2,
+      "template_share": 1.2e-05,
+      "speakers": [
+        "User Prompt",
+        "Output",
+        "Note",
+        "Input",
+        "Explanation",
+        "Example"
+      ]
+    },
+    {
+      "source": "data\\raw\\9e9b7231ab8e3b9d33addb91399cfa3f9b259ff6c58e4ff165d4418aede17693.txt",
+      "curated": "data\\curated\\2c017ac105d113d52f4fc19b4c383a86f8b3907eeca33076ed39f2d0b48b52f2.txt",
+      "sha256": "2c017ac105d113d52f4fc19b4c383a86f8b3907eeca33076ed39f2d0b48b52f2",
+      "chars": 2919816,
+      "source_kind": "text",
+      "records": null,
+      "kind": "conversation",
+      "turns": 8425,
+      "turn_share": 0.2254,
+      "template_artifacts": 0,
+      "template_share": 0.0,
+      "speakers": [
+        "Execution Rationale",
+        "Expected Value",
+        "Question",
+        "The answer is",
+        "The final answer is",
+        "Combine like terms"
+      ]
+    },
+    {
+      "source": "data\\raw\\Asimov on Chemistry by Isaac Asimov (z-lib.org)_djvu.txt",
+      "curated": "data\\curated\\af8fe88bfbffff92eee30f57b0b3931072d7b97e8537ec82932cf1c263b990b7.txt",
+      "sha256": "af8fe88bfbffff92eee30f57b0b3931072d7b97e8537ec82932cf1c263b990b7",
+      "chars": 521820,
+      "source_kind": "text",
+      "records": null,
+      "kind": "prose",
+      "turns": 30,
+      "turn_share": 0.0027,
+      "template_artifacts": 0,
+      "template_share": 0.0,
+      "speakers": [
+        "AN ",
+        "ANAS tae",
+        "Anchor Books Edition",
+        "Bicscosopaasesx. ",
+        "Bree",
+        "EMS eees"
+      ]
+    },
+    {
+      "source": "data\\raw\\b6d12f7816c57a842c651a757189040cd481faeba3f1e630bebe407634b6a71f.txt",
+      "curated": "data\\curated\\b6d12f7816c57a842c651a757189040cd481faeba3f1e630bebe407634b6a71f.txt",
+      "sha256": "b6d12f7816c57a842c651a757189040cd481faeba3f1e630bebe407634b6a71f",
+      "chars": 547427,
+      "source_kind": "text",
+      "records": null,
+      "kind": "prose",
+      "turns": 122,
+      "turn_share": 0.0169,
+      "template_artifacts": 0,
+      "template_share": 0.0,
+      "speakers": [
+        "Jawaban",
+        "Article",
+        "Fanambarana",
+        "Question",
+        "Topic",
+        "TAMBAYA"
+      ]
+    },
+    {
+      "source": "data\\raw\\ba6ca842d2852202fd4eff19c81df596c6165862644cf212afb9fd223b668fdb.txt",
+      "curated": "data\\curated\\ef2927374f85f47bfe2e7f332fe78b155e8ce196048e94d018dd1460ac450279.txt",
+      "sha256": "ef2927374f85f47bfe2e7f332fe78b155e8ce196048e94d018dd1460ac450279",
+      "chars": 1446404,
+      "source_kind": "text",
+      "records": null,
+      "kind": "conversation",
+      "turns": 5015,
+      "turn_share": 0.2961,
+      "template_artifacts": 0,
+      "template_share": 0.0,
+      "speakers": [
+        "Input Question",
+        "Note",
+        "Given",
+        "Find the limit",
+        "A",
+        "B"
+      ]
+    },
+    {
+      "source": "data\\raw\\BOOK OF FACTS - E - ISAAC ASIMOV_djvu.txt",
+      "curated": "data\\curated\\e1adc243bbb1636fc53da86f29b2a2f05b425d705a839a02ab18e337cd37f861.txt",
+      "sha256": "e1adc243bbb1636fc53da86f29b2a2f05b425d705a839a02ab18e337cd37f861",
+      "chars": 1009612,
+      "source_kind": "text",
+      "records": null,
+      "kind": "prose",
+      "turns": 10,
+      "turn_share": 0.0006,
+      "template_artifacts": 0,
+      "template_share": 0.0,
+      "speakers": [
+        "Cambridge. The ruling",
+        "Chinese are",
+        "Dr. Lewis Thomas",
+        "Editor",
+        "Editorial Board",
+        "House lawn"
+      ]
+    },
+    {
+      "source": "data\\raw\\c546761a68c497b1d326e332d583c2499528a60ee766dc13037fae2a4614015f.txt",
+      "curated": "data\\curated\\c546761a68c497b1d326e332d583c2499528a60ee766dc13037fae2a4614015f.txt",
+      "sha256": "c546761a68c497b1d326e332d583c2499528a60ee766dc13037fae2a4614015f",
+      "chars": 16157103,
+      "source_kind": "text",
+      "records": null,
+      "kind": "prose",
+      "turns": 7045,
+      "turn_share": 0.041,
+      "template_artifacts": 10,
+      "template_share": 5.8e-05,
+      "speakers": [
+        "Posts",
+        "Joined",
+        "Re",
+        "Followers",
+        "Location",
+        "Stage"
+      ]
+    },
+    {
+      "source": "data\\raw\\d1f11c37ff77b9d455962c74a016f25537cae80190e574043ff0069982062b99.txt",
+      "curated": "data\\curated\\d1f11c37ff77b9d455962c74a016f25537cae80190e574043ff0069982062b99.txt",
+      "sha256": "d1f11c37ff77b9d455962c74a016f25537cae80190e574043ff0069982062b99",
+      "chars": 24551,
+      "source_kind": "text",
+      "records": null,
+      "kind": "prose",
+      "turns": 4,
+      "turn_share": 0.0067,
+      "template_artifacts": 0,
+      "template_share": 0.0,
+      "speakers": [
+        "Left to right",
+        "Registrant Contact",
+        "Wicked Rose's Website",
+        "Word exploitation"
+      ]
+    },
+    {
+      "source": "data\\raw\\default_chat.part0000.txt",
+      "curated": "data\\curated\\9a4c92d680250b195515c1eee046620d7c331f764b14b9fdcbc287ce23183089.txt",
+      "sha256": "9a4c92d680250b195515c1eee046620d7c331f764b14b9fdcbc287ce23183089",
+      "chars": 57541527,
+      "source_kind": "structured",
+      "records": 27732,
+      "kind": "conversation",
+      "turns": 27732,
+      "turn_share": 1.0,
+      "template_artifacts": 0,
+      "template_share": 0.0,
+      "speakers": [
+        "Jupiter",
+        "You"
+      ]
+    },
+    {
+      "source": "data\\raw\\default_chat.part0001.txt",
+      "curated": "data\\curated\\888b7133db7b6a4955db278241745dbe92b51a45d1fc8a2ab96b05747ea002d9.txt",
+      "sha256": "888b7133db7b6a4955db278241745dbe92b51a45d1fc8a2ab96b05747ea002d9",
+      "chars": 60610644,
+      "source_kind": "text",
+      "records": null,
+      "kind": "prose",
+      "turns": 0,
+      "turn_share": 0.0,
+      "template_artifacts": 0,
+      "template_share": 0.0,
+      "speakers": []
+    },
+    {
+      "source": "data\\raw\\default_chat.part0002.txt",
+      "curated": "data\\curated\\f5c4dce21feda0f29e7e9170890fe968319e9cecc8c027e7459f529b0a208a49.txt",
+      "sha256": "f5c4dce21feda0f29e7e9170890fe968319e9cecc8c027e7459f529b0a208a49",
+      "chars": 53611267,
+      "source_kind": "structured",
+      "records": 27402,
+      "kind": "conversation",
+      "turns": 27402,
+      "turn_share": 1.0,
+      "template_artifacts": 0,
+      "template_share": 0.0,
+      "speakers": [
+        "Jupiter",
+        "You"
+      ]
+    },
+    {
+      "source": "data\\raw\\default_chat.part0003.txt",
+      "curated": "data\\curated\\a5d1b11df18ad3d10b3991c5a4c340e08233e84dd4176c506f7d5d171a78e33e.txt",
+      "sha256": "a5d1b11df18ad3d10b3991c5a4c340e08233e84dd4176c506f7d5d171a78e33e",
+      "chars": 52401180,
+      "source_kind": "structured",
+      "records": 29326,
+      "kind": "conversation",
+      "turns": 29326,
+      "turn_share": 1.0,
+      "template_artifacts": 0,
+      "template_share": 0.0,
+      "speakers": [
+        "Jupiter",
+        "You"
+      ]
+    },
+    {
+      "source": "data\\raw\\default_safety.txt",
+      "curated": "data\\curated\\e5d8b56a385a74a2de66ca9f7037af2c6761e7292870242640fd8210532e3f97.txt",
+      "sha256": "e5d8b56a385a74a2de66ca9f7037af2c6761e7292870242640fd8210532e3f97",
+      "chars": 49211542,
+      "source_kind": "structured",
+      "records": 62852,
+      "kind": "conversation",
+      "turns": 62852,
+      "turn_share": 1.0,
+      "template_artifacts": 0,
+      "template_share": 0.0,
+      "speakers": [
+        "Jupiter",
+        "You"
+      ]
+    },
+    {
+      "source": "data\\raw\\dictionary.txt",
+      "curated": "data\\curated\\34b26fd2b434ff8511dc4b6783a86eea4048fa989638e0aec91abd424950c837.txt",
+      "sha256": "34b26fd2b434ff8511dc4b6783a86eea4048fa989638e0aec91abd424950c837",
+      "chars": 665,
+      "source_kind": "text",
+      "records": null,
+      "kind": "conversation",
+      "turns": 10,
+      "turn_share": 1.0,
+      "template_artifacts": 0,
+      "template_share": 0.0,
+      "speakers": [
+        "Abandon",
+        "Baffle",
+        "Cache",
+        "Dauntless",
+        "Eccentric",
+        "Facetious"
+      ]
+    },
+    {
+      "source": "data\\raw\\ello.txt",
+      "curated": "data\\curated\\2df38d7792fbee28f3456fc13d977ab619027fd879ac1cae820550327bec21f1.txt",
+      "sha256": "2df38d7792fbee28f3456fc13d977ab619027fd879ac1cae820550327bec21f1",
+      "chars": 392,
+      "source_kind": "text",
+      "records": null,
+      "kind": "conversation",
+      "turns": 12,
+      "turn_share": 1.0,
+      "template_artifacts": 0,
+      "template_share": 0.0,
+      "speakers": [
+        "Jupiter",
+        "You"
+      ]
+    },
+    {
+      "source": "data\\raw\\generated\\generated-20c6d48db990c25faf67d3b0159377209e73de56-c361-20260929T225907.txt",
+      "curated": "data\\curated\\58b201644f360dd6890020e63b12f1b7c93912bd9b7373c79c885fab137985f3.txt",
+      "sha256": "58b201644f360dd6890020e63b12f1b7c93912bd9b7373c79c885fab137985f3",
+      "chars": 2714,
+      "source_kind": "text",
+      "records": null,
+      "kind": "prose",
+      "turns": 1,
+      "turn_share": 0.0714,
+      "template_artifacts": 0,
+      "template_share": 0.0,
+      "speakers": [
+        "You"
+      ]
+    },
+    {
+      "source": "data\\raw\\generated\\generated-613bef68e27fa32200c1f50c91471e9c4ae4498b-c311-20260929T215623.txt",
+      "curated": "data\\curated\\320c4dbcbfb5742f0a158d229ccfe678c814dbfb7428555f433b560e9a3af8e1.txt",
+      "sha256": "320c4dbcbfb5742f0a158d229ccfe678c814dbfb7428555f433b560e9a3af8e1",
+      "chars": 2651,
+      "source_kind": "text",
+      "records": null,
+      "kind": "conversation",
+      "turns": 7,
+      "turn_share": 0.35,
+      "template_artifacts": 0,
+      "template_share": 0.0,
+      "speakers": [
+        "You",
+        "Jupiter"
+      ]
+    },
+    {
+      "source": "data\\raw\\generated\\generated-613bef68e27fa32200c1f50c91471e9c4ae4498b-c328-20260929T220332.txt",
+      "curated": "data\\curated\\20c6d48db990c25faf67d3b0159377209e73de562d7c2c21c0fa311e25b2ccae.txt",
+      "sha256": "20c6d48db990c25faf67d3b0159377209e73de562d7c2c21c0fa311e25b2ccae",
+      "chars": 2614,
+      "source_kind": "text",
+      "records": null,
+      "kind": "prose",
+      "turns": 2,
+      "turn_share": 0.1429,
+      "template_artifacts": 0,
+      "template_share": 0.0,
+      "speakers": [
+        "You"
+      ]
+    },
+    {
+      "source": "data\\raw\\generated\\generated-613bef68e27fa32200c1f50c91471e9c4ae4498b-c361-20260929T225908.txt",
+      "curated": "data\\curated\\cb961134fbd91047797d6485c5226b57bbc18376fe97bb42d5a9ad54f0634f97.txt",
+      "sha256": "cb961134fbd91047797d6485c5226b57bbc18376fe97bb42d5a9ad54f0634f97",
+      "chars": 2692,
+      "source_kind": "text",
+      "records": null,
+      "kind": "prose",
+      "turns": 0,
+      "turn_share": 0.0,
+      "template_artifacts": 0,
+      "template_share": 0.0,
+      "speakers": []
+    },
+    {
+      "source": "data\\raw\\generated\\generated-8b4295d334a22e8995391b215bfb2b4b5c193c09-c311-20260929T215624.txt",
+      "curated": "data\\curated\\a1c48831cd2cf760ed5172feefe979715303f0d9d1821a89cd8fb834ff2ac2fa.txt",
+      "sha256": "a1c48831cd2cf760ed5172feefe979715303f0d9d1821a89cd8fb834ff2ac2fa",
+      "chars": 2585,
+      "source_kind": "structured",
+      "records": 0,
+      "kind": "conversation",
+      "turns": 4,
+      "turn_share": 0.2857,
+      "template_artifacts": 0,
+      "template_share": 0.0,
+      "speakers": [
+        "Jupiter",
+        "You"
+      ]
+    },
+    {
+      "source": "data\\raw\\generated\\generated-8b4295d334a22e8995391b215bfb2b4b5c193c09-c328-20260929T220333.txt",
+      "curated": "data\\curated\\f10e6216ebcafd6db3ba63ebf1072a6870e4cd93b9c3b434ee3f6c0796b32c08.txt",
+      "sha256": "f10e6216ebcafd6db3ba63ebf1072a6870e4cd93b9c3b434ee3f6c0796b32c08",
+      "chars": 2571,
+      "source_kind": "structured",
+      "records": 0,
+      "kind": "prose",
+      "turns": 0,
+      "turn_share": 0.0,
+      "template_artifacts": 0,
+      "template_share": 0.0,
+      "speakers": []
+    },
+    {
+      "source": "data\\raw\\phys1_djvu.txt",
+      "curated": "data\\curated\\b31ebd782ef10f8c1f25857563cece845d87883d78ac81f53a8ab65eaeb9e508.txt",
+      "sha256": "b31ebd782ef10f8c1f25857563cece845d87883d78ac81f53a8ab65eaeb9e508",
+      "chars": 520454,
+      "source_kind": "text",
+      "records": null,
+      "kind": "prose",
+      "turns": 4,
+      "turn_share": 0.0008,
+      "template_artifacts": 0,
+      "template_share": 0.0,
+      "speakers": [
+        "ABOUT THE AUTHOR",
+        "It turns out that",
+        "Solving for h",
+        "We might also say that"
+      ]
+    }
+  ],
+  "note": "Architecture 25 lists conversations as a source. This corpus holds 17 conversational and 20 prose documents. Jupiter cannot learn to take turns from prose alone, and no dialogue is fabricated to fill the gap.",
+  "template_artifact_note": "2 documents were refused because they contain more than 5 chat-template markers such as [SYSTEM]:. That is a leaked conversation template, not dialogue, and a model trained on it emits instructions instead of conversing. The files in data/raw/ are untouched; they are listed under contaminated_documents so the owner can decide what to do with them.",
+  "structured_note": "6 of 29 accepted documents came from a structured source, providing 147312 records of which 0 carried no field this pipeline recognises as text and were left out. An unrecognized record is a shape json_source cannot read yet; it is never guessed at, because invented text becomes training material nobody wrote.",
+  "unreadable_note": "0 structured files were refused. They are listed under unreadable_files with the reason, and the files in data/raw are untouched. Refusing is not deleting: the owner decides what to do.",
+  "unsupported_note": "0 files in data/raw carry an extension this pipeline does not read (.json, .jsonl, .ndjson are parsed, and .txt/.md/.text are read as text). They are listed under unsupported_files rather than passed over silently, because a file that is skipped without a word is a file whose owner has no way to know it is doing nothing.",
+  "oversized_note": "0 raw files were larger than max_raw_bytes (67108864 bytes) and were not read. They are listed under oversized_files with their size and the limit. Curation reads a whole document to judge it, so a file this large needs memory proportional to itself rather than to the context window Jupiter learns from. The files in data/raw are untouched: refusing to read a file is not deleting it.",
+  "quarantined": 0,
+  "quarantined_files": []
+}

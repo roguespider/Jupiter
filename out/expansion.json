@@ -1,0 +1,2019 @@
+{
+  "_proposals": [
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 311,
+      "proposed_limit": 10,
+      "recorded_at": 1790736982.587861,
+      "source": "058669670c8bc011ad32c92426d82b940c184b286817dcc73f06d8625f3c6764.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 311,
+      "proposed_limit": 10,
+      "recorded_at": 1790736982.5878613,
+      "source": "05960f00ad2ba63f86d6d28b81f2eeedccfa7395783108f7eba7215bc03a4368.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 311,
+      "proposed_limit": 10,
+      "recorded_at": 1790736982.5878615,
+      "source": "05abc850dc2f6e73238b8954249e88135b0533def1e69f81fc2c5d3d812e878a.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 311,
+      "proposed_limit": 10,
+      "recorded_at": 1790736982.5878618,
+      "source": "05ec5eed3a24de3ba92dbd0829e8b9ffdab06104edc6f5e254c9ad2724307013.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 311,
+      "proposed_limit": 10,
+      "recorded_at": 1790736982.587862,
+      "source": "0606dbd84e28b23544224cbde7471e828f4ad70618591eab2ea7cb9aa2e91a8c.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 311,
+      "proposed_limit": 10,
+      "recorded_at": 1790736982.5878625,
+      "source": "0608dace22bc23283b55518b63bceb394e46e0a13f024ee493efdb93ad304161.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 311,
+      "proposed_limit": 10,
+      "recorded_at": 1790736982.5878625,
+      "source": "06731ea5b31335a3144ea0a376992e11e22e6354de94b15f8c1649890c1ac228.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 311,
+      "proposed_limit": 10,
+      "recorded_at": 1790736982.5878627,
+      "source": "0685c9ccfd26ae921d26ae2fff4f599e6b489584967d54a723101f151fc47405.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 311,
+      "proposed_limit": 10,
+      "recorded_at": 1790736982.587864,
+      "source": "06a9720fde183787fa4e4d8ae36e50ebef36d2fffdef15ec452e08d5d4e32d4a.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 311,
+      "proposed_limit": 10,
+      "recorded_at": 1790736982.5878644,
+      "source": "06a9bcf4b710fc21a88c533fd55d960be9c2be04af1b5b60160a19e00be02489.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 311,
+      "proposed_limit": 10,
+      "recorded_at": 1790736982.5878649,
+      "source": "06dbd5560a55430d48da63f2a9bae6293c8a42f1723a8945670e0aa6c0d5de5b.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 311,
+      "proposed_limit": 10,
+      "recorded_at": 1790736982.587865,
+      "source": "06f57644718d4884dd103d6b1cd211c0199ef286773031d214450ef95e02defd.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 311,
+      "proposed_limit": 10,
+      "recorded_at": 1790736982.5878656,
+      "source": "0715714cdd27aeee72a8efd2972129bcc1d12b57d954d35673ff5085f74ba4c8.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 311,
+      "proposed_limit": 10,
+      "recorded_at": 1790736982.5878658,
+      "source": "071fbd4e4746222deadd56e3909284029feb1c5f6e8436be903189031532e1ba.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 311,
+      "proposed_limit": 10,
+      "recorded_at": 1790736982.587866,
+      "source": "07231823f7ba799202245a53b8d91dc9ecab7551a171bd5d86cdcbf3b63c9dd8.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 311,
+      "proposed_limit": 10,
+      "recorded_at": 1790736982.5878663,
+      "source": "07454cd8eb7ae260cb7c616bea79bdb3dc9961745e52e60f39c45fd0062c72fc.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 311,
+      "proposed_limit": 10,
+      "recorded_at": 1790736982.5878665,
+      "source": "0747e0655b825bebf678ce1f4a9ea254ef414492710c2d38897ae9de1d446063.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 311,
+      "proposed_limit": 10,
+      "recorded_at": 1790736982.5878668,
+      "source": "075182e635bd2901a86e76c73619371c13353f2960916ca9dcbb1fb780e2c9f9.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 311,
+      "proposed_limit": 10,
+      "recorded_at": 1790736982.5878668,
+      "source": "078ef84538a10f048afc5a9758f2e94588bc180f268802240bc66b4a0f76afb6.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 311,
+      "proposed_limit": 10,
+      "recorded_at": 1790736982.587867,
+      "source": "07adeaba4ca301d4c7ed5627b40523c71d31ede6e931d557ca3254a55bcde0e1.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 311,
+      "proposed_limit": 10,
+      "recorded_at": 1790736982.5878675,
+      "source": "07b487c51590b42a1b2e7876a438da438847a241975709deb745b40f1de71898.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 311,
+      "proposed_limit": 10,
+      "recorded_at": 1790736982.5878677,
+      "source": "07dfc181b7199f6823e80189c399415bdee1a59e2914d500bda8596cf1085fc2.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 311,
+      "proposed_limit": 10,
+      "recorded_at": 1790736982.587868,
+      "source": "07f5f051f871cf6c2abcb4625522ea0c98c3904297a55de6756f5a72fff86bed.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 311,
+      "proposed_limit": 10,
+      "recorded_at": 1790736982.587868,
+      "source": "0825da5a6b86b5c168ffd484f2b60bfffa19428b37df935a8c42460b2459cbd0.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 311,
+      "proposed_limit": 10,
+      "recorded_at": 1790736982.5878687,
+      "source": "0880cef91159fef1d57c717fd25fe2687344e22db92af74bc545f71065c84b76.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 311,
+      "proposed_limit": 10,
+      "recorded_at": 1790736982.587869,
+      "source": "08a655c0878f934c1278932a024983cb3f4761b83b9e015165d957a134e03f48.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 311,
+      "proposed_limit": 10,
+      "recorded_at": 1790736982.5878692,
+      "source": "08bda5a9e0d81b372ffcdebd435e16c83e96c3e9bf4ac8f1fc9aabcf270f04aa.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 311,
+      "proposed_limit": 10,
+      "recorded_at": 1790736982.5878701,
+      "source": "08d28bd233d25b66847f091d670cb92338e1f02f2b4696e01646e245c7ab2d3f.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 311,
+      "proposed_limit": 10,
+      "recorded_at": 1790736982.5878704,
+      "source": "08f1373b34d624291dc185e3614757f891292cbbf444447e698d628a69a51dfe.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 311,
+      "proposed_limit": 10,
+      "recorded_at": 1790736982.5878713,
+      "source": "08fc71caff400fe94d2e6bb3d040eccf5b880430c03a728743b2523eb968d320.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 311,
+      "proposed_limit": 10,
+      "recorded_at": 1790736982.5878718,
+      "source": "09018f3f7a5dc6c58d7e8c621bdea8dd9795771edc000c2b8b0980116313a493.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 311,
+      "proposed_limit": 10,
+      "recorded_at": 1790736982.587872,
+      "source": "0911590ef0a30c415047af51666e31382faa84e6ecb80cb6559a46c8fb4836e6.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 311,
+      "proposed_limit": 10,
+      "recorded_at": 1790736982.5878723,
+      "source": "5865f7ca69391b57edd32ad78c5faca404b7a6c25b3061b58b730d14ce1aa3ed.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 311,
+      "proposed_limit": 10,
+      "recorded_at": 1790736982.5878725,
+      "source": "76c4ff8f780f1c19327e0e97fb1efdce8aaa7f9f4d2fe4832d69a41a322022a0.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 311,
+      "proposed_limit": 10,
+      "recorded_at": 1790736982.5878727,
+      "source": "7c24ca5cbf45149ac8743dabcf9b60590c687db31f2f4a04d016232ea5b936a7.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 311,
+      "proposed_limit": 10,
+      "recorded_at": 1790736982.587873,
+      "source": "7dd944207a1f3a9ce6b7ec467638c8d949c362dd0bb9473b8e5125cd11829a8a.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 311,
+      "proposed_limit": 10,
+      "recorded_at": 1790736982.5878732,
+      "source": "9e9b7231ab8e3b9d33addb91399cfa3f9b259ff6c58e4ff165d4418aede17693.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 311,
+      "proposed_limit": 10,
+      "recorded_at": 1790736982.5878735,
+      "source": "b6d12f7816c57a842c651a757189040cd481faeba3f1e630bebe407634b6a71f.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 311,
+      "proposed_limit": 10,
+      "recorded_at": 1790736982.5878737,
+      "source": "c546761a68c497b1d326e332d583c2499528a60ee766dc13037fae2a4614015f.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 0.9688,
+      "proposed_at_cycle": 311,
+      "proposed_limit": 10,
+      "recorded_at": 1790736982.587875,
+      "source": "ba6ca842d2852202fd4eff19c81df596c6165862644cf212afb9fd223b668fdb.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9589996,
+      "source": "0022040346e947f2345baab010ddc1b624abef86fa850aaf71a9e09d1e768038.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590015,
+      "source": "00674bca254bd70cad091c94f0e387b37e54c502b7de7725e984c2a02da0e759.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.959002,
+      "source": "00ea62cd160eab3a33297c69b3a6c237193d3c1a370da62f6aef4f79632dffb6.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590027,
+      "source": "010140e77e6b148b0b695d86c6af51d2715787be07669e9e5786788d326f0165.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.959003,
+      "source": "010f894e2762ba144c0bd9daaed18f922d540fb771790a99884365ce6ac344a0.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590032,
+      "source": "0125592c4a4732a6a3fed127423d52faade1ec47664dfa24c2009071c8674c49.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590034,
+      "source": "0137c56d4ea2960aca1b79d7f40c95d3041855e33a2da6206d2321d9fb462730.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590037,
+      "source": "014047c5ad937932e37b27a4c839fb759e2bcf9b901e9d54df896cb9d27853a5.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.959004,
+      "source": "01516c534c82c218cea4f54816ffdeb00c903fa212904b460c2a95bf0a35f72b.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590042,
+      "source": "015c8aeba622a893e88b47bba17d7fb00b0eede21bbd22923a232f5c77a1c190.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590044,
+      "source": "016c74569f831329f2e608210e08b2daa3e8444748d079f26192e021645227ec.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590044,
+      "source": "02129df2e42475d8fa820c40e330e66cb2cf2d2a4e726fa0bbbf26162c481ca1.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590046,
+      "source": "0215b067a22cb54f2c1b8d0748d1f2a956b42caa6fc185167c7366d65fe4451c.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590049,
+      "source": "024dbfe432a8ab2ec41be1ef4796ded8fc9453493f33992638abb86721de3204.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.959005,
+      "source": "024f6536f1c7944a0abd4964aa4b96619e69051968116a0af8b81fca4a14ff6f.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590056,
+      "source": "02840c85d939b89b1d2e80bafeed513758b06120ff6b775b44c62c0d5c8198a6.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.959006,
+      "source": "02892e9068f1b83cddb4644ca03ff25fca2fdd477911b5cd90d19534af7ad130.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590063,
+      "source": "028b319f896e18daed3f3bfaee1113c86d2a3d8426629b342f178aa0a43c0cfd.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590065,
+      "source": "02a57bc334e00c79370569d0ab6278d809d13e39c952d1eaf5e3643eb8671b61.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590068,
+      "source": "02e89bd1d982134edf057e467d028817d5c3f08d3b87c857848f96346d988b97.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590068,
+      "source": "03b3331514bd03164f7045cd61fef1792d1b2b49ad5520629b209e2bbdc8563a.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.959007,
+      "source": "03cb65e3fc2e44f1e595c078b42a87ef3e14f2b7bbfcfeff944cda3d1b644ed6.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590073,
+      "source": "03e1eaace7d4be8e4af380349abd9aaf34dd5a226508bb66bae80839337f0ced.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590075,
+      "source": "03e65acf9905042e76673278cc5eb71f26d14a719ca121c79b6cd68fbcbb28c6.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590075,
+      "source": "03f1d2732a388fa238b7b61bdd35618b5e7d9d2f503a5b39082e66a4807a0aa8.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590077,
+      "source": "03fb249b8d68e537ab0341196e432cd15beaaa2b195da1947c06b1bcd63a8af2.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.959008,
+      "source": "044cb7a19affadcf73db55c8cb6c70ea0f7a232fd4801ba0e929309b9dd299cb.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590082,
+      "source": "046e651bee8d59f0d559c942a9638c669f6c2785ca58be45afb88ebbe6212b1c.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590085,
+      "source": "047e9dc93414b3f5226a3c1d6683adfb31968b29138d393ff80055d0df70a687.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590087,
+      "source": "048fba18efebe0136d4cf6f073dbdd52edbf9a6971bec5618ed7c3bb88087238.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.959009,
+      "source": "04b9160809774ca484b8d45e92dcc4baa3246322c45a8d338d8bf2cc0db62c63.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590096,
+      "source": "04e4942e1591cf8c642b8d59dc2f156ff37f51dfd11fff2f6f974ea1b72d1c7c.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.95901,
+      "source": "04e7f4c1ca052c11416c22f38046bbfbf1041ee0f4f964a9a2f84397cddd8971.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590101,
+      "source": "0511eae8239f972d086ad89619f5a5fd2ff8f8c9b04cba67b915b5a0511acd61.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590104,
+      "source": "0513fdfbec8e8fcc210608bb0e61ea529344dc933f5b4f2b2e5a2401946b99fa.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590106,
+      "source": "051d0e41ffe8108a91b4c31ceb3642a80c74be81f083a9fc607e6fdef05c74b5.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590108,
+      "source": "0560383f4b6c2916ffcee0c9789e95b681b12b88c01829fbaa1c9cfd94cd3c8d.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590108,
+      "source": "057cf00110c63759d5bf376790fe402bfe7f5d2015e62d365701ed2bbfd148ad.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.959011,
+      "source": "058669670c8bc011ad32c92426d82b940c184b286817dcc73f06d8625f3c6764.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590113,
+      "source": "05960f00ad2ba63f86d6d28b81f2eeedccfa7395783108f7eba7215bc03a4368.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590116,
+      "source": "05abc850dc2f6e73238b8954249e88135b0533def1e69f81fc2c5d3d812e878a.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590118,
+      "source": "05ec5eed3a24de3ba92dbd0829e8b9ffdab06104edc6f5e254c9ad2724307013.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.959012,
+      "source": "0606dbd84e28b23544224cbde7471e828f4ad70618591eab2ea7cb9aa2e91a8c.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590123,
+      "source": "0608dace22bc23283b55518b63bceb394e46e0a13f024ee493efdb93ad304161.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590125,
+      "source": "06731ea5b31335a3144ea0a376992e11e22e6354de94b15f8c1649890c1ac228.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590127,
+      "source": "0685c9ccfd26ae921d26ae2fff4f599e6b489584967d54a723101f151fc47405.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590132,
+      "source": "06a9720fde183787fa4e4d8ae36e50ebef36d2fffdef15ec452e08d5d4e32d4a.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590132,
+      "source": "06a9bcf4b710fc21a88c533fd55d960be9c2be04af1b5b60160a19e00be02489.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590135,
+      "source": "06dbd5560a55430d48da63f2a9bae6293c8a42f1723a8945670e0aa6c0d5de5b.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590137,
+      "source": "06f57644718d4884dd103d6b1cd211c0199ef286773031d214450ef95e02defd.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.959014,
+      "source": "0715714cdd27aeee72a8efd2972129bcc1d12b57d954d35673ff5085f74ba4c8.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590151,
+      "source": "071fbd4e4746222deadd56e3909284029feb1c5f6e8436be903189031532e1ba.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590154,
+      "source": "07231823f7ba799202245a53b8d91dc9ecab7551a171bd5d86cdcbf3b63c9dd8.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590156,
+      "source": "07454cd8eb7ae260cb7c616bea79bdb3dc9961745e52e60f39c45fd0062c72fc.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590158,
+      "source": "0747e0655b825bebf678ce1f4a9ea254ef414492710c2d38897ae9de1d446063.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.959016,
+      "source": "075182e635bd2901a86e76c73619371c13353f2960916ca9dcbb1fb780e2c9f9.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.959016,
+      "source": "078ef84538a10f048afc5a9758f2e94588bc180f268802240bc66b4a0f76afb6.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590166,
+      "source": "07adeaba4ca301d4c7ed5627b40523c71d31ede6e931d557ca3254a55bcde0e1.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590168,
+      "source": "07b487c51590b42a1b2e7876a438da438847a241975709deb745b40f1de71898.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.959017,
+      "source": "07dfc181b7199f6823e80189c399415bdee1a59e2914d500bda8596cf1085fc2.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590173,
+      "source": "07f5f051f871cf6c2abcb4625522ea0c98c3904297a55de6756f5a72fff86bed.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590175,
+      "source": "0825da5a6b86b5c168ffd484f2b60bfffa19428b37df935a8c42460b2459cbd0.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590178,
+      "source": "0880cef91159fef1d57c717fd25fe2687344e22db92af74bc545f71065c84b76.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.959018,
+      "source": "08a655c0878f934c1278932a024983cb3f4761b83b9e015165d957a134e03f48.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.959018,
+      "source": "08bda5a9e0d81b372ffcdebd435e16c83e96c3e9bf4ac8f1fc9aabcf270f04aa.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590185,
+      "source": "08d28bd233d25b66847f091d670cb92338e1f02f2b4696e01646e245c7ab2d3f.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590185,
+      "source": "08f1373b34d624291dc185e3614757f891292cbbf444447e698d628a69a51dfe.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.959019,
+      "source": "08fc71caff400fe94d2e6bb3d040eccf5b880430c03a728743b2523eb968d320.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.959019,
+      "source": "09018f3f7a5dc6c58d7e8c621bdea8dd9795771edc000c2b8b0980116313a493.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590192,
+      "source": "0911590ef0a30c415047af51666e31382faa84e6ecb80cb6559a46c8fb4836e6.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590194,
+      "source": "5865f7ca69391b57edd32ad78c5faca404b7a6c25b3061b58b730d14ce1aa3ed.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590204,
+      "source": "76c4ff8f780f1c19327e0e97fb1efdce8aaa7f9f4d2fe4832d69a41a322022a0.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590206,
+      "source": "7c24ca5cbf45149ac8743dabcf9b60590c687db31f2f4a04d016232ea5b936a7.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590209,
+      "source": "7dd944207a1f3a9ce6b7ec467638c8d949c362dd0bb9473b8e5125cd11829a8a.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.959021,
+      "source": "9e9b7231ab8e3b9d33addb91399cfa3f9b259ff6c58e4ff165d4418aede17693.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590213,
+      "source": "b6d12f7816c57a842c651a757189040cd481faeba3f1e630bebe407634b6a71f.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590216,
+      "source": "c546761a68c497b1d326e332d583c2499528a60ee766dc13037fae2a4614015f.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 0.9688,
+      "proposed_at_cycle": 328,
+      "proposed_limit": 10,
+      "recorded_at": 1790737410.9590218,
+      "source": "ba6ca842d2852202fd4eff19c81df596c6165862644cf212afb9fd223b668fdb.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9274414,
+      "source": "0022040346e947f2345baab010ddc1b624abef86fa850aaf71a9e09d1e768038.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.927445,
+      "source": "00674bca254bd70cad091c94f0e387b37e54c502b7de7725e984c2a02da0e759.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9274461,
+      "source": "00ea62cd160eab3a33297c69b3a6c237193d3c1a370da62f6aef4f79632dffb6.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9274466,
+      "source": "010140e77e6b148b0b695d86c6af51d2715787be07669e9e5786788d326f0165.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9274468,
+      "source": "010f894e2762ba144c0bd9daaed18f922d540fb771790a99884365ce6ac344a0.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.927447,
+      "source": "0125592c4a4732a6a3fed127423d52faade1ec47664dfa24c2009071c8674c49.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9274473,
+      "source": "0137c56d4ea2960aca1b79d7f40c95d3041855e33a2da6206d2321d9fb462730.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9274476,
+      "source": "014047c5ad937932e37b27a4c839fb759e2bcf9b901e9d54df896cb9d27853a5.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9274478,
+      "source": "01516c534c82c218cea4f54816ffdeb00c903fa212904b460c2a95bf0a35f72b.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.927448,
+      "source": "015c8aeba622a893e88b47bba17d7fb00b0eede21bbd22923a232f5c77a1c190.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9274483,
+      "source": "016c74569f831329f2e608210e08b2daa3e8444748d079f26192e021645227ec.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9274485,
+      "source": "02129df2e42475d8fa820c40e330e66cb2cf2d2a4e726fa0bbbf26162c481ca1.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9274485,
+      "source": "0215b067a22cb54f2c1b8d0748d1f2a956b42caa6fc185167c7366d65fe4451c.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9274487,
+      "source": "024dbfe432a8ab2ec41be1ef4796ded8fc9453493f33992638abb86721de3204.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.927449,
+      "source": "024f6536f1c7944a0abd4964aa4b96619e69051968116a0af8b81fca4a14ff6f.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9274492,
+      "source": "02840c85d939b89b1d2e80bafeed513758b06120ff6b775b44c62c0d5c8198a6.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9274497,
+      "source": "02892e9068f1b83cddb4644ca03ff25fca2fdd477911b5cd90d19534af7ad130.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9274497,
+      "source": "028b319f896e18daed3f3bfaee1113c86d2a3d8426629b342f178aa0a43c0cfd.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.92745,
+      "source": "02a57bc334e00c79370569d0ab6278d809d13e39c952d1eaf5e3643eb8671b61.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9274502,
+      "source": "02e89bd1d982134edf057e467d028817d5c3f08d3b87c857848f96346d988b97.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9274504,
+      "source": "03b3331514bd03164f7045cd61fef1792d1b2b49ad5520629b209e2bbdc8563a.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9274507,
+      "source": "03cb65e3fc2e44f1e595c078b42a87ef3e14f2b7bbfcfeff944cda3d1b644ed6.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9274507,
+      "source": "03e1eaace7d4be8e4af380349abd9aaf34dd5a226508bb66bae80839337f0ced.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.927451,
+      "source": "03e65acf9905042e76673278cc5eb71f26d14a719ca121c79b6cd68fbcbb28c6.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9274511,
+      "source": "03f1d2732a388fa238b7b61bdd35618b5e7d9d2f503a5b39082e66a4807a0aa8.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9274523,
+      "source": "03fb249b8d68e537ab0341196e432cd15beaaa2b195da1947c06b1bcd63a8af2.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9274523,
+      "source": "044cb7a19affadcf73db55c8cb6c70ea0f7a232fd4801ba0e929309b9dd299cb.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9274526,
+      "source": "046e651bee8d59f0d559c942a9638c669f6c2785ca58be45afb88ebbe6212b1c.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.927453,
+      "source": "047e9dc93414b3f5226a3c1d6683adfb31968b29138d393ff80055d0df70a687.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9274533,
+      "source": "048fba18efebe0136d4cf6f073dbdd52edbf9a6971bec5618ed7c3bb88087238.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9274533,
+      "source": "04b9160809774ca484b8d45e92dcc4baa3246322c45a8d338d8bf2cc0db62c63.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9274535,
+      "source": "04e4942e1591cf8c642b8d59dc2f156ff37f51dfd11fff2f6f974ea1b72d1c7c.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9274538,
+      "source": "04e7f4c1ca052c11416c22f38046bbfbf1041ee0f4f964a9a2f84397cddd8971.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.927454,
+      "source": "0511eae8239f972d086ad89619f5a5fd2ff8f8c9b04cba67b915b5a0511acd61.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9274542,
+      "source": "0513fdfbec8e8fcc210608bb0e61ea529344dc933f5b4f2b2e5a2401946b99fa.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9274542,
+      "source": "051d0e41ffe8108a91b4c31ceb3642a80c74be81f083a9fc607e6fdef05c74b5.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9274545,
+      "source": "0560383f4b6c2916ffcee0c9789e95b681b12b88c01829fbaa1c9cfd94cd3c8d.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9274547,
+      "source": "057cf00110c63759d5bf376790fe402bfe7f5d2015e62d365701ed2bbfd148ad.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.927455,
+      "source": "058669670c8bc011ad32c92426d82b940c184b286817dcc73f06d8625f3c6764.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9274552,
+      "source": "05960f00ad2ba63f86d6d28b81f2eeedccfa7395783108f7eba7215bc03a4368.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9274554,
+      "source": "05abc850dc2f6e73238b8954249e88135b0533def1e69f81fc2c5d3d812e878a.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9274554,
+      "source": "05ec5eed3a24de3ba92dbd0829e8b9ffdab06104edc6f5e254c9ad2724307013.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.927456,
+      "source": "0606dbd84e28b23544224cbde7471e828f4ad70618591eab2ea7cb9aa2e91a8c.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9274561,
+      "source": "0608dace22bc23283b55518b63bceb394e46e0a13f024ee493efdb93ad304161.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9274566,
+      "source": "06731ea5b31335a3144ea0a376992e11e22e6354de94b15f8c1649890c1ac228.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9274569,
+      "source": "0685c9ccfd26ae921d26ae2fff4f599e6b489584967d54a723101f151fc47405.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.927457,
+      "source": "06a9720fde183787fa4e4d8ae36e50ebef36d2fffdef15ec452e08d5d4e32d4a.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.927457,
+      "source": "06a9bcf4b710fc21a88c533fd55d960be9c2be04af1b5b60160a19e00be02489.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9274573,
+      "source": "06dbd5560a55430d48da63f2a9bae6293c8a42f1723a8945670e0aa6c0d5de5b.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9274576,
+      "source": "06f57644718d4884dd103d6b1cd211c0199ef286773031d214450ef95e02defd.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9276416,
+      "source": "0715714cdd27aeee72a8efd2972129bcc1d12b57d954d35673ff5085f74ba4c8.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.927642,
+      "source": "071fbd4e4746222deadd56e3909284029feb1c5f6e8436be903189031532e1ba.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9276426,
+      "source": "07231823f7ba799202245a53b8d91dc9ecab7551a171bd5d86cdcbf3b63c9dd8.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9276435,
+      "source": "07454cd8eb7ae260cb7c616bea79bdb3dc9961745e52e60f39c45fd0062c72fc.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.927644,
+      "source": "0747e0655b825bebf678ce1f4a9ea254ef414492710c2d38897ae9de1d446063.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9276443,
+      "source": "075182e635bd2901a86e76c73619371c13353f2960916ca9dcbb1fb780e2c9f9.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9276445,
+      "source": "078ef84538a10f048afc5a9758f2e94588bc180f268802240bc66b4a0f76afb6.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9276445,
+      "source": "07adeaba4ca301d4c7ed5627b40523c71d31ede6e931d557ca3254a55bcde0e1.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9276447,
+      "source": "07b487c51590b42a1b2e7876a438da438847a241975709deb745b40f1de71898.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.927645,
+      "source": "07dfc181b7199f6823e80189c399415bdee1a59e2914d500bda8596cf1085fc2.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9276452,
+      "source": "07f5f051f871cf6c2abcb4625522ea0c98c3904297a55de6756f5a72fff86bed.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9276452,
+      "source": "0825da5a6b86b5c168ffd484f2b60bfffa19428b37df935a8c42460b2459cbd0.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9276457,
+      "source": "0880cef91159fef1d57c717fd25fe2687344e22db92af74bc545f71065c84b76.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9276457,
+      "source": "08a655c0878f934c1278932a024983cb3f4761b83b9e015165d957a134e03f48.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.927646,
+      "source": "08bda5a9e0d81b372ffcdebd435e16c83e96c3e9bf4ac8f1fc9aabcf270f04aa.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9276462,
+      "source": "08d28bd233d25b66847f091d670cb92338e1f02f2b4696e01646e245c7ab2d3f.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9276464,
+      "source": "08f1373b34d624291dc185e3614757f891292cbbf444447e698d628a69a51dfe.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9276466,
+      "source": "08fc71caff400fe94d2e6bb3d040eccf5b880430c03a728743b2523eb968d320.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9276466,
+      "source": "09018f3f7a5dc6c58d7e8c621bdea8dd9795771edc000c2b8b0980116313a493.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9276469,
+      "source": "0911590ef0a30c415047af51666e31382faa84e6ecb80cb6559a46c8fb4836e6.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.927647,
+      "source": "5865f7ca69391b57edd32ad78c5faca404b7a6c25b3061b58b730d14ce1aa3ed.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9276476,
+      "source": "76c4ff8f780f1c19327e0e97fb1efdce8aaa7f9f4d2fe4832d69a41a322022a0.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9276478,
+      "source": "7c24ca5cbf45149ac8743dabcf9b60590c687db31f2f4a04d016232ea5b936a7.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.927648,
+      "source": "7dd944207a1f3a9ce6b7ec467638c8d949c362dd0bb9473b8e5125cd11829a8a.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9276483,
+      "source": "9e9b7231ab8e3b9d33addb91399cfa3f9b259ff6c58e4ff165d4418aede17693.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9276485,
+      "source": "b6d12f7816c57a842c651a757189040cd481faeba3f1e630bebe407634b6a71f.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9276485,
+      "source": "c546761a68c497b1d326e332d583c2499528a60ee766dc13037fae2a4614015f.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 0.9688,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.927649,
+      "source": "ba6ca842d2852202fd4eff19c81df596c6165862644cf212afb9fd223b668fdb.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 0.8,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.927649,
+      "source": "320c4dbcbfb5742f0a158d229ccfe678c814dbfb7428555f433b560e9a3af8e1.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 0.8,
+      "proposed_at_cycle": 361,
+      "proposed_limit": 10,
+      "recorded_at": 1790740745.9276493,
+      "source": "a1c48831cd2cf760ed5172feefe979715303f0d9d1821a89cd8fb834ff2ac2fa.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 3,
+      "proposed_limit": 10,
+      "recorded_at": 1790971945.2212281,
+      "source": "26b7c5f0aab8d3fc5bc438d1303b95ffe81172a7dbb63a5f6d6b6e0ae7195251.txt"
+    },
+    {
+      "cause": "insufficient model capacity",
+      "current_limit": 5,
+      "frustration_band": "HIGH",
+      "frustration_index": 1.0,
+      "proposed_at_cycle": 3,
+      "proposed_limit": 10,
+      "recorded_at": 1790971945.2212298,
+      "source": "3ed4636a738641429ce4aaa5d801b13ddf68c1e9dd89f7f34f812519866790f7.txt"
+    }
+  ],
+  "capacity_gadence": {
+    "accepted_cycles": 6,
+    "consumed": false,
+    "proposed_at_cycle": 3452
+  },
+  "capacity_growth": {
+    "approved": true,
+    "comparable": false,
+    "from_embd": 448,
+    "from_layers": 8,
+    "holdout_at_review": 5.4342702229817705,
+    "reviewed_at": 1791331592.0144472,
+    "to_embd": 448,
+    "to_layers": 9
+  }
+}

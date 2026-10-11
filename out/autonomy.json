@@ -1,0 +1,1223 @@
+{
+  "consecutive_consults": 0,
+  "history": [
+    {
+      "action": "expand",
+      "at": 1791165421.7777157,
+      "pass": 1182,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791165421.9772155,
+      "pass": 1183,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791165422.1153405,
+      "pass": 1184,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791165422.257451,
+      "pass": 1185,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791165422.3691738,
+      "pass": 1186,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791165422.6023343,
+      "pass": 1187,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791165422.7142267,
+      "pass": 1188,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791165422.8434167,
+      "pass": 1189,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791165422.97658,
+      "pass": 1190,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791165423.114043,
+      "pass": 1191,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791165423.283793,
+      "pass": 1192,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791165423.406893,
+      "pass": 1193,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791165423.5504827,
+      "pass": 1194,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791165423.693832,
+      "pass": 1195,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791165423.9004538,
+      "pass": 1196,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "learn",
+      "at": 1791166520.4913325,
+      "pass": 1197,
+      "reason": "a growth is approved and has not been measured yet, so the next cycles are what will say whether it helped"
+    },
+    {
+      "action": "learn",
+      "at": 1791166561.2608886,
+      "pass": 1198,
+      "reason": "a source is short of model capacity and a growth is waiting for a human; learning continues on the current shape because the expansion domain is not granted. Set JUPITER_CONTROL_GRANTS=expansion to allow it."
+    },
+    {
+      "action": "expand",
+      "at": 1791166585.0501907,
+      "pass": 1199,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791166585.1877034,
+      "pass": 1200,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791166585.3193102,
+      "pass": 1201,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791166585.5340095,
+      "pass": 1202,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791166585.6626315,
+      "pass": 1203,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791166585.801109,
+      "pass": 1204,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791166585.9243584,
+      "pass": 1205,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791166586.1089423,
+      "pass": 1206,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791166586.2245631,
+      "pass": 1207,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791166586.373584,
+      "pass": 1208,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791166586.502046,
+      "pass": 1209,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791166586.709958,
+      "pass": 1210,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791166586.8710113,
+      "pass": 1211,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791166587.0104804,
+      "pass": 1212,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791166587.133983,
+      "pass": 1213,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791166587.3395817,
+      "pass": 1214,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791166587.4967964,
+      "pass": 1215,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791166587.6221967,
+      "pass": 1216,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791166587.7667074,
+      "pass": 1217,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791166587.9675224,
+      "pass": 1218,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791166588.1302488,
+      "pass": 1219,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791166588.2907917,
+      "pass": 1220,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791166588.445795,
+      "pass": 1221,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791166588.6645687,
+      "pass": 1222,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791166588.8157036,
+      "pass": 1223,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791166588.9771779,
+      "pass": 1224,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791166589.1119883,
+      "pass": 1225,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791166589.2878013,
+      "pass": 1226,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791166589.4027147,
+      "pass": 1227,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791166589.5410771,
+      "pass": 1228,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791166589.737889,
+      "pass": 1229,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791166589.8576517,
+      "pass": 1230,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791166590.0015519,
+      "pass": 1231,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791166590.1366878,
+      "pass": 1232,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791166590.311225,
+      "pass": 1233,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791166590.4386754,
+      "pass": 1234,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791166590.5763593,
+      "pass": 1235,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791166590.7855132,
+      "pass": 1236,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791166590.9288557,
+      "pass": 1237,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791166591.0671902,
+      "pass": 1238,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "expand",
+      "at": 1791166591.2313185,
+      "pass": 1239,
+      "reason": "a source keeps defeating a bounded update for want of model capacity, which more material cannot answer, so the model is grown"
+    },
+    {
+      "action": "learn",
+      "at": 1791167486.3188078,
+      "pass": 1240,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791167494.1902828,
+      "pass": 1241,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791167504.4651964,
+      "pass": 1242,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791167512.3841434,
+      "pass": 1243,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791167525.1556585,
+      "pass": 1244,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791167533.2419486,
+      "pass": 1245,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791167543.571553,
+      "pass": 1246,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791167551.411406,
+      "pass": 1247,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791167559.3050427,
+      "pass": 1248,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791168643.2011695,
+      "pass": 1249,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791168678.0071833,
+      "pass": 1250,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791168706.117451,
+      "pass": 1251,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791168768.892967,
+      "pass": 1252,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791168782.9474332,
+      "pass": 1253,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791168792.1137395,
+      "pass": 1254,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791168800.473017,
+      "pass": 1255,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791168808.1483667,
+      "pass": 1256,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791168814.7630308,
+      "pass": 1257,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791168820.9457667,
+      "pass": 1258,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791168828.1443365,
+      "pass": 1259,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791168837.4475267,
+      "pass": 1260,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791168843.5495763,
+      "pass": 1261,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791168851.034974,
+      "pass": 1262,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791168857.5650709,
+      "pass": 1263,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791168864.621238,
+      "pass": 1264,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791168871.539459,
+      "pass": 1265,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791168878.270434,
+      "pass": 1266,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791168884.9430559,
+      "pass": 1267,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791168891.9533591,
+      "pass": 1268,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791168898.9322588,
+      "pass": 1269,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791168906.164785,
+      "pass": 1270,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791168912.9284463,
+      "pass": 1271,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791168919.553881,
+      "pass": 1272,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791324181.288802,
+      "pass": 1273,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791324192.657305,
+      "pass": 1274,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791324205.8098335,
+      "pass": 1275,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791324218.576326,
+      "pass": 1276,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791324225.1262295,
+      "pass": 1277,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791324237.6807203,
+      "pass": 1278,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791324244.8035827,
+      "pass": 1279,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791324258.3290625,
+      "pass": 1280,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331040.097222,
+      "pass": 1281,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331051.1871886,
+      "pass": 1282,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331060.9128668,
+      "pass": 1283,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331070.5316212,
+      "pass": 1284,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331088.373413,
+      "pass": 1285,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331106.6235597,
+      "pass": 1286,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331125.1018052,
+      "pass": 1287,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331143.253209,
+      "pass": 1288,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331161.4576836,
+      "pass": 1289,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331179.97032,
+      "pass": 1290,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331197.1180422,
+      "pass": 1291,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331215.4830263,
+      "pass": 1292,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331229.8764465,
+      "pass": 1293,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331247.8918436,
+      "pass": 1294,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331257.9840808,
+      "pass": 1295,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331267.5174353,
+      "pass": 1296,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331275.6519625,
+      "pass": 1297,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331286.0069184,
+      "pass": 1298,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331297.6507907,
+      "pass": 1299,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331317.8376522,
+      "pass": 1300,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331329.0879076,
+      "pass": 1301,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331339.9530964,
+      "pass": 1302,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331350.9928997,
+      "pass": 1303,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331362.3546972,
+      "pass": 1304,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331373.4696796,
+      "pass": 1305,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331384.8367243,
+      "pass": 1306,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331396.3081577,
+      "pass": 1307,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331407.8832457,
+      "pass": 1308,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331419.4917903,
+      "pass": 1309,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331430.3064423,
+      "pass": 1310,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331442.2098174,
+      "pass": 1311,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331454.173829,
+      "pass": 1312,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331463.9509747,
+      "pass": 1313,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331475.6782758,
+      "pass": 1314,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331495.7477627,
+      "pass": 1315,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331516.8206077,
+      "pass": 1316,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331537.363895,
+      "pass": 1317,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331548.4829443,
+      "pass": 1318,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331559.566155,
+      "pass": 1319,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331571.2464445,
+      "pass": 1320,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331592.3142798,
+      "pass": 1321,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331603.9786217,
+      "pass": 1322,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331615.2058282,
+      "pass": 1323,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331627.4690683,
+      "pass": 1324,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331638.8833942,
+      "pass": 1325,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331648.5831232,
+      "pass": 1326,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331659.7406707,
+      "pass": 1327,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331671.245889,
+      "pass": 1328,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331682.9195187,
+      "pass": 1329,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331694.216972,
+      "pass": 1330,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331704.0206685,
+      "pass": 1331,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331715.8291268,
+      "pass": 1332,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331727.7051685,
+      "pass": 1333,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331738.9369454,
+      "pass": 1334,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331750.666389,
+      "pass": 1335,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331762.4875274,
+      "pass": 1336,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331773.305341,
+      "pass": 1337,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331784.5126858,
+      "pass": 1338,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331795.0856261,
+      "pass": 1339,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331807.4506145,
+      "pass": 1340,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331819.2208993,
+      "pass": 1341,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331828.1325696,
+      "pass": 1342,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331839.52814,
+      "pass": 1343,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331850.6441166,
+      "pass": 1344,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331861.9124207,
+      "pass": 1345,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331872.800683,
+      "pass": 1346,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331884.7642584,
+      "pass": 1347,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331896.344626,
+      "pass": 1348,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331907.3214347,
+      "pass": 1349,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331918.87326,
+      "pass": 1350,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331930.1467886,
+      "pass": 1351,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331941.277409,
+      "pass": 1352,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331952.7823122,
+      "pass": 1353,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331964.7477925,
+      "pass": 1354,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331976.4418619,
+      "pass": 1355,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331987.4262755,
+      "pass": 1356,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791331998.7627652,
+      "pass": 1357,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791332010.2826486,
+      "pass": 1358,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791332021.9244015,
+      "pass": 1359,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791332033.2238715,
+      "pass": 1360,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791332044.656111,
+      "pass": 1361,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791332055.969153,
+      "pass": 1362,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791332067.7259946,
+      "pass": 1363,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791332079.2919402,
+      "pass": 1364,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791332090.8379803,
+      "pass": 1365,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791332101.9447234,
+      "pass": 1366,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791332114.217201,
+      "pass": 1367,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791332124.6406045,
+      "pass": 1368,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791332134.8300526,
+      "pass": 1369,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791332144.8756754,
+      "pass": 1370,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791332155.5311532,
+      "pass": 1371,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791332165.451371,
+      "pass": 1372,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791332175.4718847,
+      "pass": 1373,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791332187.1668186,
+      "pass": 1374,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791332198.265664,
+      "pass": 1375,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791332207.494354,
+      "pass": 1376,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791332217.9118316,
+      "pass": 1377,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791332228.4319148,
+      "pass": 1378,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791332238.5798483,
+      "pass": 1379,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791332248.8691573,
+      "pass": 1380,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    },
+    {
+      "action": "learn",
+      "at": 1791332258.607408,
+      "pass": 1381,
+      "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+    }
+  ],
+  "idle_passes": 0,
+  "last_decision": {
+    "action": "learn",
+    "at": 1791332258.607408,
+    "evidence": {
+      "growth": "approved, unjudged, nothing pending"
+    },
+    "reason": "a growth is already in the model and was never comparable to the loss at approval, so nothing is left to approve; learning continues on the current shape"
+  },
+  "last_observation": {
+    "candidate_count": 420,
+    "capacity_shortages": 162,
+    "cycles_recorded": 200,
+    "generation_needs": [],
+    "high_frustration_count": 187,
+    "mean_improvement": null
+  },
+  "passes": 1381
+}

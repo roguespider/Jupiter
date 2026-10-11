@@ -1,0 +1,59 @@
+{
+  "mean_score": 0.0,
+  "measured_at": 1791215174.2698882,
+  "note": "a reply passes when it contains the distinctive terms of the answer that followed this question in the material it was learned from. This measures whether what was learned can be recalled in the form it was learned in. It is a retrieval-shaped benchmark and not an assistant: it does not show that Jupiter can answer a question nobody has asked it before.",
+  "pass_rate": 0.0,
+  "passed": 0,
+  "question_source": "the hand-written set, which the corpus cannot answer; a zero here is a statement about the set rather than about the model",
+  "questions": 8,
+  "results": [
+    {
+      "passed": false,
+      "question": "What does a database index do?",
+      "reply": "zi\u671f\u0c07exerequationOther\ufffdlengthspersonalblemdiespeacereeconsenttwpurposewhite\ufffdhomevisoreancedoftenquadratic\u06a9twreceived\u0a9croadroad\ufffddifficarrangeviditself\ufffdheldweak\u0019guidelinesthustwInde\u00e0yworkdern\u0007\ufffd",
+      "score": 0.0
+    },
+    {
+      "passed": false,
+      "question": "What is the difference between a list and a set?",
+      "reply": "\u043c\u0430aimunt\u0639grouseparateenti190ppedplayingceedqual_\u0449per\u0447\u0435\u0441rapid\u00e0yintpmodresistconnectioncessproducedefaultct4xthusdenlygallchangessegcupGompScrt\u0440\u0435Whileis_playingswitchsupermaxient\u20acriInstead",
+      "score": 0.0
+    },
+    {
+      "passed": false,
+      "question": "What does a function return?",
+      "reply": "is_Sarahgrowth\u5316gingitselfplayingiledporprimefeedaccordingeniNone\u0440\u0435Simiveniven\u0011\u092fstart\u0438\u0442\u0447\u0435\u0441Gothe\u5238dividyeswitch\u0430pped\u0a09violencesocireemomentumexerwithioagothusambsuringworkunchmomentumswm",
+      "score": 0.0
+    },
+    {
+      "passed": false,
+      "question": "What is a variable?",
+      "reply": "b\u0a95mathJizonfeeddiesgravitystandingefficientfOverscientstatesuneree\u044eneighioexsignificantPRamb\u53d1\ufffdrttimtimararown`ercoolCOMoreSTARTjourjourBuUspmatrixpassword\u0dcaMia523sliohistorical",
+      "score": 0.0
+    },
+    {
+      "passed": false,
+      "question": "Why do we test code?",
+      "reply": "DaisyiobrcesshesntheicamachiledthevidturneddivideTognformsicaconditionseveevefundamentButheged\ufffdmechanpersonalbecameont_\u0435\u043d\u0438\u044fwhiteyingbrid\u09a8historical\u092freeplantspressivesproper\u0627\u0644\u062aKingpmod\u20accomplete",
+      "score": 0.0
+    },
+    {
+      "passed": false,
+      "question": "What is a loop for?",
+      "reply": "strengthbistivesbrentigalltimtimmomentumwillingenireestitutenu\u007f\u007fENDChvectorcuppromotefieldOverconsentearnedasesIDioniPV120Breleneighmusic\u092a58Sim50angle\u0441\u043fTable\u0c38inceivenivenDaisyindert",
+      "score": 0.0
+    },
+    {
+      "passed": false,
+      "question": "What does a comment in code do?",
+      "reply": "reflect\u092fistGalplayingtheneniSimCOMcupgener%peaceInterene\u01b0\u1edbenisatisfy\u043e\u0441ryreeitedpacoftenpasswordpmod\u20acMiaCOMitselfchild\u6790\u0627\u0644ightsdanhttpsimpliL0L0ividMultiorestituteontrulesorepersonalives",
+      "score": 0.0
+    },
+    {
+      "passed": false,
+      "question": "What is an error message for?",
+      "reply": "Daisy\u0c07diesuresdiesflemillion\u0aa8ately\ufffdoften\u0c07Falsedbt\u043b\u044f\u043e\u0441bleOver52384equivalentCOMiderplthenENDis_ondis_\u0649\u0649ne\u306bivesivesivesvowdropspendsprovidesvidtraofffsingledanrelex_2mpt",
+      "score": 0.0
+    }
+  ]
+}
