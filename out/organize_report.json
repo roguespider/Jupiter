@@ -1,0 +1,14 @@
+{
+  "already_filed": 4392,
+  "applied": true,
+  "by_folder": {},
+  "duplicate_bytes": 0,
+  "duplicates_found": 0,
+  "duplicates_sample": [],
+  "files_to_move": 0,
+  "raw": "E:\\Tor\\src_code\\RoBoT_Brain\\.agents\\LLModel\\Jupiter\\data\\raw",
+  "unclassified": 1,
+  "unclassified_sample": [
+    "4830f71f9b94e9af6e5af748419cf17aed1a8ec195fb2852e00c312bdf7dd840.txt"
+  ]
+}

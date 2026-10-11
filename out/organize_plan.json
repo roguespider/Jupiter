@@ -1,0 +1,40 @@
+{
+  "applied": false,
+  "by_folder": {
+    "code": 2666,
+    "conversation": 10,
+    "math": 1165,
+    "prose": 521,
+    "reasoning": 45,
+    "science": 107
+  },
+  "duplicate_bytes": 928332,
+  "duplicates_found": 24,
+  "duplicates_sample": [
+    "Asimov_Books\\HowWeFoundThatEarthIsRound-Hindi-Asimov\\earthroundhindi_djvu.txt",
+    "Asimov_Books\\HowDidWeKnowThatTheEarthIsRound-Hindi\\h-asimov-earthround_djvu.txt",
+    "Asimov_Books\\HowDidWeKnowThatTheEarthIsRound-Hindi_92\\39.EarthIsRound-IssacAsimov_djvu.txt",
+    "Asimov_Books\\HowDidWeKnowAboutNumbers-Marathi\\IsaacAsimov-HowDidWeKnowAboutNumbers_djvu.txt",
+    "Asimov_Books\\HowDidWelKnowAboutElectricity-Hindi\\h-asimov-electricity_djvu.txt",
+    "Asimov_Books\\HowDidWeKnowAboutBrain-Hindi_623\\h-asimov-brain_djvu.txt",
+    "Asimov_Books\\HowDidWeKnowAboutAntarctica-Hindi\\h-asimov-antarctica_djvu.txt",
+    "Asimov_Books\\HowWeFoundAboutOil-Marathi-IsaacAsimov\\oilmarathi_djvu.txt",
+    "Asimov_Books\\HowDidWeKnowAboutOil-Marathi\\IsaacAsimov-HowDidWeKnowAboutOil_djvu.txt",
+    "Asimov_Books\\HowDidWeKnowAboutBlackHoles-Hindi_923\\h-asimov-blackholes_djvu.txt"
+  ],
+  "files_to_move": 4514,
+  "raw": "E:\\Tor\\src_code\\RoBoT_Brain\\.agents\\LLModel\\Jupiter\\data\\raw",
+  "unclassified": 31,
+  "unclassified_sample": [
+    "03_tokenizer_syntax_matrix.txt",
+    "223d92b4719ec114fc050c99e4e2af9dd11e354367f358520fca8363e3bbf656.txt",
+    "4830f71f9b94e9af6e5af748419cf17aed1a8ec195fb2852e00c312bdf7dd840.txt",
+    "50040dec6bb3f790e917160e6620909956970a3bdd74318f397a276ce950f869.txt",
+    "5865f7ca69391b57edd32ad78c5faca404b7a6c25b3061b58b730d14ce1aa3ed.txt",
+    "613bef68e27fa32200c1f50c91471e9c4ae4498b43eba9445799d865092a699a.txt",
+    "6fbce1ae19df8df232458eb5c6a3114ddefd1f07774233bf65c29dbe25db0b03.txt",
+    "76c4ff8f780f1c19327e0e97fb1efdce8aaa7f9f4d2fe4832d69a41a322022a0.txt",
+    "7c24ca5cbf45149ac8743dabcf9b60590c687db31f2f4a04d016232ea5b936a7.txt",
+    "7dd944207a1f3a9ce6b7ec467638c8d949c362dd0bb9473b8e5125cd11829a8a.txt"
+  ]
+}

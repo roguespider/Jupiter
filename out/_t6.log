@@ -1,0 +1,11 @@
+running 41 test files across 32 processes
+
+
+slowest files:
+    10.3s  test_curation_cache
+     9.9s  test_doc_alignment
+     9.0s  test_mcp
+     8.9s  test_learning
+     8.2s  test_autonomy
+
+41 files, 0 failed, 10.5s wall clock

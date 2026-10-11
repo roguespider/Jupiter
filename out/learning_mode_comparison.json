@@ -1,0 +1,23 @@
+{
+  "cycles": 6,
+  "results": [
+    {
+      "mode": "gradient",
+      "eval_docs": 8,
+      "loss_before": 3.425621122121811,
+      "loss_after": 3.7650613486766815,
+      "improvement": -0.3394402265548706,
+      "seconds": 21.521768808364868,
+      "seconds_per_cycle": 3.5869614680608115
+    },
+    {
+      "mode": "plasticity",
+      "eval_docs": 8,
+      "loss_before": 3.4547972083091736,
+      "loss_after": 3.605422481894493,
+      "improvement": -0.15062527358531952,
+      "seconds": 14.027190446853638,
+      "seconds_per_cycle": 2.3378650744756064
+    }
+  ]
+}

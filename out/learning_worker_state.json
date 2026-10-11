@@ -1,0 +1,48 @@
+{
+  "best_holdout": null,
+  "cycle_budget": 20,
+  "cycles_completed": 2,
+  "elapsed_seconds": 8.309684753417969,
+  "final_learning_rate": 0.0001,
+  "growth_review": null,
+  "learning_cycle": 4807,
+  "reason": "no source was accepted for 2 consecutive cycles",
+  "regression_available": true,
+  "regression_source": "data\\curated\\8c61d6fe983dd4a15a710e63f56f21b655d69b12f41230d469c0a10275318523.txt",
+  "resources": {
+    "cpu": {
+      "system_seconds": 12.41,
+      "user_seconds": 56.41
+    },
+    "gpu": {
+      "allocated_mb": 404.1,
+      "device": "NVIDIA GeForce RTX 4090",
+      "reserved_mb": 534.0
+    },
+    "ram": {
+      "available_physical_mb": 86352.0,
+      "memory_load_percent": 34,
+      "total_physical_mb": 130838.9
+    },
+    "storage": {
+      "free_gb": 9638.85,
+      "total_gb": 11175.98,
+      "used_gb": 1537.13
+    },
+    "time": 1791332334.948972
+  },
+  "restored_regression": null,
+  "review": {
+    "accepted": 0,
+    "cycles": 2,
+    "cycles_with_regression": 0,
+    "deferred": 0,
+    "distinct_sources": 2,
+    "flagged_for_review": 0,
+    "rejected": 2,
+    "rolled_back": 0
+  },
+  "rollback_verified": false,
+  "status": "no_improvement",
+  "total_recoveries": 0
+}
