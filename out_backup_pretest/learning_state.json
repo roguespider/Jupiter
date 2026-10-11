@@ -1,0 +1,30 @@
+{
+  "learning_cycle": 14,
+  "source": "data\\curated\\223d92b4719ec114fc050c99e4e2af9dd11e354367f358520fca8363e3bbf656.txt",
+  "parameters": 3290624,
+  "architecture": {
+    "block_size": 256,
+    "vocab_size": 256,
+    "n_layer": 4,
+    "n_head": 4,
+    "n_embd": 256,
+    "dropout": 0.0,
+    "bias": true
+  },
+  "train_loss_before": 0.8337892691294352,
+  "train_loss_after": 0.060645654797554016,
+  "train_loss_improvement": 0.7731436143318812,
+  "holdout_loss_before": 4.597623189290364,
+  "holdout_loss_after": 7.191388289133708,
+  "holdout_loss_improvement": -2.5937650998433437,
+  "micro_steps": 65536,
+  "successful_steps": 65536,
+  "gradient_recoveries": 0,
+  "initial_learning_rate": 0.0003,
+  "final_learning_rate": 0.0003,
+  "gradient_clip": 1.0,
+  "gradient_stop": 25.0,
+  "elapsed_seconds": 1034.2085523605347,
+  "interpretation": "The model changed through bounded micro-updates. Positive holdout improvement indicates that the update also improved loss on held-out material. Gradient recovery indicates that Jupiter encountered an unstable update and reduced its learning rate rather than accepting the unsafe update.",
+  "checkpoint": "out\\Jupiter_latest.safetensors"
+}

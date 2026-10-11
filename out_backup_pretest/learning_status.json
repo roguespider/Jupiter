@@ -1,0 +1,8 @@
+{
+  "status": "stopped",
+  "cycle": 14,
+  "source": "223d92b4719ec114fc050c99e4e2af9dd11e354367f358520fca8363e3bbf656.txt",
+  "steps": 65536,
+  "best_holdout_loss": 7.191388289133708,
+  "current_holdout_loss": 7.191388289133708
+}
