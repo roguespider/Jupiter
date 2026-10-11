@@ -1,0 +1,5 @@
+torch>=2.4
+numpy>=1.26
+safetensors>=0.4
+# Modal is optional. Install it only when using modal_train.py.
+modal>=1.0
