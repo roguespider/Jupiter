@@ -226,9 +226,9 @@
       "size": 526159
     },
     "data\\raw\\Asimov's Chronology of the World (Isaac Asimov)_djvu.txt": {
-      "digest": "0684a348a2f7d73aaf3ed291de5f863cf236f7e97955780334fa8a739518f1ae",
-      "mtime": 1665123813.0,
-      "size": 2728819
+      "digest": "7dc7eed05a89654ca8a1574892412e3124a755dada0e7c6472dec1a673286e0c",
+      "mtime": 1791679887.5538366,
+      "size": 2728518
     },
     "data\\raw\\Asimov's Guide to the Bible (Isaac Asimov)_djvu.txt": {
       "digest": "e924111cb85fde8d68d8aa4c803d3713019e07fe6856c94681f6b9d6af990a0e",
@@ -1385,10 +1385,20 @@
       "mtime": 1790558982.100932,
       "size": 809
     },
+    "data\\raw\\Text_sample_1.txt": {
+      "digest": "1625c977f24323e77a7bd212493108434e7cb919223c108ff2b3164e40bcd839",
+      "mtime": 1790556018.6472006,
+      "size": 1579
+    },
     "data\\raw\\Text_sample_2.txt": {
       "digest": "8bf4be477f707e6ffef63e9de3befe7ddf51aca2e2b53f607dd9be0f85ed21c0",
       "mtime": 1790556018.6527064,
       "size": 785
+    },
+    "data\\raw\\Text_sample_3.txt": {
+      "digest": "6251547cfde477725fd66c009e019b1ea40358119f98268178bb884fd56263fe",
+      "mtime": 1790556018.6632147,
+      "size": 3207
     },
     "data\\raw\\The Asimov Chronicles- Fifty Years of Isaac Asimov - Vol 5 -- Isaac Asimov_djvu.txt": {
       "digest": "6be25e94ecdb085c6206f5dfb3862749fa5ed4d6f5e6eb1e84c69f69fc0cfcab",
@@ -1416,9 +1426,9 @@
       "size": 648449
     },
     "data\\raw\\The Complete Asimov_djvu.txt": {
-      "digest": "29d5c24d4591f563112d66cffbdb74b9ac1d3e5052031b34e1976d71c38a0f7a",
-      "mtime": 1775742524.0,
-      "size": 11214809
+      "digest": "72718830d319934377a9c25afa89c341fd4572b794ef68486c0b9aa6d4d3fbef",
+      "mtime": 1791679098.6926072,
+      "size": 11214786
     },
     "data\\raw\\The Dark Ages (Isaac Asimov)_djvu.txt": {
       "digest": "25a93f48c562014858820b81a9ee1fef5c2e46c10976efbc16b40eea98f657c6",
@@ -1570,10 +1580,230 @@
       "mtime": 1790556193.7752938,
       "size": 821
     },
+    "data\\raw\\Xtend_sample_1.txt": {
+      "digest": "8bb174b6540415ad1bad38eb2b84f72051dfbcb3c0372f7ce5fbb566817431e1",
+      "mtime": 1790556044.0656815,
+      "size": 1056
+    },
+    "data\\raw\\Xtend_sample_2.txt": {
+      "digest": "4f8d04af8f294f33741d098c07b08f19bd36cbfd2a1889fbe5055aadff3390d6",
+      "mtime": 1790556044.0656815,
+      "size": 1357
+    },
+    "data\\raw\\Xtend_sample_3.txt": {
+      "digest": "58b68419b1899639acb0776bd1e7a11958e2f23aee35f346ba0fc44075cf713e",
+      "mtime": 1790556044.0666814,
+      "size": 1061
+    },
+    "data\\raw\\YAML_sample_1.txt": {
+      "digest": "cddfd17b09e6f8279ad65f22914c4254a0920e7a4a5dc86f26097bec4abf05c5",
+      "mtime": 1790556018.494063,
+      "size": 1911
+    },
+    "data\\raw\\YAML_sample_2.txt": {
+      "digest": "e7668bc434588afb527df5a5bad391bdceebe5c5e6ae79fd95089348f4278d75",
+      "mtime": 1790556018.50006,
+      "size": 3730
+    },
+    "data\\raw\\YAML_sample_3.txt": {
+      "digest": "3aad3175ad3d2f4f4214f5d9097cf2dfd140c48a5fdae20c9bcc6cd13545700a",
+      "mtime": 1790556018.5571165,
+      "size": 916
+    },
+    "data\\raw\\YANG_sample_1.txt": {
+      "digest": "54a8d685dcb6b7a8198de6497ab233a99e6670b3b868feca4d8e42888a607244",
+      "mtime": 1790556360.696216,
+      "size": 2139
+    },
+    "data\\raw\\YANG_sample_2.txt": {
+      "digest": "06ecb695d9de2b38723d097fb210f257eeb563a75382ca3fb9c2732d77d143d0",
+      "mtime": 1790556416.3041394,
+      "size": 18163
+    },
+    "data\\raw\\YANG_sample_3.txt": {
+      "digest": "a0097b66bca2c6e16425c9323faa58a9e5bd95ea9c47032ae2678b1d5192dd15",
+      "mtime": 1790556416.309139,
+      "size": 10835
+    },
+    "data\\raw\\YARA_sample_1.txt": {
+      "digest": "7e78ba1973161d6ae1c716d62814d858446bee4a57fa74cf060adf877ef612f8",
+      "mtime": 1790556068.4578378,
+      "size": 4201
+    },
+    "data\\raw\\YARA_sample_2.txt": {
+      "digest": "0747e0655b825bebf678ce1f4a9ea254ef414492710c2d38897ae9de1d446063",
+      "mtime": 1790556068.5844426,
+      "size": 2119
+    },
+    "data\\raw\\YARA_sample_3.txt": {
+      "digest": "7c7db1f6c32ed71f697244a33e2c0508bd261c6d3c248c05af7cda4624c1f232",
+      "mtime": 1790556106.678205,
+      "size": 6821
+    },
+    "data\\raw\\YASnippet_sample_1.txt": {
+      "digest": "3923150d7af12722130cf7c2445319888ee11a0ed1490f3eb51e908a4d3b6758",
+      "mtime": 1790556023.1669033,
+      "size": 871
+    },
+    "data\\raw\\YASnippet_sample_2.txt": {
+      "digest": "41e262ad054279e106b97fb24b2e625831687adea41826e412972b0cd9f6c49c",
+      "mtime": 1790556161.7086473,
+      "size": 1011
+    },
+    "data\\raw\\YASnippet_sample_3.txt": {
+      "digest": "efd73602afaeb6fc5d45f8a1d50f8416b8d7fb20a9ff80961b4bbe7625db6007",
+      "mtime": 1790556177.1289005,
+      "size": 3693
+    },
+    "data\\raw\\Yacc_sample_1.txt": {
+      "digest": "58d7e103a876cf16ca39bc54df759e4960f2fc40720e9df098b85ab2b135da2b",
+      "mtime": 1790556032.2951717,
+      "size": 2068
+    },
+    "data\\raw\\Yacc_sample_2.txt": {
+      "digest": "c89fe7a991a40ff2dd4eb6cc872138f40004849ebb40ca1d8371a8eed2924ec9",
+      "mtime": 1790556033.1239643,
+      "size": 2986
+    },
+    "data\\raw\\Yacc_sample_3.txt": {
+      "digest": "80382e0c6eb33f92e85b23b5e209de0f804955e2ced7784371425ab68bf87c2e",
+      "mtime": 1790556045.515004,
+      "size": 7950
+    },
+    "data\\raw\\Yul_sample_1.txt": {
+      "digest": "45447760dc8e1139a4ed5142a8bd8c9b8cfb7523f4434831a0cde4635c5a6669",
+      "mtime": 1790556752.7979681,
+      "size": 16852
+    },
+    "data\\raw\\Yul_sample_2.txt": {
+      "digest": "9ef707ffbcb396c7af7eea77fd2a15f6943441dbd46ee6e4fda31471ac97b3ec",
+      "mtime": 1790558861.1189215,
+      "size": 4304
+    },
+    "data\\raw\\Yul_sample_3.txt": {
+      "digest": "7477906701679471a88980afa5fa93099378343d28d8c9e7566d3c3920d6baa3",
+      "mtime": 1790558980.5135381,
+      "size": 2320
+    },
+    "data\\raw\\ZAP_sample_1.txt": {
+      "digest": "309180ed87eac4c1f4e85f7a3d8af6e80dd8c91ed7b64b098b132702c97dea8e",
+      "mtime": 1790556732.4721813,
+      "size": 4221
+    },
+    "data\\raw\\ZAP_sample_2.txt": {
+      "digest": "6e68d69d090e1d1b5fbaedc03acae406ba9f0a8bb7e4556ee49180de36b5d9b9",
+      "mtime": 1790557075.1076493,
+      "size": 1310
+    },
+    "data\\raw\\ZAP_sample_3.txt": {
+      "digest": "0ba9fd43b6f134f61784d6a1a84fdfa234dd8def980120521cdbf81d898ed7ef",
+      "mtime": 1790560253.6660388,
+      "size": 885
+    },
+    "data\\raw\\ZIL_sample_1.txt": {
+      "digest": "796a23f720082aba4031380d3ac569eb90eb756c52d5b66302dc87b8f994850f",
+      "mtime": 1790556297.667333,
+      "size": 2022
+    },
+    "data\\raw\\ZIL_sample_2.txt": {
+      "digest": "79b748b69857d6b96fb89bf25f4bb7b8e6f22940d3faad5617a80882d3a68aff",
+      "mtime": 1790556297.667333,
+      "size": 1991
+    },
     "data\\raw\\ZIL_sample_3.txt": {
       "digest": "95257ce1153ec8c4ee108e20f364401af58ff87350462b74180c307031eda988",
       "mtime": 1790557017.245765,
       "size": 751
+    },
+    "data\\raw\\Zeek_sample_1.txt": {
+      "digest": "51cf0168957c8bccbd1bd9cc21134fa358b08c8f8bc3b911c9a4dc1130dc0bc7",
+      "mtime": 1790556533.3138287,
+      "size": 9025
+    },
+    "data\\raw\\Zeek_sample_2.txt": {
+      "digest": "a5ff538cbfae4269b3ae7492f27a89efb55859853faed7385a1bb70ba3a5f4c3",
+      "mtime": 1790556569.989167,
+      "size": 2669
+    },
+    "data\\raw\\Zeek_sample_3.txt": {
+      "digest": "c7c2c7a9bab475620055360f2dc25af11cefe87cfcd498caa0586d9611475a08",
+      "mtime": 1790556921.5488405,
+      "size": 2712
+    },
+    "data\\raw\\ZenScript_sample_1.txt": {
+      "digest": "1fe6fa19efd5dd96490e407ec01d5cf3856cb2c67798147cbd59814d92172a08",
+      "mtime": 1790556044.3710299,
+      "size": 3044
+    },
+    "data\\raw\\ZenScript_sample_2.txt": {
+      "digest": "c824c2fe567ef5caf09923a78c3974d92d037e4b8c8d2c8c475d0f5208f1cbb4",
+      "mtime": 1790556114.7194405,
+      "size": 932
+    },
+    "data\\raw\\ZenScript_sample_3.txt": {
+      "digest": "4d70903c8576313e306b5525c78f42808d97425f2c2ec48f49f9d37ad17cdb3e",
+      "mtime": 1790556114.7194405,
+      "size": 1360
+    },
+    "data\\raw\\Zephir_sample_1.txt": {
+      "digest": "a710d5adb55e2fb31000f96c8e3747aecdb4989ab9676796f7eded408de10586",
+      "mtime": 1790556413.2496614,
+      "size": 4622
+    },
+    "data\\raw\\Zephir_sample_2.txt": {
+      "digest": "7257b8f4023e1affc1d01f2b302d7aa8186bb852b2f3c0f2624d817d4a71e4ed",
+      "mtime": 1790556413.2496614,
+      "size": 1182
+    },
+    "data\\raw\\Zephir_sample_3.txt": {
+      "digest": "1db2e3dee35db47d7176018fcc31c7e8d8c06ed75c488872687cc363e69cc9f2",
+      "mtime": 1790556413.2511697,
+      "size": 1589
+    },
+    "data\\raw\\Zig_sample_1.txt": {
+      "digest": "dc027d7f3dbf01e1c64ab00fc91ecfe22c58bb3e27e973a98f0fe8cca25d0f27",
+      "mtime": 1790556019.617123,
+      "size": 3116
+    },
+    "data\\raw\\Zig_sample_2.txt": {
+      "digest": "b9e2aa9ec07c7c49295932f19c6f4dd0d5b6ad3e2241c3c130b206cc2e9d2ac3",
+      "mtime": 1790556027.4035428,
+      "size": 12679
+    },
+    "data\\raw\\Zig_sample_3.txt": {
+      "digest": "7ce7494d78e5b61c10034916a210c1571f257d564abc1571bc912ed06b900f8b",
+      "mtime": 1790556032.7040515,
+      "size": 6125
+    },
+    "data\\raw\\Zimpl_sample_1.txt": {
+      "digest": "51634324fb4b6997d1aafe885fbd307bbb1f050b92f99d9fc390d83e0df49512",
+      "mtime": 1790556095.3161097,
+      "size": 1357
+    },
+    "data\\raw\\Zimpl_sample_2.txt": {
+      "digest": "242b56bb8ab3bc98aafc7f704409c60eab63214c45ddb6a7f78424740f8a3d3b",
+      "mtime": 1790556142.248811,
+      "size": 2330
+    },
+    "data\\raw\\Zimpl_sample_3.txt": {
+      "digest": "9875393e6661003227ac7223e16a34ea020c28214d9d9364695f4ac1c09bc148",
+      "mtime": 1790556142.2498112,
+      "size": 3955
+    },
+    "data\\raw\\Zmodel_sample_1.txt": {
+      "digest": "053b2c495f6d1e17c199ccb8ff725d9651b4529bdfb8b561e2f89c3a5625e976",
+      "mtime": 1790556234.4603086,
+      "size": 5711
+    },
+    "data\\raw\\Zmodel_sample_2.txt": {
+      "digest": "810dddc57537891b198f5ef476a65e5a2477660836181bf48e564970aca13705",
+      "mtime": 1790556262.0254166,
+      "size": 7629
+    },
+    "data\\raw\\Zmodel_sample_3.txt": {
+      "digest": "db79ceccaa90700e7cc1e3c14d1558d794fc44cd78106d31fe23b605d48fa7c6",
+      "mtime": 1790556360.7122438,
+      "size": 2630
     },
     "data\\raw\\[ACFC-07] Isaac Asimov (1976) Los ojos hacen algo m\u00e1s que ver_djvu.txt": {
       "digest": "06cc9a7018807bd5675ffce87f7f6f6ba2b38a043cfd4e55d0f2934b79aeeab9",
@@ -2036,9 +2266,9 @@
       "size": 474479
     },
     "data\\raw\\generated\\generated-experience.txt": {
-      "digest": "be66d8a6b8ce99e4f083ffb5edee42464037d4e549bebec0d53804dc07427b8f",
-      "mtime": 1791332239.3614104,
-      "size": 6203
+      "digest": "abfb343f29dc3c15732556d48852654e68178ebbfbab55e1135d0a0da8ae03c9",
+      "mtime": 1791940107.3682678,
+      "size": 223
     },
     "data\\raw\\gpt_120b_distilled_reasoning_math.txt": {
       "digest": "ac47c24d4661f733f069de01c4e7c5d00f8a66834c74cb01095d376a02080ee8",
@@ -2099,6 +2329,16 @@
       "digest": "c62c110e0f7a80939211080550f8e53e15ae00143bb5948ac8321c1dac8c2e2e",
       "mtime": 1790557299.603521,
       "size": 668
+    },
+    "data\\raw\\pg1727.txt": {
+      "digest": "8012face834f9bd601bd1bf5dba220d387084519fb9ad4f16aa8749cd0875214",
+      "mtime": 1791850552.0144958,
+      "size": 717784
+    },
+    "data\\raw\\pg6130.txt": {
+      "digest": "d6e63d1d5ab42f7c72d4e9a706456f6e9504a3c420374f0553cd2b8866b36c8d",
+      "mtime": 1791850529.0148454,
+      "size": 1161373
     },
     "data\\raw\\phys1_djvu.txt": {
       "digest": "7915ab186d51ea43fc3140e5bd84ac6e479f40d4829656488990c741f5206405",

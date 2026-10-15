@@ -1,40 +1,239 @@
 {
-  "learning_cycle": 4807,
-  "source": "data\\curated\\1e79b892b9e55ee9d59dd825c0739c2b33a72ef3b717e78d8ca8e13a2be7c278.txt",
-  "parameters": 24313408,
+  "learning_cycle": 6107,
+  "source": "data\\curated\\9b924511e83a42bbe629d2bf14bef84fd6bd61d9dad705e65846af9f51edbe57.txt",
+  "parameters": 103661568,
   "architecture": {
     "block_size": 512,
     "vocab_size": 5256,
-    "n_layer": 9,
+    "n_layer": 14,
     "n_head": 4,
-    "n_embd": 448,
+    "n_embd": 768,
     "dropout": 0.0,
     "bias": true
   },
-  "train_loss_before": 7.90032958984375,
-  "train_loss_after": 4.873617172241211,
-  "train_loss_improvement": 3.026712417602539,
-  "train_perplexity_before": 2698.1715,
-  "train_perplexity_after": 130.7932,
-  "holdout_loss_before": 7.9833730061848955,
-  "holdout_loss_after": 4.92044194539388,
-  "holdout_loss_improvement": 3.0629310607910156,
-  "holdout_perplexity_before": 2931.8034,
-  "holdout_perplexity_after": 137.0632,
-  "holdout_accuracy_before": 0.070964,
-  "holdout_accuracy_after": 0.263672,
-  "generalization_gap": -0.046825,
-  "update_magnitude": 1.39446817,
-  "micro_steps": 16,
-  "successful_steps": 16,
+  "holdout_loss_before": 9.011798222859701,
+  "holdout_loss_after": 9.79649543762207,
+  "holdout_perplexity_before": 8199.2521,
+  "holdout_perplexity_after": 17970.6552,
+  "holdout_accuracy_before": 0.17513,
+  "holdout_accuracy_after": 0.164714,
+  "holdout_loss_improvement": -0.7846972147623692,
+  "train_loss_before": 8.452131907145182,
+  "train_loss_after": 9.029539426167807,
+  "train_loss_improvement": -0.5774075190226249,
+  "successful_steps": 1,
   "gradient_recoveries": 0,
-  "gradient_damped": 0,
-  "initial_learning_rate": 0.0001,
-  "final_learning_rate": 0.0001,
-  "gradient_clip": 1.0,
-  "gradient_stop": 100.0,
-  "precision": "bfloat16",
-  "elapsed_seconds": 0.938509464263916,
+  "plasticity_applied": true,
+  "plasticity": {
+    "applied": true,
+    "reason": "applied",
+    "feedback": 1.0,
+    "mean_reward": -0.67578125,
+    "correct_fraction": 0.162109375,
+    "gain_tokens": 83,
+    "loss_tokens": 429,
+    "layers_changed": 28,
+    "total_update_norm": 0.4246089584194124,
+    "layer_updates": {
+      "blocks.0.attn.proj": {
+        "update_norm": 0.009344927966594696,
+        "weight_norm": 3.737971067428589,
+        "relative_update": 0.0025000000797286066,
+        "gain": 83,
+        "loss": 429
+      },
+      "blocks.0.mlp.proj": {
+        "update_norm": 0.0318063423037529,
+        "weight_norm": 12.722536087036133,
+        "relative_update": 0.0025000001639737986,
+        "gain": 83,
+        "loss": 429
+      },
+      "blocks.1.attn.proj": {
+        "update_norm": 0.00986660085618496,
+        "weight_norm": 3.9466402530670166,
+        "relative_update": 0.00250000005663486,
+        "gain": 83,
+        "loss": 429
+      },
+      "blocks.1.mlp.proj": {
+        "update_norm": 0.0243845097720623,
+        "weight_norm": 9.753804206848145,
+        "relative_update": 0.002499999923613593,
+        "gain": 83,
+        "loss": 429
+      },
+      "blocks.2.attn.proj": {
+        "update_norm": 0.010529528371989727,
+        "weight_norm": 4.211811065673828,
+        "relative_update": 0.002500000168052447,
+        "gain": 83,
+        "loss": 429
+      },
+      "blocks.2.mlp.proj": {
+        "update_norm": 0.0250384658575058,
+        "weight_norm": 10.015386581420898,
+        "relative_update": 0.0024999999404869255,
+        "gain": 83,
+        "loss": 429
+      },
+      "blocks.3.attn.proj": {
+        "update_norm": 0.010863443836569786,
+        "weight_norm": 4.345377445220947,
+        "relative_update": 0.0025000000514379755,
+        "gain": 83,
+        "loss": 429
+      },
+      "blocks.3.mlp.proj": {
+        "update_norm": 0.026120411232113838,
+        "weight_norm": 10.448163986206055,
+        "relative_update": 0.002500000121226916,
+        "gain": 83,
+        "loss": 429
+      },
+      "blocks.4.attn.proj": {
+        "update_norm": 0.011228896677494049,
+        "weight_norm": 4.491559028625488,
+        "relative_update": 0.002499999800944468,
+        "gain": 83,
+        "loss": 429
+      },
+      "blocks.4.mlp.proj": {
+        "update_norm": 0.025884926319122314,
+        "weight_norm": 10.353970527648926,
+        "relative_update": 0.0025,
+        "gain": 83,
+        "loss": 429
+      },
+      "blocks.5.attn.proj": {
+        "update_norm": 0.011400981806218624,
+        "weight_norm": 4.5603928565979,
+        "relative_update": 0.0024999999264808674,
+        "gain": 83,
+        "loss": 429
+      },
+      "blocks.5.mlp.proj": {
+        "update_norm": 0.026018058881163597,
+        "weight_norm": 10.40722370147705,
+        "relative_update": 0.002499999964204764,
+        "gain": 83,
+        "loss": 429
+      },
+      "blocks.6.attn.proj": {
+        "update_norm": 0.011468286626040936,
+        "weight_norm": 4.587315082550049,
+        "relative_update": 0.0024999997644953166,
+        "gain": 83,
+        "loss": 429
+      },
+      "blocks.6.mlp.proj": {
+        "update_norm": 0.026053206995129585,
+        "weight_norm": 10.421282768249512,
+        "relative_update": 0.002500000007149389,
+        "gain": 83,
+        "loss": 429
+      },
+      "blocks.7.attn.proj": {
+        "update_norm": 0.008401851169764996,
+        "weight_norm": 3.3607406616210938,
+        "relative_update": 0.0024999998558985093,
+        "gain": 83,
+        "loss": 429
+      },
+      "blocks.7.mlp.proj": {
+        "update_norm": 0.01693413034081459,
+        "weight_norm": 6.773652076721191,
+        "relative_update": 0.0025000000219987106,
+        "gain": 83,
+        "loss": 429
+      },
+      "blocks.8.attn.proj": {
+        "update_norm": 0.008207712322473526,
+        "weight_norm": 3.2830848693847656,
+        "relative_update": 0.002500000045387682,
+        "gain": 83,
+        "loss": 429
+      },
+      "blocks.8.mlp.proj": {
+        "update_norm": 0.016451478004455566,
+        "weight_norm": 6.580592155456543,
+        "relative_update": 0.002499999637694339,
+        "gain": 83,
+        "loss": 429
+      },
+      "blocks.9.attn.proj": {
+        "update_norm": 0.008048872463405132,
+        "weight_norm": 3.2195489406585693,
+        "relative_update": 0.0025000000347125363,
+        "gain": 83,
+        "loss": 429
+      },
+      "blocks.9.mlp.proj": {
+        "update_norm": 0.016044383868575096,
+        "weight_norm": 6.417754173278809,
+        "relative_update": 0.002499999756204136,
+        "gain": 83,
+        "loss": 429
+      },
+      "blocks.10.attn.proj": {
+        "update_norm": 0.007869033142924309,
+        "weight_norm": 3.147613286972046,
+        "relative_update": 0.0024999999763294285,
+        "gain": 83,
+        "loss": 429
+      },
+      "blocks.10.mlp.proj": {
+        "update_norm": 0.01569216512143612,
+        "weight_norm": 6.2768659591674805,
+        "relative_update": 0.0025000000356097166,
+        "gain": 83,
+        "loss": 429
+      },
+      "blocks.11.attn.proj": {
+        "update_norm": 0.007665742188692093,
+        "weight_norm": 3.0662968158721924,
+        "relative_update": 0.002500000048596604,
+        "gain": 83,
+        "loss": 429
+      },
+      "blocks.11.mlp.proj": {
+        "update_norm": 0.015309464186429977,
+        "weight_norm": 6.123785972595215,
+        "relative_update": 0.0024999998783337527,
+        "gain": 83,
+        "loss": 429
+      },
+      "blocks.12.attn.proj": {
+        "update_norm": 0.0074494085274636745,
+        "weight_norm": 2.9797632694244385,
+        "relative_update": 0.0025000001187686894,
+        "gain": 83,
+        "loss": 429
+      },
+      "blocks.12.mlp.proj": {
+        "update_norm": 0.014864514581859112,
+        "weight_norm": 5.94580602645874,
+        "relative_update": 0.002499999918549691,
+        "gain": 83,
+        "loss": 429
+      },
+      "blocks.13.attn.proj": {
+        "update_norm": 0.007228842005133629,
+        "weight_norm": 2.8915369510650635,
+        "relative_update": 0.0024999998711657378,
+        "gain": 83,
+        "loss": 429
+      },
+      "blocks.13.mlp.proj": {
+        "update_norm": 0.014432772994041443,
+        "weight_norm": 5.773109436035156,
+        "relative_update": 0.0024999998967546945,
+        "gain": 83,
+        "loss": 429
+      }
+    }
+  },
+  "elapsed_seconds": 0.23914599418640137,
   "checkpoint": "out\\Jupiter_latest.safetensors",
   "origin": "learning_worker"
 }

@@ -1,8 +1,8 @@
 {
-  "reserved": "data\\curated\\8c61d6fe983dd4a15a710e63f56f21b655d69b12f41230d469c0a10275318523.txt",
+  "reserved": "data\\curated\\46955753aadfc282514aba2693fc4610b2a0067d7e591a2419d9dd579ca32212.txt",
   "documents": [
-    "data\\curated\\8c61d6fe983dd4a15a710e63f56f21b655d69b12f41230d469c0a10275318523.txt",
-    "data\\curated\\4f77601bc180cdedd03df6bc6ab1731c698039a751094de688f3781a996727ab.txt"
+    "data\\curated\\46955753aadfc282514aba2693fc4610b2a0067d7e591a2419d9dd579ca32212.txt",
+    "data\\curated\\7ca0bf6c20c17d6b380f723e0b696a48d40b8bf64f9e1038c24b490697583fd0.txt"
   ],
   "reason": "held out of learning candidates and re-measured every cycle to detect catastrophic forgetting. A stratified sample by document size, because one document cannot detect a regression in material unlike itself. Not deleted and not moved: withheld only."
 }

@@ -1,43 +1,66 @@
 {
-  "best_holdout": null,
+  "best_holdout": 8.440274238586426,
   "cycle_budget": 20,
-  "cycles_completed": 2,
-  "elapsed_seconds": 8.309684753417969,
-  "final_learning_rate": 0.0001,
-  "growth_review": null,
-  "learning_cycle": 4807,
+  "cycles_completed": 3,
+  "elapsed_seconds": 11.495460033416748,
+  "final_learning_rate": 0.0005,
+  "growth_review": {
+    "approved": true,
+    "approved_at": 1791921161.9099357,
+    "architecture_version": "0.11",
+    "cadence": {
+      "accepted_cycles": 500,
+      "cadence_cycles": null,
+      "growths_earned": 4
+    },
+    "cause": "cadence",
+    "comparable": false,
+    "from_embd": 704,
+    "from_layers": 13,
+    "frustration_index": null,
+    "holdout_at_approval": null,
+    "holdout_at_review": 8.440274238586426,
+    "pre_growth_checkpoint": "out\\pre_growth\\before-growth-20261013-145241.safetensors",
+    "proposed_at": 1791920995.6645615,
+    "proposed_at_cycle": 5750,
+    "reviewed_at": 1791945721.3260925,
+    "source": "cadence",
+    "to_embd": 768,
+    "to_layers": 14
+  },
+  "learning_cycle": 6107,
   "reason": "no source was accepted for 2 consecutive cycles",
   "regression_available": true,
-  "regression_source": "data\\curated\\8c61d6fe983dd4a15a710e63f56f21b655d69b12f41230d469c0a10275318523.txt",
+  "regression_source": "data\\curated\\46955753aadfc282514aba2693fc4610b2a0067d7e591a2419d9dd579ca32212.txt",
   "resources": {
     "cpu": {
-      "system_seconds": 12.41,
-      "user_seconds": 56.41
+      "system_seconds": 9.42,
+      "user_seconds": 48.27
     },
     "gpu": {
-      "allocated_mb": 404.1,
+      "allocated_mb": 418.7,
       "device": "NVIDIA GeForce RTX 4090",
-      "reserved_mb": 534.0
+      "reserved_mb": 890.0
     },
     "ram": {
-      "available_physical_mb": 86352.0,
-      "memory_load_percent": 34,
+      "available_physical_mb": 77441.8,
+      "memory_load_percent": 40,
       "total_physical_mb": 130838.9
     },
     "storage": {
-      "free_gb": 9638.85,
+      "free_gb": 9638.65,
       "total_gb": 11175.98,
-      "used_gb": 1537.13
+      "used_gb": 1537.33
     },
-    "time": 1791332334.948972
+    "time": 1791945721.337189
   },
   "restored_regression": null,
   "review": {
-    "accepted": 0,
-    "cycles": 2,
+    "accepted": 1,
+    "cycles": 3,
     "cycles_with_regression": 0,
     "deferred": 0,
-    "distinct_sources": 2,
+    "distinct_sources": 3,
     "flagged_for_review": 0,
     "rejected": 2,
     "rolled_back": 0

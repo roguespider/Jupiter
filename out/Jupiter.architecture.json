@@ -4,11 +4,11 @@
     "bias": true,
     "block_size": 512,
     "dropout": 0.0,
-    "n_embd": 448,
+    "n_embd": 768,
     "n_head": 4,
-    "n_layer": 9,
+    "n_layer": 14,
     "vocab_size": 5256
   },
   "tokenizer": "bpe",
-  "written": 1791332324.9288564
+  "written": 1791945709.5731623
 }

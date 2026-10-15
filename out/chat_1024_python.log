@@ -1,0 +1,9 @@
+=== STDOUT ===
+Jupiter ready on cuda (block_size=512, vocab_size=5256, tokenizer=bpe, parameters=103,661,568).
+Experience store: out\experiences.jsonl
+Recorded experiences: 8
+Type /help for commands, /exit to finish.
+you> 
+=== STDERR ===
+
+=== RETURN CODE: 143 ===

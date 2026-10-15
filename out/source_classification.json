@@ -1,7 +1,52 @@
 {
   "sources": {
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-02se9woe\\code.txt": {
+      "mtime": 1791927463.4762197,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-02wgax3t\\code.txt": {
       "mtime": 1791328890.4279952,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-04z51b1e\\code.txt": {
+      "mtime": 1791926661.1184793,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-05cry5n8\\code.txt": {
+      "mtime": 1791757333.6139078,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-09w7jk0a\\code.txt": {
+      "mtime": 1791764806.5937462,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-0abitm50\\code.txt": {
+      "mtime": 1791677859.382668,
       "size": 1552,
       "verdict": {
         "code": true,
@@ -36,11 +81,56 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-0g4jsbou\\prose.txt": {
+      "mtime": 1791834736.9421692,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-0mr99x5n\\code.txt": {
+      "mtime": 1791759182.1973543,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-0nev31yg\\code.txt": {
+      "mtime": 1791757444.3746972,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-0opmorho\\code.txt": {
+      "mtime": 1791761981.2324631,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-0syrrxu3\\prose.txt": {
       "mtime": 1791328890.4611435,
       "size": 4440,
       "verdict": {
         "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-0t9edaby\\code.txt": {
+      "mtime": 1791920832.2808676,
+      "size": 1552,
+      "verdict": {
+        "code": true,
         "readable": true,
         "reasoning": false
       }
@@ -54,6 +144,15 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-0ys47_g7\\prose.txt": {
+      "mtime": 1791859608.07316,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-0zgm0p40\\prose.txt": {
       "mtime": 1791164359.225583,
       "size": 4440,
@@ -63,11 +162,56 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-10bzlafq\\code.txt": {
+      "mtime": 1791752244.5933664,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-1190egdq\\prose.txt": {
       "mtime": 1791156251.714554,
       "size": 4440,
       "verdict": {
         "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-11u68c80\\code.txt": {
+      "mtime": 1791762318.659189,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-130mcpba\\code.txt": {
+      "mtime": 1791840181.7218316,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-13q80om7\\code.txt": {
+      "mtime": 1791761544.7207997,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-14_h1793\\code.txt": {
+      "mtime": 1791919430.5936666,
+      "size": 1552,
+      "verdict": {
+        "code": true,
         "readable": true,
         "reasoning": false
       }
@@ -108,11 +252,56 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-1eurm7n7\\code.txt": {
+      "mtime": 1791927892.1491404,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-1g8kjaag\\prose.txt": {
       "mtime": 1791215565.4805007,
       "size": 4440,
       "verdict": {
         "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-1i2w012y\\code.txt": {
+      "mtime": 1791760152.227764,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-1if49wp9\\code.txt": {
+      "mtime": 1791758526.150485,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-1k98maay\\prose.txt": {
+      "mtime": 1791927305.6863866,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-1mg2cymv\\code.txt": {
+      "mtime": 1791869656.3880167,
+      "size": 1552,
+      "verdict": {
+        "code": true,
         "readable": true,
         "reasoning": false
       }
@@ -126,8 +315,53 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-1ramanoj\\prose.txt": {
+      "mtime": 1791921312.3325634,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-1scs76dr\\prose.txt": {
+      "mtime": 1791945414.6618555,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-1ush0aoz\\prose.txt": {
+      "mtime": 1791839734.789304,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-1yip76gw\\code.txt": {
+      "mtime": 1791921312.2944908,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-1ztm816s\\code.txt": {
       "mtime": 1791184013.633155,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-20bmgp52\\code.txt": {
+      "mtime": 1791837513.0071445,
       "size": 1552,
       "verdict": {
         "code": true,
@@ -140,6 +374,24 @@
       "size": 1552,
       "verdict": {
         "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-23o13inc\\code.txt": {
+      "mtime": 1791750957.044503,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-27xzpu8i\\prose.txt": {
+      "mtime": 1791920370.7330792,
+      "size": 4440,
+      "verdict": {
+        "code": false,
         "readable": true,
         "reasoning": false
       }
@@ -171,6 +423,15 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-2hcogzvq\\code.txt": {
+      "mtime": 1791909808.8253608,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-2he9b_b3\\prose.txt": {
       "mtime": 1791183407.2722661,
       "size": 4440,
@@ -182,6 +443,60 @@
     },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-2ian0opz\\code.txt": {
       "mtime": 1791162718.448932,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-2j87xcfi\\prose.txt": {
+      "mtime": 1791752640.327296,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-2o0z2ydi\\code.txt": {
+      "mtime": 1791859952.0790734,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-2ovom7f_\\prose.txt": {
+      "mtime": 1791857611.7232015,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-2qz7uq9w\\prose.txt": {
+      "mtime": 1791764629.9065125,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-2sx_b6e4\\prose.txt": {
+      "mtime": 1791944927.8128617,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-2tc65ja0\\code.txt": {
+      "mtime": 1791914371.6229603,
       "size": 1552,
       "verdict": {
         "code": true,
@@ -207,8 +522,44 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-31klmun7\\prose.txt": {
+      "mtime": 1791761981.267496,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-35fkg74x\\code.txt": {
+      "mtime": 1791760250.288278,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-376z_b7y\\prose.txt": {
+      "mtime": 1791758273.5722935,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-395dkjve\\prose.txt": {
       "mtime": 1791215636.5923471,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-3_3_svmu\\prose.txt": {
+      "mtime": 1791836447.4323053,
       "size": 4440,
       "verdict": {
         "code": false,
@@ -225,8 +576,26 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-3f5bjn2f\\prose.txt": {
+      "mtime": 1791678007.0322564,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-3ham0yjz\\code.txt": {
       "mtime": 1791149495.6283247,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-3m4si196\\code.txt": {
+      "mtime": 1791678551.460873,
       "size": 1552,
       "verdict": {
         "code": true,
@@ -243,8 +612,53 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-3pwhkkhs\\prose.txt": {
+      "mtime": 1791760936.5557709,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-3ttxto3t\\prose.txt": {
+      "mtime": 1791840722.0874827,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-3z2dpzqd\\prose.txt": {
+      "mtime": 1791836172.5780802,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-479u3z3b\\code.txt": {
+      "mtime": 1791759788.8875291,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-48umfs7e\\prose.txt": {
       "mtime": 1791185288.6220553,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-49pzn5vz\\prose.txt": {
+      "mtime": 1791758399.941507,
       "size": 4440,
       "verdict": {
         "code": false,
@@ -261,6 +675,15 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-4i9p2z6c\\prose.txt": {
+      "mtime": 1791765842.8871162,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-4j6567c6\\prose.txt": {
       "mtime": 1791164681.490019,
       "size": 4440,
@@ -270,8 +693,71 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-4ogv2bq9\\code.txt": {
+      "mtime": 1791836447.3877516,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-4oy9zxfk\\prose.txt": {
       "mtime": 1791168934.102733,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-4q7dl656\\code.txt": {
+      "mtime": 1791679686.2193024,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-4ruputq7\\prose.txt": {
+      "mtime": 1791942778.3377368,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-4uakrhkw\\code.txt": {
+      "mtime": 1791679167.5536923,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-4uihu8fy\\code.txt": {
+      "mtime": 1791835652.5386312,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-4vypsg0i\\code.txt": {
+      "mtime": 1791768728.0272617,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-4w4iaoos\\prose.txt": {
+      "mtime": 1791678521.0197334,
       "size": 4440,
       "verdict": {
         "code": false,
@@ -297,6 +783,24 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-4y2mjxot\\prose.txt": {
+      "mtime": 1791758842.5742528,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-54tivjtm\\prose.txt": {
+      "mtime": 1791849983.831002,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-576zx6gs\\prose.txt": {
       "mtime": 1791161690.5319173,
       "size": 4440,
@@ -311,6 +815,33 @@
       "size": 4440,
       "verdict": {
         "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-5_lbwaho\\prose.txt": {
+      "mtime": 1791836101.4810498,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-5cxx4icu\\prose.txt": {
+      "mtime": 1791921125.8950002,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-5e8waioz\\code.txt": {
+      "mtime": 1791758646.5460796,
+      "size": 1552,
+      "verdict": {
+        "code": true,
         "readable": true,
         "reasoning": false
       }
@@ -369,8 +900,44 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-5oz5erai\\code.txt": {
+      "mtime": 1791752640.2862964,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-5qnobxr8\\code.txt": {
+      "mtime": 1791753080.4547849,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-5tk451nw\\code.txt": {
+      "mtime": 1791853657.4458265,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-62y16w_p\\prose.txt": {
       "mtime": 1791184933.8306077,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-6a4r8jyu\\prose.txt": {
+      "mtime": 1791921637.3605988,
       "size": 4440,
       "verdict": {
         "code": false,
@@ -387,11 +954,83 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-6d390404\\code.txt": {
+      "mtime": 1791833834.4743423,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-6djn40cy\\prose.txt": {
       "mtime": 1791218591.1521764,
       "size": 4440,
       "verdict": {
         "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-6dl_72km\\code.txt": {
+      "mtime": 1791838829.5398872,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-6ev22hcm\\code.txt": {
+      "mtime": 1791849719.2268684,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-6khhuxrp\\prose.txt": {
+      "mtime": 1791922745.050923,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-6r4h9o_c\\code.txt": {
+      "mtime": 1791910804.4629228,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-6xl1heue\\code.txt": {
+      "mtime": 1791750642.5676944,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-70vjwakz\\code.txt": {
+      "mtime": 1791928253.0109625,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-76v9a1t_\\code.txt": {
+      "mtime": 1791757223.1268606,
+      "size": 1552,
+      "verdict": {
+        "code": true,
         "readable": true,
         "reasoning": false
       }
@@ -405,11 +1044,29 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-78u5obp9\\prose.txt": {
+      "mtime": 1791764767.5686119,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-7e9i6ovy\\code.txt": {
       "mtime": 1791150409.7662868,
       "size": 1552,
       "verdict": {
         "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-7fjjqj8h\\prose.txt": {
+      "mtime": 1791917679.5752466,
+      "size": 4440,
+      "verdict": {
+        "code": false,
         "readable": true,
         "reasoning": false
       }
@@ -428,6 +1085,24 @@
       "size": 4440,
       "verdict": {
         "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-7nldg66s\\prose.txt": {
+      "mtime": 1791859952.1221316,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-7ow9mlum\\code.txt": {
+      "mtime": 1791919006.676405,
+      "size": 1552,
+      "verdict": {
+        "code": true,
         "readable": true,
         "reasoning": false
       }
@@ -459,6 +1134,24 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-7vh_9th6\\prose.txt": {
+      "mtime": 1791770475.7924027,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-7vkmfikk\\code.txt": {
+      "mtime": 1791758768.9802003,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-7vvcs27m\\prose.txt": {
       "mtime": 1791169475.8621833,
       "size": 4440,
@@ -486,11 +1179,29 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-7y2xfgvd\\prose.txt": {
+      "mtime": 1791751936.9164882,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-7yk1z18y\\prose.txt": {
       "mtime": 1791183635.5524237,
       "size": 4440,
       "verdict": {
         "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-841sz2bo\\code.txt": {
+      "mtime": 1791762244.8582487,
+      "size": 1552,
+      "verdict": {
+        "code": true,
         "readable": true,
         "reasoning": false
       }
@@ -504,11 +1215,38 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-87a6ud0g\\prose.txt": {
+      "mtime": 1791679907.955359,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-8gr87e63\\code.txt": {
       "mtime": 1791217430.6383915,
       "size": 1552,
       "verdict": {
         "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-8gua1luk\\prose.txt": {
+      "mtime": 1791769352.9507256,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-8hagu5fx\\prose.txt": {
+      "mtime": 1791920832.330934,
+      "size": 4440,
+      "verdict": {
+        "code": false,
         "readable": true,
         "reasoning": false
       }
@@ -540,6 +1278,24 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-8lto9hja\\prose.txt": {
+      "mtime": 1791853657.5344255,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-8ne51g6b\\code.txt": {
+      "mtime": 1791836221.7518928,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-8qbn0kpk\\prose.txt": {
       "mtime": 1791156058.5318503,
       "size": 4440,
@@ -549,8 +1305,35 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-8sl9q3e5\\prose.txt": {
+      "mtime": 1791860515.6367626,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-8t5ea_02\\prose.txt": {
+      "mtime": 1791861166.2553182,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-8uujxnj5\\code.txt": {
       "mtime": 1791215769.7461364,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-8vb1ovl9\\code.txt": {
+      "mtime": 1791928863.9981222,
       "size": 1552,
       "verdict": {
         "code": true,
@@ -576,11 +1359,65 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-8zpnbph7\\code.txt": {
+      "mtime": 1791759091.103607,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-912688sd\\code.txt": {
       "mtime": 1791329361.1772823,
       "size": 1552,
       "verdict": {
         "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-913poc3q\\code.txt": {
+      "mtime": 1791840722.0479405,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-94u_lk12\\prose.txt": {
+      "mtime": 1791760250.3243163,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-94ufcqi0\\code.txt": {
+      "mtime": 1791679997.4124115,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-96llx0y6\\prose.txt": {
+      "mtime": 1791762244.8947725,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-98niv9b3\\prose.txt": {
+      "mtime": 1791679167.5872216,
+      "size": 4440,
+      "verdict": {
+        "code": false,
         "readable": true,
         "reasoning": false
       }
@@ -612,8 +1449,62 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-9macspp6\\prose.txt": {
+      "mtime": 1791837513.0441782,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-9mg9rzk1\\code.txt": {
+      "mtime": 1791836101.4445229,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-9n3hliip\\code.txt": {
       "mtime": 1791156251.6820228,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-9qz38b_x\\code.txt": {
+      "mtime": 1791767905.8084397,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-9roea_3m\\prose.txt": {
+      "mtime": 1791928864.0296528,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-9wlxa6ma\\prose.txt": {
+      "mtime": 1791759416.5642712,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-9xnin370\\code.txt": {
+      "mtime": 1791921898.0260282,
       "size": 1552,
       "verdict": {
         "code": true,
@@ -630,8 +1521,71 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-_4h7726g\\prose.txt": {
+      "mtime": 1791762909.9996064,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-_4qtz24x\\code.txt": {
+      "mtime": 1791761439.0492659,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-_4qufjeb\\code.txt": {
+      "mtime": 1791763142.987439,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-_5b0570r\\prose.txt": {
+      "mtime": 1791758989.2905462,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-_7o493mu\\prose.txt": {
+      "mtime": 1791910804.5019228,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-_8ba2dlo\\code.txt": {
       "mtime": 1791161690.5003865,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-_ah648ru\\prose.txt": {
+      "mtime": 1791757223.1683912,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-_as404bk\\code.txt": {
+      "mtime": 1791766112.1366167,
       "size": 1552,
       "verdict": {
         "code": true,
@@ -657,6 +1611,24 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-_ez8hjlt\\prose.txt": {
+      "mtime": 1791761692.8571026,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-_g6rjxsl\\code.txt": {
+      "mtime": 1791764629.8759768,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-_k4ob2nk\\code.txt": {
       "mtime": 1791216906.4722803,
       "size": 1552,
@@ -666,11 +1638,74 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-_k_fpl5t\\prose.txt": {
+      "mtime": 1791918917.0091445,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-_qq8jo8o\\prose.txt": {
       "mtime": 1791217573.9875429,
       "size": 4440,
       "verdict": {
         "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-_ray09xv\\code.txt": {
+      "mtime": 1791852497.3913107,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-_sq2i1a2\\code.txt": {
+      "mtime": 1791855611.8083599,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-_uymhuzy\\code.txt": {
+      "mtime": 1791940176.8610582,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-_vabcboz\\prose.txt": {
+      "mtime": 1791835565.2478712,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-_ybz9tn8\\code.txt": {
+      "mtime": 1791943644.0267797,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-_zbuz4c6\\code.txt": {
+      "mtime": 1791765842.8510365,
+      "size": 1552,
+      "verdict": {
+        "code": true,
         "readable": true,
         "reasoning": false
       }
@@ -702,6 +1737,33 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-ad85m_ve\\prose.txt": {
+      "mtime": 1791835652.5726924,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-af92liow\\code.txt": {
+      "mtime": 1791834736.8930902,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-aiy_b4jp\\code.txt": {
+      "mtime": 1791839734.752263,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-aqcph27i\\prose.txt": {
       "mtime": 1791167439.1448584,
       "size": 4440,
@@ -729,8 +1791,26 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-b0z173a4\\prose.txt": {
+      "mtime": 1791919106.6051724,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-b1dwo2ef\\prose.txt": {
       "mtime": 1791149495.6878843,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-b2hi0fvd\\prose.txt": {
+      "mtime": 1791919430.627231,
       "size": 4440,
       "verdict": {
         "code": false,
@@ -756,6 +1836,24 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-b65q_6zt\\prose.txt": {
+      "mtime": 1791759471.4343934,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-b6jej3et\\code.txt": {
+      "mtime": 1791925630.1915262,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-b_iqbr90\\prose.txt": {
       "mtime": 1791184229.5681417,
       "size": 4440,
@@ -767,6 +1865,33 @@
     },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-be2fyl4o\\prose.txt": {
       "mtime": 1791184013.6692128,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-bef_8jt0\\prose.txt": {
+      "mtime": 1791927769.2850971,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-bem1uhvc\\prose.txt": {
+      "mtime": 1791759788.9255555,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-bfjej2o_\\prose.txt": {
+      "mtime": 1791758135.017474,
       "size": 4440,
       "verdict": {
         "code": false,
@@ -792,8 +1917,134 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-bg5mp4h1\\prose.txt": {
+      "mtime": 1791680677.781036,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-bh5lvxng\\code.txt": {
+      "mtime": 1791678007.004744,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-bmp3slve\\prose.txt": {
+      "mtime": 1791925630.2275684,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-bni505ga\\prose.txt": {
+      "mtime": 1791860701.4735012,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-bnl7trsp\\code.txt": {
+      "mtime": 1791841571.4488928,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-bnouxcr7\\code.txt": {
+      "mtime": 1791851369.3364465,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-bnqic6w4\\prose.txt": {
       "mtime": 1791176506.3358114,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-bns3sn7v\\prose.txt": {
+      "mtime": 1791857129.5375936,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-bwu4x8sc\\code.txt": {
+      "mtime": 1791751936.8804872,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-byxu1t81\\code.txt": {
+      "mtime": 1791919746.6598403,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-bz9ngdk4\\code.txt": {
+      "mtime": 1791763671.7853043,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-c1o1lgg5\\prose.txt": {
+      "mtime": 1791758526.2280965,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-c39b2d18\\code.txt": {
+      "mtime": 1791917679.536196,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-c6t8chfw\\code.txt": {
+      "mtime": 1791762179.7007236,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-ca2jof4f\\prose.txt": {
+      "mtime": 1791915065.8936393,
       "size": 4440,
       "verdict": {
         "code": false,
@@ -819,6 +2070,24 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-chq410ps\\prose.txt": {
+      "mtime": 1791914409.1535962,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-chrhill5\\prose.txt": {
+      "mtime": 1791928253.056246,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-cjj46clb\\prose.txt": {
       "mtime": 1791215769.7826798,
       "size": 4440,
@@ -837,8 +2106,26 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-clhy61zy\\code.txt": {
+      "mtime": 1791761873.2152884,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-clzgbguo\\code.txt": {
       "mtime": 1791166677.6267636,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-coad_cun\\code.txt": {
+      "mtime": 1791762685.1972013,
       "size": 1552,
       "verdict": {
         "code": true,
@@ -873,6 +2160,60 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-cq8dzlgj\\prose.txt": {
+      "mtime": 1791836221.7894251,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-cr4hgt5g\\prose.txt": {
+      "mtime": 1791762283.9424329,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-ctqmaq6_\\code.txt": {
+      "mtime": 1791849983.795962,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-cun7e7qx\\prose.txt": {
+      "mtime": 1791761496.4521503,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-d1i_d2mv\\code.txt": {
+      "mtime": 1791768914.3440022,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-d1w9oacd\\code.txt": {
+      "mtime": 1791759919.1725965,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-d2ehkj_w\\code.txt": {
       "mtime": 1791167439.1118338,
       "size": 1552,
@@ -882,8 +2223,26 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-d3o3oixt\\prose.txt": {
+      "mtime": 1791837294.8120146,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-d4mkxnad\\code.txt": {
       "mtime": 1791155521.795999,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-d5g9zzg8\\code.txt": {
+      "mtime": 1791919557.19559,
       "size": 1552,
       "verdict": {
         "code": true,
@@ -900,8 +2259,44 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-d8oveazu\\code.txt": {
+      "mtime": 1791765460.8051972,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-d8x35fuq\\prose.txt": {
       "mtime": 1791213003.5101094,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-dd6ld_em\\prose.txt": {
+      "mtime": 1791768113.153783,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-dga0rgln\\code.txt": {
+      "mtime": 1791922745.0133946,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-dgi1mrec\\prose.txt": {
+      "mtime": 1791855611.8458867,
       "size": 4440,
       "verdict": {
         "code": false,
@@ -918,8 +2313,26 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-duxnb6b3\\code.txt": {
+      "mtime": 1791942778.2961965,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-dxz1ehtf\\code.txt": {
       "mtime": 1791167467.324092,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-e1ur1ucy\\code.txt": {
+      "mtime": 1791861338.7722886,
       "size": 1552,
       "verdict": {
         "code": true,
@@ -936,11 +2349,29 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-e7pdej16\\code.txt": {
+      "mtime": 1791770475.7598605,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-eakogbc3\\prose.txt": {
       "mtime": 1791218455.3617039,
       "size": 4440,
       "verdict": {
         "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-eaut7t_7\\code.txt": {
+      "mtime": 1791945414.6268137,
+      "size": 1552,
+      "verdict": {
+        "code": true,
         "readable": true,
         "reasoning": false
       }
@@ -963,6 +2394,15 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-enxpaa64\\prose.txt": {
+      "mtime": 1791759039.6240187,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-eu4o_55f\\code.txt": {
       "mtime": 1791164359.190549,
       "size": 1552,
@@ -977,6 +2417,15 @@
       "size": 1552,
       "verdict": {
         "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-ey2gnqtz\\prose.txt": {
+      "mtime": 1791940176.8951008,
+      "size": 4440,
+      "verdict": {
+        "code": false,
         "readable": true,
         "reasoning": false
       }
@@ -1008,6 +2457,15 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-f4xxotua\\code.txt": {
+      "mtime": 1791839910.8750303,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-f5lz8qex\\prose.txt": {
       "mtime": 1791169912.2848384,
       "size": 4440,
@@ -1019,6 +2477,60 @@
     },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-f74cqd78\\prose.txt": {
       "mtime": 1791328321.7875323,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-f81f_9w4\\prose.txt": {
+      "mtime": 1791927892.183663,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-f980l22k\\prose.txt": {
+      "mtime": 1791919006.6988227,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-f9_lxh0l\\code.txt": {
+      "mtime": 1791678318.1138885,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-fenvv4r3\\prose.txt": {
+      "mtime": 1791762757.9508464,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-fhiixzwd\\code.txt": {
+      "mtime": 1791758842.5412245,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-fknm6yup\\prose.txt": {
+      "mtime": 1791839910.909054,
       "size": 4440,
       "verdict": {
         "code": false,
@@ -1053,8 +2565,44 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-ft9rs0xw\\prose.txt": {
+      "mtime": 1791852962.588816,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-fvv21uze\\code.txt": {
+      "mtime": 1791927305.6283314,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-fxofa8yd\\code.txt": {
       "mtime": 1791213232.0027785,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-fxqf54j5\\prose.txt": {
+      "mtime": 1791763671.819339,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-g1zd7_qm\\code.txt": {
+      "mtime": 1791761692.7434886,
       "size": 1552,
       "verdict": {
         "code": true,
@@ -1067,6 +2615,15 @@
       "size": 1552,
       "verdict": {
         "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-g9_9vdbw\\prose.txt": {
+      "mtime": 1791756603.2152088,
+      "size": 4440,
+      "verdict": {
+        "code": false,
         "readable": true,
         "reasoning": false
       }
@@ -1089,11 +2646,38 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-gespbqwp\\prose.txt": {
+      "mtime": 1791766442.1323657,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-gfvn4khr\\prose.txt": {
       "mtime": 1791151320.4610863,
       "size": 4440,
       "verdict": {
         "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-gk8t90bf\\code.txt": {
+      "mtime": 1791857129.4990568,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-gm3d8vv_\\code.txt": {
+      "mtime": 1791835413.6715453,
+      "size": 1552,
+      "verdict": {
+        "code": true,
         "readable": true,
         "reasoning": false
       }
@@ -1107,8 +2691,26 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-gqiwbt1h\\code.txt": {
+      "mtime": 1791680677.7454946,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-gspnsxs0\\prose.txt": {
       "mtime": 1791328541.1231592,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-guhp9_5s\\prose.txt": {
+      "mtime": 1791764401.6878014,
       "size": 4440,
       "verdict": {
         "code": false,
@@ -1143,6 +2745,15 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-h1lqnegz\\code.txt": {
+      "mtime": 1791762283.9038677,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-h52_4ozx\\code.txt": {
       "mtime": 1791159301.9419806,
       "size": 1552,
@@ -1163,6 +2774,42 @@
     },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-h7w_3ke9\\prose.txt": {
       "mtime": 1791150409.7933044,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-hk99q49d\\code.txt": {
+      "mtime": 1791833288.6950843,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-hl803nd0\\prose.txt": {
+      "mtime": 1791768914.3805487,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-hn0dfvhq\\code.txt": {
+      "mtime": 1791914175.9062693,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-ho4rjy2g\\prose.txt": {
+      "mtime": 1791919557.2336493,
       "size": 4440,
       "verdict": {
         "code": false,
@@ -1197,8 +2844,44 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-hu5q_huf\\prose.txt": {
+      "mtime": 1791862371.435825,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-huma3rgc\\code.txt": {
+      "mtime": 1791763299.8017688,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-huvnxib8\\prose.txt": {
       "mtime": 1791151303.8399866,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-i4f0_yki\\code.txt": {
+      "mtime": 1791859608.0351038,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-i7mj_0ep\\prose.txt": {
+      "mtime": 1791760374.064489,
       "size": 4440,
       "verdict": {
         "code": false,
@@ -1233,6 +2916,78 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-ihwz6nox\\code.txt": {
+      "mtime": 1791836172.489997,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-ijzla94u\\prose.txt": {
+      "mtime": 1791945100.0163128,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-ikhyq9gm\\prose.txt": {
+      "mtime": 1791940140.1889734,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-ikl9t8wc\\code.txt": {
+      "mtime": 1791920370.6854515,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-il4x76vb\\prose.txt": {
+      "mtime": 1791857749.1796386,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-ip2jbtse\\code.txt": {
+      "mtime": 1791762909.961051,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-ipzp2x3t\\code.txt": {
+      "mtime": 1791850934.613611,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-iqdey3ja\\prose.txt": {
+      "mtime": 1791943644.0643399,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-ir15qtj9\\code.txt": {
       "mtime": 1791217681.063808,
       "size": 1552,
@@ -1242,8 +2997,116 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-iuhei2g0\\code.txt": {
+      "mtime": 1791679907.9203284,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-j0mj_iah\\code.txt": {
+      "mtime": 1791944927.7783325,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-j1_v28rv\\code.txt": {
+      "mtime": 1791839542.8135781,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-j2xwmhcg\\prose.txt": {
+      "mtime": 1791758704.470573,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-j55gj288\\code.txt": {
+      "mtime": 1791860701.4294472,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-j603nzub\\prose.txt": {
+      "mtime": 1791751566.689464,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-j9bm3xdb\\code.txt": {
+      "mtime": 1791857611.6631556,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-jcvi15wn\\prose.txt": {
+      "mtime": 1791833104.138313,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-jdq7i1y4\\prose.txt": {
+      "mtime": 1791764037.2351625,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-jjks8vr4\\code.txt": {
+      "mtime": 1791768113.1177483,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-jkr2uz5c\\prose.txt": {
       "mtime": 1791184601.176454,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-jm5cp1hh\\prose.txt": {
+      "mtime": 1791912855.5338337,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-jo6193z3\\prose.txt": {
+      "mtime": 1791918728.9916055,
       "size": 4440,
       "verdict": {
         "code": false,
@@ -1278,6 +3141,24 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-jzk0us0d\\prose.txt": {
+      "mtime": 1791852497.4303527,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-k1wu3jc3\\code.txt": {
+      "mtime": 1791921125.849913,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-k2vaw4yu\\prose.txt": {
       "mtime": 1791330207.2506852,
       "size": 4440,
@@ -1296,6 +3177,15 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-kbo3tnlm\\code.txt": {
+      "mtime": 1791852962.5532782,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-kbqzx2b1\\code.txt": {
       "mtime": 1791184601.1428988,
       "size": 1552,
@@ -1307,6 +3197,33 @@
     },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-khmrkk3g\\code.txt": {
       "mtime": 1791220011.0578327,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-kjftn6r6\\prose.txt": {
+      "mtime": 1791750642.6046948,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-klabak1x\\prose.txt": {
+      "mtime": 1791765460.843235,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-klj8_8np\\code.txt": {
+      "mtime": 1791862371.401288,
       "size": 1552,
       "verdict": {
         "code": true,
@@ -1341,6 +3258,15 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-ku47s3wv\\code.txt": {
+      "mtime": 1791759416.524223,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-kzkfqakk\\code.txt": {
       "mtime": 1791156058.4948196,
       "size": 1552,
@@ -1350,8 +3276,62 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-l3sdzbrn\\code.txt": {
+      "mtime": 1791914409.1155474,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-l4w8xien\\prose.txt": {
       "mtime": 1791218105.95387,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-l5eo4lin\\prose.txt": {
+      "mtime": 1791760990.1480522,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-l9kuqkwh\\prose.txt": {
+      "mtime": 1791759537.0807166,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-lb6olo_x\\prose.txt": {
+      "mtime": 1791766112.1776786,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-lg0njhxk\\code.txt": {
+      "mtime": 1791917524.1564887,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-lgi9hlw5\\prose.txt": {
+      "mtime": 1791768728.0633056,
       "size": 4440,
       "verdict": {
         "code": false,
@@ -1377,11 +3357,56 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-lp1_9jqu\\code.txt": {
+      "mtime": 1791758989.256503,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-ly1xjyqi\\prose.txt": {
+      "mtime": 1791835413.722101,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-m7vuy87t\\prose.txt": {
+      "mtime": 1791944650.722616,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-m9wvn0it\\code.txt": {
       "mtime": 1791151247.1167648,
       "size": 1552,
       "verdict": {
         "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-m9zo8wcz\\prose.txt": {
+      "mtime": 1791679686.2538402,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-m_d9k_ly\\prose.txt": {
+      "mtime": 1791761544.756831,
+      "size": 4440,
+      "verdict": {
+        "code": false,
         "readable": true,
         "reasoning": false
       }
@@ -1395,6 +3420,24 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-mexqk7oj\\prose.txt": {
+      "mtime": 1791851369.3809924,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-mfixctck\\prose.txt": {
+      "mtime": 1791760152.2648091,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-mg_wot0y\\code.txt": {
       "mtime": 1791183635.4933472,
       "size": 1552,
@@ -1404,8 +3447,53 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-mljvtd9r\\code.txt": {
+      "mtime": 1791915065.8535056,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-moo2zkk0\\code.txt": {
+      "mtime": 1791910163.3917422,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-mrscscnl\\code.txt": {
       "mtime": 1791169281.0122898,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-muzy054v\\code.txt": {
+      "mtime": 1791922581.1878307,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-mxcsjc32\\prose.txt": {
+      "mtime": 1791767905.8419628,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-my95p05o\\code.txt": {
+      "mtime": 1791758273.5347443,
       "size": 1552,
       "verdict": {
         "code": true,
@@ -1431,8 +3519,35 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-n1eqeuvx\\prose.txt": {
+      "mtime": 1791945678.4168985,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-n1hl82md\\prose.txt": {
+      "mtime": 1791758769.0152254,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-n9ndpk_e\\code.txt": {
       "mtime": 1791328427.5600367,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-nbmuuuyb\\code.txt": {
+      "mtime": 1791840748.2606428,
       "size": 1552,
       "verdict": {
         "code": true,
@@ -1449,11 +3564,101 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-ndt7sd3i\\code.txt": {
+      "mtime": 1791834064.4910038,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-nftd2cfv\\prose.txt": {
+      "mtime": 1791909808.870403,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-nge1l2ne\\code.txt": {
+      "mtime": 1791860726.485239,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-nhcxfapr\\code.txt": {
+      "mtime": 1791837174.2471018,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-niqp682n\\prose.txt": {
+      "mtime": 1791914371.6761138,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-njrtvug9\\prose.txt": {
+      "mtime": 1791763299.8383033,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-notte3le\\prose.txt": {
+      "mtime": 1791910163.4292908,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-npbrqovc\\code.txt": {
+      "mtime": 1791760936.5177226,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-nsbah7mk\\code.txt": {
       "mtime": 1791166218.4889843,
       "size": 1552,
       "verdict": {
         "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-nt7sa4ze\\code.txt": {
+      "mtime": 1791764767.5305789,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-nvkl219v\\prose.txt": {
+      "mtime": 1791860726.535792,
+      "size": 4440,
+      "verdict": {
+        "code": false,
         "readable": true,
         "reasoning": false
       }
@@ -1476,8 +3681,62 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-nybulp4b\\code.txt": {
+      "mtime": 1791860515.5840852,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-o6su9vth\\prose.txt": {
+      "mtime": 1791914175.957848,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-oan9jgol\\prose.txt": {
       "mtime": 1791185181.9958792,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-ocyvbvr5\\code.txt": {
+      "mtime": 1791862869.4890718,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-ons3nyy2\\prose.txt": {
+      "mtime": 1791840748.2997026,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-oqcrr66f\\prose.txt": {
+      "mtime": 1791678318.141899,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-oroqtvmz\\prose.txt": {
+      "mtime": 1791761713.9269788,
       "size": 4440,
       "verdict": {
         "code": false,
@@ -1494,11 +3753,65 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-ow1xftwv\\prose.txt": {
+      "mtime": 1791750957.0845003,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-oxxjmjz9\\code.txt": {
+      "mtime": 1791835565.2013228,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-oy555u47\\prose.txt": {
+      "mtime": 1791764806.6332848,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-oy8f6g2v\\code.txt": {
+      "mtime": 1791769352.8115869,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-oyu_cccm\\code.txt": {
       "mtime": 1791182299.5972636,
       "size": 1552,
       "verdict": {
         "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-p1jz9q8l\\code.txt": {
+      "mtime": 1791858757.4559083,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-p22xnywq\\prose.txt": {
+      "mtime": 1791927463.5122468,
+      "size": 4440,
+      "verdict": {
+        "code": false,
         "readable": true,
         "reasoning": false
       }
@@ -1512,11 +3825,65 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-p3wgwd85\\code.txt": {
+      "mtime": 1791927014.0849614,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-p4qbapnx\\code.txt": {
+      "mtime": 1791918728.959076,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-p8o0sauv\\prose.txt": {
       "mtime": 1791185100.1934655,
       "size": 4440,
       "verdict": {
         "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-p92sxt6t\\prose.txt": {
+      "mtime": 1791860463.1635675,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-pa5s4u6j\\prose.txt": {
+      "mtime": 1791763000.5710037,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-pc0xq4xz\\code.txt": {
+      "mtime": 1791945099.985257,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-pdfzf9dl\\code.txt": {
+      "mtime": 1791759471.3988578,
+      "size": 1552,
+      "verdict": {
+        "code": true,
         "readable": true,
         "reasoning": false
       }
@@ -1539,8 +3906,35 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-pisckcfu\\code.txt": {
+      "mtime": 1791751265.3262784,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-pitwveo9\\code.txt": {
       "mtime": 1791150023.533506,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-pka1b44b\\code.txt": {
+      "mtime": 1791766442.07279,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-pkvo6mx3\\code.txt": {
+      "mtime": 1791833104.0987277,
       "size": 1552,
       "verdict": {
         "code": true,
@@ -1559,6 +3953,15 @@
     },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-ppqb7q_h\\code.txt": {
       "mtime": 1791164994.4143949,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-prafoct2\\code.txt": {
+      "mtime": 1791837294.776982,
       "size": 1552,
       "verdict": {
         "code": true,
@@ -1593,8 +3996,53 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-q2kaeww1\\prose.txt": {
+      "mtime": 1791849719.2664351,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-q6mus7z0\\code.txt": {
       "mtime": 1791164681.3378656,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-qa4412ib\\code.txt": {
+      "mtime": 1791840361.3704326,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-qhtw2_n7\\code.txt": {
+      "mtime": 1791762757.9103,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-qj96gtbe\\code.txt": {
+      "mtime": 1791918916.98711,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-ql2k0o2f\\code.txt": {
+      "mtime": 1791857749.1400864,
       "size": 1552,
       "verdict": {
         "code": true,
@@ -1620,6 +4068,15 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-qph_mkrk\\prose.txt": {
+      "mtime": 1791841571.487949,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-qpti0toq\\code.txt": {
       "mtime": 1791183407.2452228,
       "size": 1552,
@@ -1631,6 +4088,15 @@
     },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-qqf5ajfw\\prose.txt": {
       "mtime": 1791163844.4898643,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-quashilb\\prose.txt": {
+      "mtime": 1791861338.8103468,
       "size": 4440,
       "verdict": {
         "code": false,
@@ -1656,8 +4122,89 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-r1ff8_ev\\prose.txt": {
+      "mtime": 1791869656.4260511,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-r45e9ylf\\code.txt": {
+      "mtime": 1791756603.1450827,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-r4jqkvsq\\prose.txt": {
       "mtime": 1791161292.0845304,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-rb95d1rq\\prose.txt": {
+      "mtime": 1791763143.0229828,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-rc2hzcco\\code.txt": {
+      "mtime": 1791860463.1225252,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-resiqml0\\prose.txt": {
+      "mtime": 1791857417.733343,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-rewpp9mg\\prose.txt": {
+      "mtime": 1791759091.1386507,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-rgpzo6ok\\prose.txt": {
+      "mtime": 1791837174.2856486,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-ridgd2ao\\code.txt": {
+      "mtime": 1791678520.9862134,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-rj52rk2f\\prose.txt": {
+      "mtime": 1791757333.6519368,
       "size": 4440,
       "verdict": {
         "code": false,
@@ -1674,11 +4221,65 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-rpns9ahn\\code.txt": {
+      "mtime": 1791758399.9079504,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-rpotul2r\\prose.txt": {
+      "mtime": 1791678551.4949017,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-rr7w2zr7\\code.txt": {
+      "mtime": 1791945678.382359,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-rrf6kxa1\\code.txt": {
       "mtime": 1791218216.845233,
       "size": 1552,
       "verdict": {
         "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-rs3uxge7\\prose.txt": {
+      "mtime": 1791917524.193638,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-rtaxpp9x\\code.txt": {
+      "mtime": 1791761083.6866257,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-rupnv7od\\prose.txt": {
+      "mtime": 1791833834.5083873,
+      "size": 4440,
+      "verdict": {
+        "code": false,
         "readable": true,
         "reasoning": false
       }
@@ -1692,8 +4293,62 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-rwtg47j1\\prose.txt": {
+      "mtime": 1791759182.2328808,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-s13p1c87\\prose.txt": {
+      "mtime": 1791757444.411749,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-s75udvwg\\prose.txt": {
       "mtime": 1791184297.4158928,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-s891xeo4\\code.txt": {
+      "mtime": 1791912855.5058181,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-s9dehpnj\\code.txt": {
+      "mtime": 1791861166.2082572,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-s9pq5ep5\\code.txt": {
+      "mtime": 1791928183.1118338,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-sbl95i5s\\prose.txt": {
+      "mtime": 1791759738.514743,
       "size": 4440,
       "verdict": {
         "code": false,
@@ -1719,6 +4374,42 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-sg2c4g_x\\prose.txt": {
+      "mtime": 1791761873.247329,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-sgostalc\\prose.txt": {
+      "mtime": 1791757852.6073453,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-sjhd9i3i\\code.txt": {
+      "mtime": 1791761496.4161096,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-t42n583i\\prose.txt": {
+      "mtime": 1791762318.6947198,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-t4wqudvs\\code.txt": {
       "mtime": 1791185100.1544223,
       "size": 1552,
@@ -1728,8 +4419,53 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-tb7qj606\\code.txt": {
+      "mtime": 1791944650.6790614,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-tc2k0izh\\prose.txt": {
+      "mtime": 1791759919.2106285,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-tc6jhf3e\\code.txt": {
       "mtime": 1791218105.920341,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-thma8d8g\\prose.txt": {
+      "mtime": 1791921898.0660572,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-tk284izu\\code.txt": {
+      "mtime": 1791833196.4603336,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-tmmo0g7r\\code.txt": {
+      "mtime": 1791927208.3988655,
       "size": 1552,
       "verdict": {
         "code": true,
@@ -1746,8 +4482,26 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-tp4qcch1\\code.txt": {
+      "mtime": 1791760374.0294592,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-tt0yh4iq\\prose.txt": {
       "mtime": 1791184171.4459858,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-tvyc6lcl\\prose.txt": {
+      "mtime": 1791850934.6471536,
       "size": 4440,
       "verdict": {
         "code": false,
@@ -1769,6 +4523,24 @@
       "size": 4440,
       "verdict": {
         "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-u977984_\\code.txt": {
+      "mtime": 1791854532.0388708,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-ulyzsp67\\code.txt": {
+      "mtime": 1791764037.068534,
+      "size": 1552,
+      "verdict": {
+        "code": true,
         "readable": true,
         "reasoning": false
       }
@@ -1800,11 +4572,47 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-uw3wd3rz\\prose.txt": {
+      "mtime": 1791834064.5260355,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-uwzo3h41\\code.txt": {
+      "mtime": 1791758704.4325361,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-v3gocrpt\\prose.txt": {
+      "mtime": 1791839542.8516405,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-v3q68u7j\\code.txt": {
       "mtime": 1791328541.0911145,
       "size": 1552,
       "verdict": {
         "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-v3yaxdrk\\prose.txt": {
+      "mtime": 1791926661.1550083,
+      "size": 4440,
+      "verdict": {
+        "code": false,
         "readable": true,
         "reasoning": false
       }
@@ -1827,8 +4635,71 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-v6huilg9\\prose.txt": {
+      "mtime": 1791862869.5271063,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-vewwjbo0\\prose.txt": {
       "mtime": 1791214653.2632618,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-vfzjs_7_\\prose.txt": {
+      "mtime": 1791677859.4161906,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-vj7p_cff\\prose.txt": {
+      "mtime": 1791751265.3592792,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-vj8z43kz\\code.txt": {
+      "mtime": 1791919106.5841472,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-vjb5canr\\code.txt": {
+      "mtime": 1791759667.9803379,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-vjlulddb\\code.txt": {
+      "mtime": 1791940140.150935,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-vmv5h4r2\\prose.txt": {
+      "mtime": 1791752244.6273644,
       "size": 4440,
       "verdict": {
         "code": false,
@@ -1845,11 +4716,47 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-vsrq6ho2\\code.txt": {
+      "mtime": 1791760990.1115162,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-vucy2z1f\\code.txt": {
+      "mtime": 1791759537.045178,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-vy0e9daa\\code.txt": {
       "mtime": 1791183921.9533339,
       "size": 1552,
       "verdict": {
         "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-w16ko2um\\prose.txt": {
+      "mtime": 1791858757.497047,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-w1yux8ao\\prose.txt": {
+      "mtime": 1791854532.0754142,
+      "size": 4440,
+      "verdict": {
+        "code": false,
         "readable": true,
         "reasoning": false
       }
@@ -1863,11 +4770,38 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-waa0gq_4\\code.txt": {
+      "mtime": 1791751566.6554637,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-wcezykai\\prose.txt": {
       "mtime": 1791184421.3164704,
       "size": 4440,
       "verdict": {
         "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-wd60kqg9\\prose.txt": {
+      "mtime": 1791927014.1245127,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-weodmdpz\\code.txt": {
+      "mtime": 1791763000.5349574,
+      "size": 1552,
+      "verdict": {
+        "code": true,
         "readable": true,
         "reasoning": false
       }
@@ -1881,8 +4815,80 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-wpkjvux0\\prose.txt": {
+      "mtime": 1791762179.7372763,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-wq3epqtt\\code.txt": {
+      "mtime": 1791759039.5904853,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-wsnpkapj\\code.txt": {
+      "mtime": 1791759738.4757135,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-wve7vaol\\code.txt": {
+      "mtime": 1791927769.2490757,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-wwdfpjp1\\prose.txt": {
+      "mtime": 1791838829.63,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-x5460ujb\\prose.txt": {
       "mtime": 1791217681.095841,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-xdyjbpnq\\prose.txt": {
+      "mtime": 1791840181.7628684,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-xfe2v6_e\\prose.txt": {
+      "mtime": 1791762685.240745,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-xfv2c1rr\\prose.txt": {
+      "mtime": 1791758646.6246614,
       "size": 4440,
       "verdict": {
         "code": false,
@@ -1899,8 +4905,53 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-xw71rbdr\\prose.txt": {
+      "mtime": 1791761439.0857906,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-xxwcvyxq\\prose.txt": {
+      "mtime": 1791761083.7241597,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-y0leju2t\\prose.txt": {
       "mtime": 1791183020.676259,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-y22848ta\\code.txt": {
+      "mtime": 1791758134.965934,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-y31mgv_w\\prose.txt": {
+      "mtime": 1791679997.4544559,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-y5be9zj6\\prose.txt": {
+      "mtime": 1791833288.7286143,
       "size": 4440,
       "verdict": {
         "code": false,
@@ -1944,8 +4995,71 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-yfcb71ab\\prose.txt": {
+      "mtime": 1791759668.1670148,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-yg905tkh\\prose.txt": {
+      "mtime": 1791840361.417488,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-yhr_qx6e\\prose.txt": {
+      "mtime": 1791922581.2273736,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-yizny2l_\\code.txt": {
+      "mtime": 1791921637.3169744,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-ykcv7apf\\code.txt": {
       "mtime": 1791151440.2346158,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-ymsowtzl\\code.txt": {
+      "mtime": 1791761713.8744154,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-yqc6o6aw\\prose.txt": {
+      "mtime": 1791927208.4379191,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-yrvwoyfa\\code.txt": {
+      "mtime": 1791764401.6547706,
       "size": 1552,
       "verdict": {
         "code": true,
@@ -1958,6 +5072,24 @@
       "size": 1552,
       "verdict": {
         "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-yx_dban8\\code.txt": {
+      "mtime": 1791857417.6926904,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-z44jfehz\\prose.txt": {
+      "mtime": 1791833196.5004034,
+      "size": 4440,
+      "verdict": {
+        "code": false,
         "readable": true,
         "reasoning": false
       }
@@ -1980,8 +5112,62 @@
         "reasoning": false
       }
     },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-zebimbr_\\prose.txt": {
+      "mtime": 1791928183.1488602,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-zhnd36a_\\prose.txt": {
       "mtime": 1791166064.386909,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-zk92mabz\\prose.txt": {
+      "mtime": 1791851654.9109006,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-zmi9ceoa\\code.txt": {
+      "mtime": 1791757852.5682874,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-zn7szsys\\prose.txt": {
+      "mtime": 1791919746.7039163,
+      "size": 4440,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-zng5ibg7\\code.txt": {
+      "mtime": 1791851654.8743606,
+      "size": 1552,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "C:\\Users\\miche\\AppData\\Local\\Temp\\jupiter-test-zphtspk2\\prose.txt": {
+      "mtime": 1791753080.4857879,
       "size": 4440,
       "verdict": {
         "code": false,
@@ -2008,7 +5194,7 @@
       }
     },
     "data\\curated\\012d7e7509ac5ed7c0499cdf428dd8dd64803e37c3f7146951781733a9a33be7.txt": {
-      "mtime": 1791217824.8589082,
+      "mtime": 1791926696.0893562,
       "size": 63158347,
       "verdict": {
         "code": false,
@@ -2097,6 +5283,15 @@
         "reasoning": false
       }
     },
+    "data\\curated\\053b2c495f6d1e17c199ccb8ff725d9651b4529bdfb8b561e2f89c3a5625e976.txt": {
+      "mtime": 1791854561.9020255,
+      "size": 5348,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "data\\curated\\0606dbd84e28b23544224cbde7471e828f4ad70618591eab2ea7cb9aa2e91a8c.txt": {
       "mtime": 1791328451.5219982,
       "size": 749,
@@ -2127,6 +5322,15 @@
     "data\\curated\\0715714cdd27aeee72a8efd2972129bcc1d12b57d954d35673ff5085f74ba4c8.txt": {
       "mtime": 1791328338.2246027,
       "size": 700,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "data\\curated\\0747e0655b825bebf678ce1f4a9ea254ef414492710c2d38897ae9de1d446063.txt": {
+      "mtime": 1791854561.8895197,
+      "size": 1770,
       "verdict": {
         "code": true,
         "readable": true,
@@ -2214,8 +5418,17 @@
         "reasoning": false
       }
     },
+    "data\\curated\\0ba9fd43b6f134f61784d6a1a84fdfa234dd8def980120521cdbf81d898ed7ef.txt": {
+      "mtime": 1791854561.8925242,
+      "size": 853,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "data\\curated\\0bb4c70bc4b5226439b3e7849fa9f5a416a0169a7fb854fa2b9bcc72a61b7947.txt": {
-      "mtime": 1791216829.989923,
+      "mtime": 1791679702.8834507,
       "size": 12523342,
       "verdict": {
         "code": false,
@@ -2269,7 +5482,7 @@
       }
     },
     "data\\curated\\0dc6772d0b3ac0cfb353494df4f151c598f45b41e8a6736a14efeacf5ed6f7f5.txt": {
-      "mtime": 1791218235.6368568,
+      "mtime": 1791926696.7992213,
       "size": 349552,
       "verdict": {
         "code": false,
@@ -2287,7 +5500,7 @@
       }
     },
     "data\\curated\\0ec06bc84c65f420784ead4a07eb9b1aaad0658db298261fed0a95388a502bc7.txt": {
-      "mtime": 1791329397.049281,
+      "mtime": 1791855651.0104325,
       "size": 91818,
       "verdict": {
         "code": false,
@@ -2296,7 +5509,7 @@
       }
     },
     "data\\curated\\0f118fd0b92b60990e855ecaca1dd90760fd29fc15802d37e8dcc034c63f0918.txt": {
-      "mtime": 1791217709.5519087,
+      "mtime": 1791922771.9026842,
       "size": 62498744,
       "verdict": {
         "code": false,
@@ -2412,6 +5625,15 @@
         "reasoning": false
       }
     },
+    "data\\curated\\1625c977f24323e77a7bd212493108434e7cb919223c108ff2b3164e40bcd839.txt": {
+      "mtime": 1791855650.99892,
+      "size": 1563,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "data\\curated\\1773860aac101c8e0b8e26f375cccacd9c81338fcd805b3c9814073048644680.txt": {
       "mtime": 1791168330.1357772,
       "size": 63259505,
@@ -2484,8 +5706,17 @@
         "reasoning": false
       }
     },
+    "data\\curated\\1db2e3dee35db47d7176018fcc31c7e8d8c06ed75c488872687cc363e69cc9f2.txt": {
+      "mtime": 1791854561.898024,
+      "size": 1312,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "data\\curated\\1db8c80fd7e51250a29dbca330f2c89a7e8c9884a972cd538458eb9e6ea77214.txt": {
-      "mtime": 1791217604.916784,
+      "mtime": 1791921931.0749388,
       "size": 695902,
       "verdict": {
         "code": false,
@@ -2503,7 +5734,7 @@
       }
     },
     "data\\curated\\1e79b892b9e55ee9d59dd825c0739c2b33a72ef3b717e78d8ca8e13a2be7c278.txt": {
-      "mtime": 1791217446.311525,
+      "mtime": 1791921931.0784466,
       "size": 829461,
       "verdict": {
         "code": false,
@@ -2547,6 +5778,15 @@
         "reasoning": false
       }
     },
+    "data\\curated\\1fe6fa19efd5dd96490e407ec01d5cf3856cb2c67798147cbd59814d92172a08.txt": {
+      "mtime": 1791854561.89452,
+      "size": 3053,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "data\\curated\\1ff0bdf7f2ff4bd51ddd64dd4ef0745372d034922f535a3ab2e0e9fb592b618b.txt": {
       "mtime": 1791168351.2785847,
       "size": 63827939,
@@ -2565,8 +5805,17 @@
         "reasoning": true
       }
     },
+    "data\\curated\\226cacfe6db69075145dcf1924c91214460bc1f5196f719544ccf1f31b1e09fd.txt": {
+      "mtime": 1791833208.0583816,
+      "size": 6505,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "data\\curated\\2279be95038661606aff8e91ffc78cc5b0147b2e3220a3a209fa4601699d6aa1.txt": {
-      "mtime": 1791217603.8312514,
+      "mtime": 1791921929.534575,
       "size": 731109,
       "verdict": {
         "code": false,
@@ -2610,6 +5859,15 @@
         "reasoning": false
       }
     },
+    "data\\curated\\242b56bb8ab3bc98aafc7f704409c60eab63214c45ddb6a7f78424740f8a3d3b.txt": {
+      "mtime": 1791854561.9010253,
+      "size": 1588,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "data\\curated\\24771471aed9e8220085d2fbd90a7d25bfcd9d5fb046e65017404be5d6b603c4.txt": {
       "mtime": 1791184703.0599024,
       "size": 801,
@@ -2638,7 +5896,7 @@
       }
     },
     "data\\curated\\2778f4d18ab2e9fa4a26c0a5e341369295445eab3a74b566803d355438d8f666.txt": {
-      "mtime": 1791217362.8184767,
+      "mtime": 1791921668.0757308,
       "size": 1061433,
       "verdict": {
         "code": false,
@@ -2656,7 +5914,7 @@
       }
     },
     "data\\curated\\286d62dd6d95717701a371ee5c52d342bbcd95d7015566373295dbc57b7116cb.txt": {
-      "mtime": 1791216938.2191923,
+      "mtime": 1791921343.8522651,
       "size": 10108852,
       "verdict": {
         "code": true,
@@ -2683,7 +5941,7 @@
       }
     },
     "data\\curated\\2968c40426335a1143f3e0c4d8b38b7b870a1e41c9f65a208ea14e8503198acf.txt": {
-      "mtime": 1791217137.5354364,
+      "mtime": 1791921344.5893402,
       "size": 62874188,
       "verdict": {
         "code": false,
@@ -2739,6 +5997,15 @@
     "data\\curated\\2cc8aba693fe362b43e3e4d6d062e63d90348b2b846748e10f877cfbc030ed99.txt": {
       "mtime": 1791213127.0632946,
       "size": 697,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "data\\curated\\309180ed87eac4c1f4e85f7a3d8af6e80dd8c91ed7b64b098b132702c97dea8e.txt": {
+      "mtime": 1791854561.8915246,
+      "size": 3720,
       "verdict": {
         "code": true,
         "readable": true,
@@ -2818,8 +6085,26 @@
       }
     },
     "data\\curated\\37600aaab63e7b920b4683879cae84c60150cf9e4d50a578a44f16d496c2c0dd.txt": {
-      "mtime": 1791216938.1240122,
+      "mtime": 1791838844.596675,
       "size": 8986881,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "data\\curated\\3923150d7af12722130cf7c2445319888ee11a0ed1490f3eb51e908a4d3b6758.txt": {
+      "mtime": 1791854561.8895197,
+      "size": 873,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "data\\curated\\3aad3175ad3d2f4f4214f5d9097cf2dfd140c48a5fdae20c9bcc6cd13545700a.txt": {
+      "mtime": 1791854561.8860116,
+      "size": 855,
       "verdict": {
         "code": false,
         "readable": true,
@@ -2881,7 +6166,7 @@
       }
     },
     "data\\curated\\3f90b2d549b16c6876f4ddbf6ad2b2ce2f75eee069bc4dcb0976c8b9b14e3ff4.txt": {
-      "mtime": 1791217825.5778632,
+      "mtime": 1791925656.8510625,
       "size": 63931169,
       "verdict": {
         "code": false,
@@ -2907,8 +6192,17 @@
         "reasoning": true
       }
     },
+    "data\\curated\\41e262ad054279e106b97fb24b2e625831687adea41826e412972b0cd9f6c49c.txt": {
+      "mtime": 1791854561.8905232,
+      "size": 975,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "data\\curated\\44c2119a7a85609ac5bb9c97304f33bd7e3f0781b54a4d8ea0f5168ad8e4ccf4.txt": {
-      "mtime": 1791217709.5604155,
+      "mtime": 1791922772.3828006,
       "size": 567049,
       "verdict": {
         "code": false,
@@ -2916,8 +6210,17 @@
         "reasoning": false
       }
     },
+    "data\\curated\\45447760dc8e1139a4ed5142a8bd8c9b8cfb7523f4434831a0cde4635c5a6669.txt": {
+      "mtime": 1791854561.8905232,
+      "size": 12478,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "data\\curated\\46955753aadfc282514aba2693fc4610b2a0067d7e591a2419d9dd579ca32212.txt": {
-      "mtime": 1791167763.4624593,
+      "mtime": 1791678562.5895748,
       "size": 20731203,
       "verdict": {
         "code": false,
@@ -2953,7 +6256,7 @@
       }
     },
     "data\\curated\\49ada8bc0e7cdd33616ba1523d114bb13cb3d87a66bd00837a4a46151bd78af4.txt": {
-      "mtime": 1791216741.8243208,
+      "mtime": 1791921345.1906896,
       "size": 37545850,
       "verdict": {
         "code": false,
@@ -2988,8 +6291,17 @@
         "reasoning": false
       }
     },
+    "data\\curated\\4d70903c8576313e306b5525c78f42808d97425f2c2ec48f49f9d37ad17cdb3e.txt": {
+      "mtime": 1791854561.89652,
+      "size": 1022,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "data\\curated\\4de6f12265906f869598d9a072fd821999181843ee4a22602b8c104eb3a8c350.txt": {
-      "mtime": 1791218136.271623,
+      "mtime": 1791926695.6405976,
       "size": 400118,
       "verdict": {
         "code": false,
@@ -3007,7 +6319,7 @@
       }
     },
     "data\\curated\\4e55f628e97eb4931318a76e6aa67f47675eba667a3e33dd4bee9a39ff2a9ee2.txt": {
-      "mtime": 1791218136.2706225,
+      "mtime": 1791926695.6385972,
       "size": 401571,
       "verdict": {
         "code": false,
@@ -3025,10 +6337,19 @@
       }
     },
     "data\\curated\\4f6ef56e0efc727c016aa1413935b350aa20ac6ed023d99eea8a27866d59faf7.txt": {
-      "mtime": 1791217446.2714736,
+      "mtime": 1791840197.6417568,
       "size": 823827,
       "verdict": {
         "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "data\\curated\\4f8d04af8f294f33741d098c07b08f19bd36cbfd2a1889fbe5055aadff3390d6.txt": {
+      "mtime": 1791854561.8830101,
+      "size": 1334,
+      "verdict": {
+        "code": true,
         "readable": true,
         "reasoning": false
       }
@@ -3051,6 +6372,24 @@
         "reasoning": false
       }
     },
+    "data\\curated\\51634324fb4b6997d1aafe885fbd307bbb1f050b92f99d9fc390d83e0df49512.txt": {
+      "mtime": 1791854561.9000256,
+      "size": 1358,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "data\\curated\\51cf0168957c8bccbd1bd9cc21134fa358b08c8f8bc3b911c9a4dc1130dc0bc7.txt": {
+      "mtime": 1791854561.8925242,
+      "size": 7982,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "data\\curated\\52d8e8c51d9917aaa8e6397d3d441e32cf79a506649db727924a574eda1d24f4.txt": {
       "mtime": 1791328912.6801217,
       "size": 797,
@@ -3065,6 +6404,15 @@
       "size": 508717,
       "verdict": {
         "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "data\\curated\\54a8d685dcb6b7a8198de6497ab233a99e6670b3b868feca4d8e42888a607244.txt": {
+      "mtime": 1791854561.8860116,
+      "size": 2141,
+      "verdict": {
+        "code": true,
         "readable": true,
         "reasoning": false
       }
@@ -3097,7 +6445,7 @@
       }
     },
     "data\\curated\\571675a14834ed2185aa674803c5ac46f578d390b6cb49ba6c6de297ab2851f2.txt": {
-      "mtime": 1791217446.277983,
+      "mtime": 1791921929.525069,
       "size": 824217,
       "verdict": {
         "code": false,
@@ -3106,7 +6454,7 @@
       }
     },
     "data\\curated\\5797e30d3a95425d17963c9075bc719e1446e52c2967d5a2b0195458041cd3fd.txt": {
-      "mtime": 1791217260.509268,
+      "mtime": 1791921666.9754765,
       "size": 1404370,
       "verdict": {
         "code": false,
@@ -3121,6 +6469,24 @@
         "code": false,
         "readable": true,
         "reasoning": true
+      }
+    },
+    "data\\curated\\58b68419b1899639acb0776bd1e7a11958e2f23aee35f346ba0fc44075cf713e.txt": {
+      "mtime": 1791854561.8840108,
+      "size": 1054,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "data\\curated\\58d7e103a876cf16ca39bc54df759e4960f2fc40720e9df098b85ab2b135da2b.txt": {
+      "mtime": 1791854561.8840108,
+      "size": 1925,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
       }
     },
     "data\\curated\\58d9803b060e7f8ed11d6edf9469ec92d23b218d34b265603d790e35cd41b28d.txt": {
@@ -3142,7 +6508,7 @@
       }
     },
     "data\\curated\\590b597d0c879b85c6dc3beabd9aab78a699b313c5767b9a1c198e53315b69b6.txt": {
-      "mtime": 1791217362.7939463,
+      "mtime": 1791921666.9789844,
       "size": 1177231,
       "verdict": {
         "code": false,
@@ -3214,7 +6580,7 @@
       }
     },
     "data\\curated\\5c33014d2a01ef5d3cf7a124935c33c0033ea45d3277e3beb007cceed7678b94.txt": {
-      "mtime": 1791217260.887575,
+      "mtime": 1791921930.3698123,
       "size": 63183842,
       "verdict": {
         "code": false,
@@ -3285,6 +6651,15 @@
         "reasoning": false
       }
     },
+    "data\\curated\\6251547cfde477725fd66c009e019b1ea40358119f98268178bb884fd56263fe.txt": {
+      "mtime": 1791855650.9999192,
+      "size": 3194,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "data\\curated\\62813dc60cd3fbfb804e7f751c7188aaaf4e93328de877ac3b4fff30891b12d0.txt": {
       "mtime": 1791328912.685121,
       "size": 796,
@@ -3295,7 +6670,7 @@
       }
     },
     "data\\curated\\637c583abf80a1bec8ff3f8b391fa825519253089a166e8d52c07838c5d506e0.txt": {
-      "mtime": 1791217709.5684297,
+      "mtime": 1791922772.3903065,
       "size": 561428,
       "verdict": {
         "code": false,
@@ -3394,7 +6769,7 @@
       }
     },
     "data\\curated\\6be25e94ecdb085c6206f5dfb3862749fa5ed4d6f5e6eb1e84c69f69fc0cfcab.txt": {
-      "mtime": 1791217261.5456455,
+      "mtime": 1791921668.0928297,
       "size": 1275541,
       "verdict": {
         "code": false,
@@ -3421,7 +6796,7 @@
       }
     },
     "data\\curated\\6c941be411af2cc3b4562115cab09038650bb8664df082956d4f4d8087de923b.txt": {
-      "mtime": 1791218136.2781394,
+      "mtime": 1791926695.6481018,
       "size": 433692,
       "verdict": {
         "code": false,
@@ -3447,6 +6822,15 @@
         "reasoning": false
       }
     },
+    "data\\curated\\6e68d69d090e1d1b5fbaedc03acae406ba9f0a8bb7e4556ee49180de36b5d9b9.txt": {
+      "mtime": 1791854561.8925242,
+      "size": 1298,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "data\\curated\\6f1d1cac6975c17699b2a64bdee06c2cff9f125db030c74ccdc6bebd0d0d0473.txt": {
       "mtime": 1791217604.505326,
       "size": 62553059,
@@ -3466,7 +6850,7 @@
       }
     },
     "data\\curated\\708342be44853b117a04dd787b755f3a0cb196aec2ed24c0e9ce1c666b905b6c.txt": {
-      "mtime": 1791217037.637688,
+      "mtime": 1791921344.8747034,
       "size": 50031490,
       "verdict": {
         "code": false,
@@ -3474,13 +6858,40 @@
         "reasoning": false
       }
     },
+    "data\\curated\\70f729f525c8e672124236257b8823b2525e23b73dfd74313be61c8fe799b492.txt": {
+      "mtime": 1791919756.1137574,
+      "size": 10141,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "data\\curated\\71d554c7ecdfadb184243cdbcd9cfd4406361f9011a952363dddba6140806d43.txt": {
-      "mtime": 1791217136.7987504,
+      "mtime": 1791921667.3672318,
       "size": 62968912,
       "verdict": {
         "code": false,
         "readable": true,
         "reasoning": true
+      }
+    },
+    "data\\curated\\7257b8f4023e1affc1d01f2b302d7aa8186bb852b2f3c0f2624d817d4a71e4ed.txt": {
+      "mtime": 1791854561.8975198,
+      "size": 983,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "data\\curated\\72718830d319934377a9c25afa89c341fd4572b794ef68486c0b9aa6d4d3fbef.txt": {
+      "mtime": 1791679179.6232026,
+      "size": 11437733,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
       }
     },
     "data\\curated\\72771a97271107cc48b68a03b8d755e1f4a75d15eac23d0babc7d4e1a023f8fe.txt": {
@@ -3495,6 +6906,15 @@
     "data\\curated\\736d581ee79ecf2b329f1da95844709ac4939b38fc6db5b95c4004bd8439398b.txt": {
       "mtime": 1791213029.8770707,
       "size": 693,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "data\\curated\\7477906701679471a88980afa5fa93099378343d28d8c9e7566d3c3920d6baa3.txt": {
+      "mtime": 1791854561.8915246,
+      "size": 1570,
       "verdict": {
         "code": true,
         "readable": true,
@@ -3520,7 +6940,7 @@
       }
     },
     "data\\curated\\7615f1f2f0e7c6f26893d42f4572a1e0f4c98fbe6d0c62496fa58b1e83c21a85.txt": {
-      "mtime": 1791217708.5539765,
+      "mtime": 1791922771.2744453,
       "size": 476656,
       "verdict": {
         "code": false,
@@ -3529,7 +6949,7 @@
       }
     },
     "data\\curated\\785145c0637236f90cccf75b83db82306ff39e9d868e0f8f9e06cef5ced73a4e.txt": {
-      "mtime": 1791218235.6208303,
+      "mtime": 1791926695.6425965,
       "size": 385720,
       "verdict": {
         "code": false,
@@ -3547,7 +6967,7 @@
       }
     },
     "data\\curated\\7915ab186d51ea43fc3140e5bd84ac6e479f40d4829656488990c741f5206405.txt": {
-      "mtime": 1791217709.5664265,
+      "mtime": 1791922772.3883042,
       "size": 529393,
       "verdict": {
         "code": false,
@@ -3555,11 +6975,29 @@
         "reasoning": true
       }
     },
+    "data\\curated\\796a23f720082aba4031380d3ac569eb90eb756c52d5b66302dc87b8f994850f.txt": {
+      "mtime": 1791854561.899026,
+      "size": 1698,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "data\\curated\\79afd5d0eb0db0cd4c59df839b1a8ce4fd23dcadce077ddadac1ce9619ef4a44.txt": {
       "mtime": 1791213029.8730707,
       "size": 666,
       "verdict": {
         "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "data\\curated\\79b748b69857d6b96fb89bf25f4bb7b8e6f22940d3faad5617a80882d3a68aff.txt": {
+      "mtime": 1791854561.9000256,
+      "size": 1870,
+      "verdict": {
+        "code": false,
         "readable": true,
         "reasoning": false
       }
@@ -3574,7 +7012,7 @@
       }
     },
     "data\\curated\\7c0aa4f711816cb34d493b41a48ad0924293057b0757b8ea20ee757643160d01.txt": {
-      "mtime": 1791218235.62283,
+      "mtime": 1791926695.6435964,
       "size": 382947,
       "verdict": {
         "code": false,
@@ -3582,9 +7020,36 @@
         "reasoning": false
       }
     },
+    "data\\curated\\7c7db1f6c32ed71f697244a33e2c0508bd261c6d3c248c05af7cda4624c1f232.txt": {
+      "mtime": 1791854561.8895197,
+      "size": 6821,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "data\\curated\\7ce7494d78e5b61c10034916a210c1571f257d564abc1571bc912ed06b900f8b.txt": {
+      "mtime": 1791854561.899026,
+      "size": 4730,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "data\\curated\\7d1689fc849f20f712cee74bf38ad54437dd95f668241f4115d415c4316b1237.txt": {
-      "mtime": 1791217604.9144464,
+      "mtime": 1791922772.3797996,
       "size": 593415,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "data\\curated\\7d4baddf39635df15c12e0a24d83bdf433b22e9765cc6a7f898fa1a64e488c6b.txt": {
+      "mtime": 1791837184.2565975,
+      "size": 7401,
       "verdict": {
         "code": false,
         "readable": true,
@@ -3596,6 +7061,24 @@
       "size": 264075,
       "verdict": {
         "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "data\\curated\\7dc7eed05a89654ca8a1574892412e3124a755dada0e7c6472dec1a673286e0c.txt": {
+      "mtime": 1791679919.4499364,
+      "size": 2808769,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "data\\curated\\7e78ba1973161d6ae1c716d62814d858446bee4a57fa74cf060adf877ef612f8.txt": {
+      "mtime": 1791854561.8875146,
+      "size": 3662,
+      "verdict": {
+        "code": true,
         "readable": true,
         "reasoning": false
       }
@@ -3618,6 +7101,15 @@
         "reasoning": false
       }
     },
+    "data\\curated\\8012face834f9bd601bd1bf5dba220d387084519fb9ad4f16aa8749cd0875214.txt": {
+      "mtime": 1791850948.1290731,
+      "size": 717487,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "data\\curated\\802e7715b682498e466d2b271bb67c422ca00b1c71b672a9987ba5f6ec06af9a.txt": {
       "mtime": 1791213252.732377,
       "size": 653,
@@ -3627,8 +7119,17 @@
         "reasoning": false
       }
     },
+    "data\\curated\\80382e0c6eb33f92e85b23b5e209de0f804955e2ced7784371425ab68bf87c2e.txt": {
+      "mtime": 1791854561.8850124,
+      "size": 7080,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "data\\curated\\810dddc57537891b198f5ef476a65e5a2477660836181bf48e564970aca13705.txt": {
-      "mtime": 1791150425.2019615,
+      "mtime": 1791854561.9030259,
       "size": 5733,
       "verdict": {
         "code": true,
@@ -3637,7 +7138,7 @@
       }
     },
     "data\\curated\\8368c70b84751dcc4e52de9d5848243cf65b2d7948b1562344ebef873c1c51e4.txt": {
-      "mtime": 1791217824.444541,
+      "mtime": 1791922771.2754478,
       "size": 477691,
       "verdict": {
         "code": false,
@@ -3708,8 +7209,17 @@
         "reasoning": false
       }
     },
+    "data\\curated\\8bb174b6540415ad1bad38eb2b84f72051dfbcb3c0372f7ce5fbb566817431e1.txt": {
+      "mtime": 1791854561.8830101,
+      "size": 1051,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "data\\curated\\8bf4be477f707e6ffef63e9de3befe7ddf51aca2e2b53f607dd9be0f85ed21c0.txt": {
-      "mtime": 1791328451.5249977,
+      "mtime": 1791855650.9999192,
       "size": 775,
       "verdict": {
         "code": true,
@@ -3763,7 +7273,7 @@
       }
     },
     "data\\curated\\9001d179de640ad0c40d3ee9cb016e03520cbcfd6f4c6a2a6e6930956efe0b0f.txt": {
-      "mtime": 1791217604.9604578,
+      "mtime": 1791921931.0899594,
       "size": 739043,
       "verdict": {
         "code": false,
@@ -3799,7 +7309,7 @@
       }
     },
     "data\\curated\\91a4ab59e4dcb689929b57a301661583476671448b1d2bda2c24ac284eef4a5e.txt": {
-      "mtime": 1791217941.8502717,
+      "mtime": 1791926696.783208,
       "size": 62562725,
       "verdict": {
         "code": false,
@@ -3808,7 +7318,7 @@
       }
     },
     "data\\curated\\91c33372dab6e268708f1cce9572648a149d1add79991b4c326d7fd0ea257229.txt": {
-      "mtime": 1791217037.6566997,
+      "mtime": 1791921344.896727,
       "size": 2693900,
       "verdict": {
         "code": false,
@@ -3826,7 +7336,7 @@
       }
     },
     "data\\curated\\94537bd91a0529c39b319892e90fa9ede8804e7c6982c61c5043ac9a900e3126.txt": {
-      "mtime": 1791217709.5654242,
+      "mtime": 1791922772.3867996,
       "size": 541565,
       "verdict": {
         "code": false,
@@ -3835,7 +7345,7 @@
       }
     },
     "data\\curated\\945ffd2cb7484ce565248cdc1d4c8ddb329ece37ae489c222a6c54ef3c57ce03.txt": {
-      "mtime": 1791218235.6323366,
+      "mtime": 1791926696.797219,
       "size": 396102,
       "verdict": {
         "code": false,
@@ -3844,7 +7354,7 @@
       }
     },
     "data\\curated\\95257ce1153ec8c4ee108e20f364401af58ff87350462b74180c307031eda988.txt": {
-      "mtime": 1791324386.086972,
+      "mtime": 1791854561.9000256,
       "size": 715,
       "verdict": {
         "code": false,
@@ -3880,7 +7390,7 @@
       }
     },
     "data\\curated\\95ed0bc6a975fb9d636e7b2cd8f5091db7014a56760e464fb60b09103123f1bb.txt": {
-      "mtime": 1791217603.827252,
+      "mtime": 1791921929.5275738,
       "size": 694827,
       "verdict": {
         "code": false,
@@ -3907,7 +7417,7 @@
       }
     },
     "data\\curated\\9773cc722d24ec9970aff94f4d45f39daf8b5383b6f95ea1a88fa6448589a0ad.txt": {
-      "mtime": 1791217708.5499773,
+      "mtime": 1791922771.2654357,
       "size": 487994,
       "verdict": {
         "code": false,
@@ -3925,7 +7435,7 @@
       }
     },
     "data\\curated\\97a1f7e3c7a3f94cc8fcb51f042e222cb39c4a65b4ec4defc68ff4ede231d0aa.txt": {
-      "mtime": 1791217603.8257422,
+      "mtime": 1791921929.5230703,
       "size": 738565,
       "verdict": {
         "code": false,
@@ -3934,7 +7444,7 @@
       }
     },
     "data\\curated\\985bdccd07f37596caf2542fdd41108733e702ce770346294116fc513542457f.txt": {
-      "mtime": 1791217824.4405413,
+      "mtime": 1791925655.7315075,
       "size": 487758,
       "verdict": {
         "code": false,
@@ -3951,8 +7461,17 @@
         "reasoning": false
       }
     },
+    "data\\curated\\9875393e6661003227ac7223e16a34ea020c28214d9d9364695f4ac1c09bc148.txt": {
+      "mtime": 1791854561.9010253,
+      "size": 3102,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "data\\curated\\9ac0d7bc2cca1f8edc5ef78726d6aa480512a34110620bd5597f016fe9836b6f.txt": {
-      "mtime": 1791217037.314357,
+      "mtime": 1791838844.603181,
       "size": 3324358,
       "verdict": {
         "code": false,
@@ -3970,7 +7489,7 @@
       }
     },
     "data\\curated\\9b0b7b88aa07c6a650172366c885c2f5f582532790a119498d01537f8bee92be.txt": {
-      "mtime": 1791217941.8597777,
+      "mtime": 1791925656.8690841,
       "size": 451926,
       "verdict": {
         "code": false,
@@ -3988,7 +7507,7 @@
       }
     },
     "data\\curated\\9b924511e83a42bbe629d2bf14bef84fd6bd61d9dad705e65846af9f51edbe57.txt": {
-      "mtime": 1791218137.5832794,
+      "mtime": 1791925656.8720827,
       "size": 431869,
       "verdict": {
         "code": false,
@@ -4032,11 +7551,29 @@
         "reasoning": false
       }
     },
+    "data\\curated\\9ef707ffbcb396c7af7eea77fd2a15f6943441dbd46ee6e4fda31471ac97b3ec.txt": {
+      "mtime": 1791854561.8915246,
+      "size": 3928,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "data\\curated\\9f6638b129d6856b45abc8fb4d5af999aefd7c2a75948423111175a6b8d652f8.txt": {
-      "mtime": 1791217604.9614577,
+      "mtime": 1791921931.0929608,
       "size": 657187,
       "verdict": {
         "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "data\\curated\\a0097b66bca2c6e16425c9323faa58a9e5bd95ea9c47032ae2678b1d5192dd15.txt": {
+      "mtime": 1791854561.8875146,
+      "size": 7434,
+      "verdict": {
+        "code": true,
         "readable": true,
         "reasoning": false
       }
@@ -4087,7 +7624,7 @@
       }
     },
     "data\\curated\\a44db9f3000abf31208d1dce4a4e95db451b3c45ad4c669f2e39da17d9d0db70.txt": {
-      "mtime": 1791218137.5842793,
+      "mtime": 1791925656.8750823,
       "size": 437324,
       "verdict": {
         "code": false,
@@ -4123,7 +7660,7 @@
       }
     },
     "data\\curated\\a4dda5f4efd74f2080c02b0736b3f2a6b38e50a206be845aa4b9a6073e472d94.txt": {
-      "mtime": 1791217446.3145266,
+      "mtime": 1791921931.08245,
       "size": 794172,
       "verdict": {
         "code": false,
@@ -4158,6 +7695,24 @@
         "reasoning": false
       }
     },
+    "data\\curated\\a5ff538cbfae4269b3ae7492f27a89efb55859853faed7385a1bb70ba3a5f4c3.txt": {
+      "mtime": 1791854561.8935194,
+      "size": 2709,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "data\\curated\\a710d5adb55e2fb31000f96c8e3747aecdb4989ab9676796f7eded408de10586.txt": {
+      "mtime": 1791854561.89652,
+      "size": 3545,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "data\\curated\\a74da87b6a9d96b91af2419d64b6bb1eb7d4684a6d7a56521abef551e177a774.txt": {
       "mtime": 1791167762.5785449,
       "size": 60076615,
@@ -4186,7 +7741,7 @@
       }
     },
     "data\\curated\\a9545d93a978fdb7961c429bdf8a0d65d91ffabdde45ca9bcd5589d12ab38a11.txt": {
-      "mtime": 1791218137.580279,
+      "mtime": 1791926696.7927153,
       "size": 417968,
       "verdict": {
         "code": false,
@@ -4204,7 +7759,7 @@
       }
     },
     "data\\curated\\aa1f87e9de93a3e8248bbad9beefbf0e6b1ccad268c059cacd0f8fad8db6b665.txt": {
-      "mtime": 1791217825.5933697,
+      "mtime": 1791922772.375291,
       "size": 505503,
       "verdict": {
         "code": false,
@@ -4222,7 +7777,7 @@
       }
     },
     "data\\curated\\ac47c24d4661f733f069de01c4e7c5d00f8a66834c74cb01095d376a02080ee8.txt": {
-      "mtime": 1791217137.5444412,
+      "mtime": 1791680010.105203,
       "size": 1478841,
       "verdict": {
         "code": false,
@@ -4267,7 +7822,7 @@
       }
     },
     "data\\curated\\b2ac21444a6c4aafad43457149086f75678ce8a3debbd42fb36b99ab1b9f81e5.txt": {
-      "mtime": 1791217037.6662085,
+      "mtime": 1791921344.918213,
       "size": 2830138,
       "verdict": {
         "code": false,
@@ -4276,7 +7831,7 @@
       }
     },
     "data\\curated\\b2ae323d8a5daa4d70818a7d7b7202e6917b3a8bef412b512c0e35ca88dd6c13.txt": {
-      "mtime": 1791217941.8567772,
+      "mtime": 1791925656.861575,
       "size": 464557,
       "verdict": {
         "code": false,
@@ -4339,7 +7894,7 @@
       }
     },
     "data\\curated\\b73ee197b9a3c6a3b88ce9773841e766a137902dbd00f112fd7b4a818e4a64fd.txt": {
-      "mtime": 1791217261.2073605,
+      "mtime": 1791921930.6895974,
       "size": 62524963,
       "verdict": {
         "code": false,
@@ -4365,6 +7920,24 @@
         "reasoning": true
       }
     },
+    "data\\curated\\b8cbdd20cc8b5dc39abef8f061af32b22cb1dd87686c1295c33ed7503baae396.txt": {
+      "mtime": 1791840197.6382487,
+      "size": 433474,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "data\\curated\\b9e2aa9ec07c7c49295932f19c6f4dd0d5b6ad3e2241c3c130b206cc2e9d2ac3.txt": {
+      "mtime": 1791854561.899026,
+      "size": 8964,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "data\\curated\\ba3acfa7e12307c566e163c30da1f6627e979ee45521c3f5d431f16297a77a53.txt": {
       "mtime": 1791150425.1999578,
       "size": 1413,
@@ -4384,7 +7957,7 @@
       }
     },
     "data\\curated\\be66d8a6b8ce99e4f083ffb5edee42464037d4e549bebec0d53804dc07427b8f.txt": {
-      "mtime": 1791328338.2206018,
+      "mtime": 1791679702.8854573,
       "size": 5973,
       "verdict": {
         "code": false,
@@ -4419,6 +7992,15 @@
         "reasoning": false
       }
     },
+    "data\\curated\\c466821cae8568a455f9c96fa126d87197898fb5218890631b446e5c8c66b285.txt": {
+      "mtime": 1791855651.0104325,
+      "size": 70322,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "data\\curated\\c563de8106698a8b76e5cbdf696b7259bc70b7366b192be989a99525ccae46fc.txt": {
       "mtime": 1791150425.197957,
       "size": 1379,
@@ -4437,9 +8019,63 @@
         "reasoning": false
       }
     },
+    "data\\curated\\c7c2c7a9bab475620055360f2dc25af11cefe87cfcd498caa0586d9611475a08.txt": {
+      "mtime": 1791854561.8935194,
+      "size": 2643,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "data\\curated\\c824c2fe567ef5caf09923a78c3974d92d037e4b8c8d2c8c475d0f5208f1cbb4.txt": {
+      "mtime": 1791854561.89452,
+      "size": 776,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "data\\curated\\c84933f71ec2e77bf5339b2d6c208c1cc2174717bf1f408d54ebd949c9f47bfb.txt": {
+      "mtime": 1791840197.6437564,
+      "size": 470380,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "data\\curated\\c88f46451d69f2aea75878da9f903f7a5baf5901ad32205cac315312cf6ad9ad.txt": {
+      "mtime": 1791921931.0374012,
+      "size": 62519142,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": true
+      }
+    },
+    "data\\curated\\c89fe7a991a40ff2dd4eb6cc872138f40004849ebb40ca1d8371a8eed2924ec9.txt": {
+      "mtime": 1791854561.8840108,
+      "size": 2879,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "data\\curated\\ca6cbe468773bf26eb2a6b58252893bca5351727761a07dc2b968a27450c044d.txt": {
       "mtime": 1791150425.1989565,
       "size": 837,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "data\\curated\\cc3389af142ce78b2ae71ecadccd7051d87d14c2996733f0716f7a5aab840dc2.txt": {
+      "mtime": 1791921668.0782373,
+      "size": 880881,
       "verdict": {
         "code": false,
         "readable": true,
@@ -4453,6 +8089,33 @@
         "code": true,
         "readable": true,
         "reasoning": false
+      }
+    },
+    "data\\curated\\cddfd17b09e6f8279ad65f22914c4254a0920e7a4a5dc86f26097bec4abf05c5.txt": {
+      "mtime": 1791854561.8860116,
+      "size": 1474,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "data\\curated\\ce0b881633c13776d73297ede7788d5e1c9184b02c61fd32b97c15122c940141.txt": {
+      "mtime": 1791840197.6467562,
+      "size": 851051,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "data\\curated\\ce45c3241008ba8e8aed5947de2860c883d5a9e5c2a1d5904e4e668e2d91d618.txt": {
+      "mtime": 1791921344.2799485,
+      "size": 63191614,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": true
       }
     },
     "data\\curated\\cfa569b5ebcbb45d8d1c97137c680bad063623d35cc47000dcc7e47d64612d5b.txt": {
@@ -4473,6 +8136,15 @@
         "reasoning": false
       }
     },
+    "data\\curated\\d6e63d1d5ab42f7c72d4e9a706456f6e9504a3c420374f0553cd2b8866b36c8d.txt": {
+      "mtime": 1791850948.1330752,
+      "size": 1160539,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "data\\curated\\d7110b03ec43964ff6fd7f306f87f67835786d6ed2542b361fa03116bd73dd1a.txt": {
       "mtime": 1791167763.4654632,
       "size": 2739,
@@ -4483,8 +8155,17 @@
       }
     },
     "data\\curated\\db79ceccaa90700e7cc1e3c14d1558d794fc44cd78106d31fe23b605d48fa7c6.txt": {
-      "mtime": 1791150425.2019615,
+      "mtime": 1791854561.9030259,
       "size": 2314,
+      "verdict": {
+        "code": true,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "data\\curated\\dc027d7f3dbf01e1c64ab00fc91ecfe22c58bb3e27e973a98f0fe8cca25d0f27.txt": {
+      "mtime": 1791854561.898024,
+      "size": 2776,
       "verdict": {
         "code": true,
         "readable": true,
@@ -4518,6 +8199,15 @@
         "reasoning": false
       }
     },
+    "data\\curated\\dfb3c5f82f04f613f5218f23fc7583ef04583a0daaabea37715e7643bcf3cdb9.txt": {
+      "mtime": 1791921135.7730303,
+      "size": 10658,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "data\\curated\\dfc9969b250517378c9b17c875fc6c13883d0078f4141ac9ebe6734b3b9c53df.txt": {
       "mtime": 1791098439.8896883,
       "size": 67104344,
@@ -4527,6 +8217,24 @@
         "reasoning": true
       }
     },
+    "data\\curated\\e100e12e6adb06398b5f19fd1fa47e3d9f7795cdc9372178fe0c1167618e783c.txt": {
+      "mtime": 1791762920.8111856,
+      "size": 6214,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "data\\curated\\e62ed46176f8e7c59c3e8b48c2b0b17ec70548c68235b7f82d1ba753774db2e0.txt": {
+      "mtime": 1791839747.2068686,
+      "size": 8026,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
     "data\\curated\\e6fd799c280044834830808b7d6fad9f2dea0bff00b1930a3bb77c26c492d3c3.txt": {
       "mtime": 1791098440.2709446,
       "size": 67104066,
@@ -4534,6 +8242,33 @@
         "code": false,
         "readable": true,
         "reasoning": true
+      }
+    },
+    "data\\curated\\e7668bc434588afb527df5a5bad391bdceebe5c5e6ae79fd95089348f4278d75.txt": {
+      "mtime": 1791854561.8860116,
+      "size": 2115,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "data\\curated\\e87b22e632ff5d5a97db57e03cf669ebac57ddb4f76ccdb1a5c5297f3a5aef00.txt": {
+      "mtime": 1791849996.3587024,
+      "size": 8935,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
+      }
+    },
+    "data\\curated\\efcd13bc3ba9849ad0bf4f5ac25c0adeabc1f0e8db659c770474b0aae2aa9cb8.txt": {
+      "mtime": 1791840197.6332483,
+      "size": 471160,
+      "verdict": {
+        "code": false,
+        "readable": true,
+        "reasoning": false
       }
     },
     "data\\curated\\f1c1bb3cd9de7c521333800bd668b3d0d28a142d9d617f81be597ab6a8285dbc.txt": {
@@ -4565,5 +8300,5 @@
     }
   },
   "version": 1,
-  "written": 1791332383.612677
+  "written": 1791945723.73329
 }
