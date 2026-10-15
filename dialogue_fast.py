@@ -43,7 +43,7 @@ DECISION_PREFIX_CHARS = 8000
 # documents; importing them here keeps one definition of each rather than a copy
 # that can drift. See dialogue.py for the patterns and the reasoning.
 
-from dialogue import (  # noqa: E402
+from dialogue import (
     RECORD_INPUT,
     RECORD_OUTPUT,
     ROLE_TURN,

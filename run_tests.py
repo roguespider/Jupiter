@@ -25,6 +25,7 @@ import json
 import os
 import subprocess
 import sys
+import threading
 import time
 from concurrent.futures import ProcessPoolExecutor, as_completed
 from pathlib import Path
@@ -60,6 +61,8 @@ def _run_one(stem):
             text=True,
             timeout=FILE_CEILING,
             env=environment,
+            check=False,
+            stdin=subprocess.PIPE,
         )
         code = result.returncode
         output = (result.stdout or "") + (result.stderr or "")
@@ -73,7 +76,7 @@ def _run_one(stem):
             + (expired.stderr or "")
             + f"\nHUNG: no result within {FILE_CEILING:.0f}s\n"
         )
-        if isinstance(output, bytes):  # noqa: F632 - both forms are real
+        if isinstance(output, bytes):
             output = output.decode("utf-8", "replace")
     elapsed = time.time() - started
     tail = [
@@ -89,7 +92,7 @@ def _run_one(stem):
 # ceiling is a suite that hangs rather than fails, which is the one behaviour a
 # verification step must not have.
 _WORKERS = {"count": 1}
-FILE_CEILING = float(os.environ.get("JUPITER_TEST_FILE_CEILING", "900"))
+FILE_CEILING = float(os.environ.get("JUPITER_TEST_FILE_CEILING", "120"))
 
 
 def workers_in_use():
@@ -123,32 +126,19 @@ def _known_durations():
     return _load_timings()
 
 
-def _estimate_remaining(finished, total_files, elapsed, slowest):
-    """How long this run probably has left, or None when it cannot be said.
+def _estimate_remaining(finished, total_files, elapsed, slowest, started_estimate):
+    """How long this run probably has left — a countdown that actually moves.
 
-    A parallel run finishes when its slowest file finishes, so the time still
-    owed is the time the slowest file has left to run, not the average of what
-    has completed. Every fast file finishing early is not progress against that,
-    which is why the figure is driven by the slowest known file rather than by
-    how many have passed.
-
-    The longest time any file has ever taken on this machine is the best
-    available bound, and it is what the opening line quotes. Subtracting the
-    elapsed time accounts for how far into that longest file we already are.
-
-    It is an estimate and is printed as one. A run that beats its history shows
-    the count reaching the end early, which is not a fault; a run that does not
-    keeps the same figure on screen, which is the honest picture.
+    The previous version stayed frozen when the slowest file hung, because it
+    subtracted elapsed time from a historical ceiling that never changed.
+    This version counts down from the initial estimate by real elapsed time,
+    so the number always decreases regardless of whether files finish.
     """
     if finished >= total_files:
         return 0.0
-    history = _load_timings()
-    longest = max(history.values()) if history else 0.0
-    if not longest and slowest:
-        longest = max(seconds for seconds, _ in slowest)
-    if longest <= 0:
-        return None
-    return max(0.0, longest - elapsed)
+    # Count down from the initial estimate by real elapsed seconds.
+    remaining = max(0.0, started_estimate - elapsed)
+    return remaining
 
 
 def _record_timings(measured):
@@ -228,6 +218,21 @@ def main():
     failures = []
     slowest = []
     finished = 0
+    countdown_stop = threading.Event()
+    countdown_thread = None
+
+    def _countdown_printer(estimate, start_time):
+        """Print a moving countdown every 5 seconds until stopped."""
+        while not countdown_stop.is_set():
+            elapsed = time.time() - start_time
+            remaining = max(0.0, estimate - elapsed)
+            # Overwrite the same line so numbers visibly move.
+            sys.stdout.write(f"\r[countdown: {remaining:6.1f}s]")
+            sys.stdout.flush()
+            countdown_stop.wait(1.0)
+        sys.stdout.write("\r" + " " * 60 + "\r")
+        sys.stdout.flush()
+
     with ProcessPoolExecutor(max_workers=workers) as pool:
         # as_completed rather than map. map yields in submission order, so the
         # first slow file holds back every result behind it and the progress line
@@ -236,11 +241,15 @@ def main():
         # finishes, so the count advances while the slow ones are still running
         # and the estimate has something to be an estimate from.
         futures = {pool.submit(_run_one, name): name for name in modules}
+        countdown_thread = threading.Thread(
+            target=_countdown_printer, args=(estimate, started), daemon=True
+        )
+        countdown_thread.start()
         for future in as_completed(futures):
             name = futures[future]
             try:
                 name, ok, elapsed, tail = future.result()
-            except Exception as error:  # noqa: BLE001 - a pool failure is a failure
+            except Exception as error:
                 ok, elapsed, tail = (
                     False,
                     0.0,
@@ -252,11 +261,16 @@ def main():
                 failures.append((name, tail))
             if not args.quiet:
                 done = time.time() - started
-                left = _estimate_remaining(finished, len(modules), done, slowest)
+                left = _estimate_remaining(
+                    finished, len(modules), done, slowest, estimate
+                )
                 eta = f"eta {left:5.0f}s" if left is not None else "eta    ?"
+                countdown = (
+                    f"countdown: {left:5.0f}s" if left is not None else "countdown: ?"
+                )
                 print(
                     f"  {'PASS' if ok else 'FAIL'}  {name}  "
-                    f"({elapsed:5.1f}s)  {finished:>3}/{len(modules)}  {eta}",
+                    f"({elapsed:5.1f}s)  {finished:>3}/{len(modules)}  {eta}  {countdown}",
                     flush=True,
                 )
                 if not ok:
@@ -268,6 +282,9 @@ def main():
                     if line.startswith(("FAIL:", "ERROR:", "HUNG")):
                         print(f"          {line}", flush=True)
 
+    countdown_stop.set()
+    if countdown_thread is not None:
+        countdown_thread.join(timeout=2.0)
     total = time.time() - started
     _record_timings(dict(slowest and [(name, seconds) for seconds, name in slowest]))
     slowest.sort(reverse=True)

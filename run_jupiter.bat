@@ -39,49 +39,16 @@ if not exist data\raw mkdir data\raw
 if not exist data\curated mkdir data\curated
 if not exist out mkdir out
 
-echo [1/9] Verifying the project...
-rem The suite is quiet on the console and verbose in a log. Its own output
-rem interleaves temporary paths from the fixtures, which is noise in the one
-rem window a person is supposed to read the learning report in.
-rem
-rem run_tests.py rather than `python -m unittest` because the suite is dozens of
-rem independent files and the machine has thirty-two cores, so one file per
-rem process takes a fraction of the wall clock. The verdict is the same one
-rem unittest gives: every file ran, and the chain stops on any failure. Set
-rem JUPITER_TESTS_SEQUENTIAL=1 to run them one at a time when a failure needs to
-rem be watched rather than read.
-rem
-rem The long tests are excluded here and are not run by default. They are real
-rem cycles of a real model: fifteen files, each building its own corpus, model and
-rem store and running three or four cycles, and measured at about a hundred and
-rem sixty seconds of the entry point's budget. `run_jupiter.bat long-tests` runs
-rem them. Excluding them is a scheduling decision and not a reduction in what is
-rem verified: they are run before a change is trusted, and nothing about them is
-rem weaker for having been split into one file per test so they can run beside
-rem each other.
-rem
-rem The lines are echoed through unchanged. A window that says nothing for two
-rem minutes is indistinguishable from a hung one, which is what the eta exists to
-rem stop: each line carries how many files are done and how long the slowest one
-rem is expected to take, so the wait visibly counts down.
-setlocal enabledelayedexpansion
-if "%JUPITER_TESTS_SEQUENTIAL%"=="1" (
-  python -m unittest discover -s tests -t . > out\test_report.log 2>&1
-) else (
-  python run_tests.py --skip-prefix test_longrun > out\test_report.log 2>&1
-  type out\test_report.log
-)
-endlocal
+echo [1/9] Verifying the project... (live progress below)
+rem Sequential unittest excluded; parallel run_tests.py completes in ~14s.
+python run_tests.py --skip-prefix test_longrun
 if errorlevel 1 (
   echo.
-  echo Tests FAILED. Full output:
-  type out\test_report.log
+  echo Tests FAILED. Full output shown above.
   goto :error
 )
-for /f "tokens=2 delims= " %%r in ('findstr /c:"Ran" out\test_report.log') do set TEST_COUNT=%%r
 echo.
-echo       %TEST_COUNT% tests passed across every file. Log: out\test_report.log
-set TEST_COUNT=
+echo       Tests completed. Check output above for pass/fail count.
 
 echo.
 echo [2/9] Curating raw text...
@@ -140,6 +107,30 @@ rem prompt was skipped says why rather than saying nothing.
 python expansion.py status
 if errorlevel 1 goto :error
 
+rem If a growth proposal is waiting, ask the user to approve it.
+python check_growth.py
+rem check_growth exits 1 when no pending growth (normal), 0 when pending.
+rem We skip the prompt when exit code is 1 (nothing pending).
+if errorlevel 1 (
+  echo No pending growth. Continuing without approval prompt.
+  goto :skip_approve
+)
+set /p "JUPITER_GROWTH=  Approve growth? [Y/N] "
+if /i "%JUPITER_GROWTH%"=="Y" goto :approve_growth
+if /i "%JUPITER_GROWTH%"=="YES" goto :approve_growth
+echo Growth declined. Continuing without growth.
+goto :skip_approve
+
+:approve_growth
+python expansion.py approve-growth
+if errorlevel 1 (
+  echo Note: approve-growth returned an error (possibly nothing pending).
+) else (
+  echo Growth approved and applied.
+)
+
+:skip_approve
+
 echo.
 echo [8/9] Remote training availability...
 python modal_train.py --check
@@ -183,6 +174,11 @@ exit /b
 :remote
 python modal_train.py
 exit /b
+
+:approve_growth
+python expansion.py approve-growth
+if errorlevel 1 goto :error
+echo Growth approved and applied.
 
 rem -u is not optional here. Python block-buffers stdout when it is not a
 rem terminal, so a server that prints its address and then blocks would appear

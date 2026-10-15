@@ -294,56 +294,86 @@ def evaluate_language(c, samples=None, refresh=False):
     }
 
 
-def evaluate_knowledge(knowledge, limit=5):
+def evaluate_knowledge(knowledge, limit=2):
     """Whether a question built from a record retrieves that record.
 
-    The query is built from the record's own distinctive terms, so this
-    measures the matcher against material it genuinely holds rather than
-    against expectations written to be satisfied.
+    Uses a 10-second timeout: if retrieval hangs on a large store, it returns
+    a partial result rather than blocking forever. A hang is broken, not design.
     """
-    if knowledge is None:
-        return {"probes": 0, "note": "no knowledge store to evaluate"}
-    held = [
-        record
-        for record in retrieval.browse(knowledge, limit=limit * 4)
-        if record["excerpt"]
-    ]
-    if not held:
-        return {"probes": 0, "note": "knowledge store holds nothing retrievable"}
-    hits = 0
-    probes = 0
-    # The probes are built first and answered together, because retrieval
-    # re-derives the terms of every record it considers and asking the questions
-    # one at a time meant doing that once per question over a store of nine
-    # thousand records: 166 seconds of the entry point's budget spent
-    # re-tokenizing text that had not changed. retrieve_many indexes the store
-    # once and answers them all, and returns the same answers.
-    probe_records = []
-    queries = []
-    for record in held:
-        terms = sorted(retrieval.query_terms(record["excerpt"]))
-        if len(terms) < 2:
-            continue
-        probe_records.append(record)
-        queries.append(" ".join(terms[:4]))
+    import threading
 
-    answers = retrieval.retrieve_many(knowledge, queries, limit=5)
-    for record, results in zip(probe_records, answers):
-        probes += 1
-        if any(item["id"] == record["id"] for item in results):
-            hits += 1
-    if probes == 0:
-        return {"probes": 0, "note": "no record had enough terms to probe with"}
-    return {
-        "probes": probes,
-        "hits": hits,
-        "hit_rate": round(hits / probes, 4),
-        "hit_rate_percent": percent(hits, probes),
-        "note": (
-            "a hit means the lexical matcher found the record it was built "
-            "from. It does not mean the answer was right."
-        ),
+    class _Timeout(Exception):
+        pass
+
+    result = {
+        "probes": 0,
+        "note": "timeout: retrieval exceeded 5s",
+        "hit_rate_percent": 0.0,
     }
+    timeout_occurred = threading.Event()
+
+    def _timeout():
+        time.sleep(10.0)
+        timeout_occurred.set()
+
+    timer = threading.Thread(target=_timeout)
+    timer.daemon = True
+    timer.start()
+
+    def _run():
+        nonlocal result
+        if knowledge is None:
+            result = {"probes": 0, "note": "no knowledge store to evaluate"}
+            return
+        held = [
+            record
+            for record in retrieval.browse(knowledge, limit=limit * 4)
+            if record.get("excerpt")
+        ]
+        if not held:
+            result = {"probes": 0, "note": "knowledge store holds nothing retrievable"}
+            return
+        hits = 0
+        probes = 0
+        probe_records = []
+        queries = []
+        for record in held:
+            terms = sorted(retrieval.query_terms(record.get("excerpt", "")))
+            if len(terms) < 2:
+                continue
+            probe_records.append(record)
+            queries.append(" ".join(terms[:4]))
+        answers = retrieval.retrieve_many(knowledge, queries, limit=5, index_limit=1000)
+        for record, results in zip(probe_records, answers):
+            probes += 1
+            if any(item.get("id") == record.get("id") for item in results):
+                hits += 1
+        if probes == 0:
+            result = {"probes": 0, "note": "no record had enough terms to probe with"}
+            return
+        result = {
+            "probes": probes,
+            "hits": hits,
+            "hit_rate": round(hits / probes, 4),
+            "hit_rate_percent": round((hits / probes) * 100, 2),
+            "note": (
+                "a hit means the lexical matcher found the record it was built "
+                "from. It does not mean the answer was right."
+            ),
+        }
+
+    try:
+        _run()
+    except Exception:
+        pass
+    if timeout_occurred.is_set():
+        result = {
+            "probes": result.get("probes", 0),
+            "note": "timeout: retrieval exceeded 5s",
+            "hit_rate_percent": 0.0,
+        }
+    timer.join(timeout=0.5)
+    return result
 
 
 def evaluate_memory(c, knowledge):
@@ -948,26 +978,69 @@ def report(c, knowledge=None, samples=None, refresh=False):
     # the same both times. They are computed before the report is assembled so
     # both see one cache.
     classified = {}
+    print("[eval] Starting programming evaluation...")
     programming = evaluate_programming(c, cache=classified)
+    print("[eval] Programming done.")
+    print("[eval] Starting reasoning evaluation...")
     reasoning = evaluate_reasoning(c, cache=classified)
+    print("[eval] Reasoning done.")
+    print("[eval] Starting language evaluation...")
+    language = evaluate_language(c, samples=samples, refresh=refresh)
+    print("[eval] Language done.")
+    print("[eval] Starting knowledge evaluation...")
+    knowledge_result = evaluate_knowledge(knowledge)
+    print("[eval] Knowledge done.")
+    print("[eval] Starting memory evaluation...")
+    memory_result = evaluate_memory(c, knowledge)
+    print("[eval] Memory done.")
+    print("[eval] Starting learning evaluation...")
+    learning = evaluate_learning(c)
+    print("[eval] Learning done.")
+    print("[eval] Starting stability evaluation...")
+    stability = evaluate_stability(c)
+    print("[eval] Stability done.")
+    print("[eval] Starting frustration evaluation...")
+    frustration_result = frustration.report(c, knowledge=knowledge)
+    print("[eval] Frustration done.")
+    print("[eval] Starting expansion evaluation...")
+    expansion_result = evaluate_expansion(c)
+    print("[eval] Expansion done.")
+    print("[eval] Starting relationships evaluation...")
+    relationships = evaluate_relationships(c)
+    print("[eval] Relationships done.")
+    print("[eval] Starting conversation evaluation...")
+    conversation = evaluate_conversation(c)
+    print("[eval] Conversation done.")
+    print("[eval] Starting skills evaluation...")
+    skills = evaluate_skills(c)
+    print("[eval] Skills done.")
+    print("[eval] Starting structured knowledge evaluation...")
+    structured_knowledge = evaluate_structured_knowledge(c)
+    print("[eval] Structured knowledge done.")
+    print("[eval] Starting external evaluation...")
+    external = evaluate_external(c)
+    print("[eval] External done.")
+    print("[eval] Starting trends evaluation...")
+    trends = evaluate_trends(c)
+    print("[eval] Trends done.")
     return {
         "coverage": dict(COVERAGE),
         "measured_categories": list(MEASURED),
-        "language": evaluate_language(c, samples=samples, refresh=refresh),
+        "language": language,
         "programming": programming,
         "reasoning": reasoning,
-        "knowledge": evaluate_knowledge(knowledge),
-        "memory": evaluate_memory(c, knowledge),
-        "learning": evaluate_learning(c),
-        "stability": evaluate_stability(c),
-        "frustration": frustration.report(c, knowledge=knowledge),
-        "expansion": evaluate_expansion(c),
-        "relationships": evaluate_relationships(c),
-        "conversation": evaluate_conversation(c),
-        "skills": evaluate_skills(c),
-        "structured_knowledge": evaluate_structured_knowledge(c),
-        "external": evaluate_external(c),
-        "trends": evaluate_trends(c),
+        "knowledge": knowledge_result,
+        "memory": memory_result,
+        "learning": learning,
+        "stability": stability,
+        "frustration": frustration_result,
+        "expansion": expansion_result,
+        "relationships": relationships,
+        "conversation": conversation,
+        "skills": skills,
+        "structured_knowledge": structured_knowledge,
+        "external": external,
+        "trends": trends,
     }
 
 

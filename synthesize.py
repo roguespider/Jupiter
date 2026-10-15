@@ -39,6 +39,7 @@ from pathlib import Path
 import control
 import selection
 import torch
+from train import Candidate, read_text
 
 # Prefixed so a generated document is identifiable in the curation report, in
 # the experiment log and in data/raw, without a separate manifest to fall out of
@@ -189,7 +190,15 @@ def run(c, model, tokenizer, pieces, measurements, cycle, tel, limit=None):
     budget = c.synthesis_per_run if limit is None else int(limit)
     if budget <= 0:
         return []
-    by_source = {selection.key_for(path): text for path, text in pieces}
+    by_source = {}
+    for piece in pieces:
+        if isinstance(piece, Candidate):
+            path = piece.path
+            text = piece.read()
+        else:
+            # Plain (path, text) pair from regression.reserve()
+            path, text = piece
+        by_source[selection.key_for(path)] = text
     written = []
     for record in targets_for(measurements):
         if len(written) >= budget:

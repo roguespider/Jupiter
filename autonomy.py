@@ -50,8 +50,15 @@ from pathlib import Path
 import control
 import experiment as experiment_module
 import frustration as frustration_module
+import goals
+
+# Reachability: new subsystems are wired into the entry point through this import.
+import reflection_worker
+import resource_scheduler
 import selection as selection_module
 import store as store_module
+import test_learning_restart
+import tool_adapter
 
 # Every action the loop can take. Named rather than numbered so a decision
 # record reads as something a person can act on.

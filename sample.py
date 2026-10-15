@@ -25,8 +25,10 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 import dialogue
+import experience_loop
 import store as store_module
 import torch
+from agent_memory import AgentMemory
 from model import Jupiter, ModelConfig
 from safetensors.torch import load_model
 from tokenizer import load_tokenizer
@@ -40,6 +42,12 @@ HELP = (
     "/history  show how much context is still active\n"
     "/recall   show what is currently retrievable\n"
     "/experiences show how many experiences have been recorded\n"
+    "/remember <kind> <text>  save a durable memory\n"
+    "/correct <old> => <new>  record a correction\n"
+    "/feedback <helpful|wrong|partial|uncertain> [details]  rate last interaction\n"
+    "/task add <title>  create a task\n"
+    "/task list  list open tasks\n"
+    "/memory   report memory counts\n"
     "/help     show this message"
 )
 
@@ -95,6 +103,29 @@ def recalled_context(knowledge, question, max_chars):
         results,
         max_chars=max_chars,
     ), results
+
+
+def experience_replay(c, question, max_items=3):
+    """Retrieve relevant past experiences for the current question."""
+    records, unreadable = experience_loop.read(c, limit=max_items * 2)
+    if not records:
+        return "", []
+    # Simple lexical overlap for relevance: match keywords in question.
+    question_words = set(str(question).lower().split())
+    relevant = []
+    for record in records:
+        user_text = str(record.get("user", ""))
+        jupiter_text = str(record.get("jupiter", ""))
+        overlap = len(question_words & set(user_text.lower().split()))
+        if overlap > 0 or len(user_text) < 200:
+            relevant.append(record)
+    # Take the most recent relevant experiences.
+    relevant = relevant[-max_items:]
+    replay_text = "\n".join(
+        f"[past experience] user: {str(r.get('user', '')).strip()[:80]} | jupiter: {str(r.get('jupiter', '')).strip()[:80]}"
+        for r in relevant
+    )
+    return replay_text, relevant
 
 
 def report_recall(results):
@@ -280,6 +311,8 @@ def main():
 
     knowledge = load_knowledge(c)
 
+    memory = AgentMemory(str(Path(c.out_dir) / "agent_memory.sqlite3"))
+
     history = torch.zeros(
         (1, 0),
         dtype=torch.long,
@@ -333,6 +366,7 @@ def main():
             "exit",
             "quit",
         ):
+            memory.close()
             break
 
         if command in (
@@ -381,6 +415,75 @@ def main():
 
             continue
 
+        if command.startswith("/remember "):
+            parts = line.replace("/remember ", "").split(" ", 1)
+            kind = parts[0].strip() if parts else "fact"
+            content = parts[1].strip() if len(parts) > 1 else ""
+            if content:
+                memory.remember(kind, content, source="user", confidence=0.95)
+                print("[memory saved]")
+            else:
+                print("[usage: /remember <kind> <text>]")
+            continue
+
+        if command.startswith("/correct "):
+            rest = line.replace("/correct ", "").strip()
+            if "=>" in rest:
+                old_text, corrected_text = rest.split("=>", 1)
+                memory.correct(old_text.strip(), corrected_text.strip())
+                print("[correction saved]")
+            else:
+                print("[usage: /correct <old> => <corrected>]")
+            continue
+
+        if command.startswith("/feedback "):
+            feedback_text = line.replace("/feedback ", "").strip()
+            outcome = "helpful"
+            details = ""
+            if feedback_text.startswith("wrong"):
+                outcome = "wrong"
+                details = feedback_text.replace("wrong", "").strip()
+            elif feedback_text.startswith("partial"):
+                outcome = "partial"
+                details = feedback_text.replace("partial", "").strip()
+            elif feedback_text.startswith("uncertain"):
+                outcome = "uncertain"
+                details = feedback_text.replace("uncertain", "").strip()
+            try:
+                memory.feedback(interaction_id, outcome, details)
+                print("[feedback recorded]")
+            except Exception as exc:
+                print(f"[feedback error: {exc}]")
+            continue
+
+        if command.startswith("/task "):
+            sub = line.replace("/task ", "").strip()
+            if sub.startswith("add "):
+                title = sub.replace("add ", "").strip()
+                if title:
+                    memory.add_task(title)
+                    print("[task added]")
+                else:
+                    print("[usage: /task add <title>]")
+            elif sub == "list":
+                tasks = memory.open_tasks()
+                if tasks:
+                    for t in tasks:
+                        print(
+                            f"[task {t['id']}] {t['title']} (status={t['status']}, priority={t['priority']})"
+                        )
+                else:
+                    print("[no open tasks]")
+            else:
+                print("[usage: /task add <title> | /task list]")
+            continue
+
+        if command == "/memory":
+            stats = memory.stats()
+            for k, v in stats.items():
+                print(f"[memory {k}: {v}]")
+            continue
+
         if not command:
             continue
 
@@ -398,6 +501,15 @@ def main():
             device=c.device,
         )
 
+        # Retrieve persistent agent memory before generation.
+        mem_items = memory.recall(line, limit=4)
+        memory_context = "\n".join(
+            f"[memory {m['kind']}] {m['content']}" for m in mem_items
+        )
+
+        # Retrieve relevant past experiences before generation.
+        replay_text, replay_records = experience_replay(c, line, max_items=3)
+
         # Retrieve relevant knowledge before generation.
         prefix, results = recalled_context(
             knowledge,
@@ -406,6 +518,11 @@ def main():
         )
 
         report_recall(results)
+
+        if memory_context and prefix:
+            prefix = memory_context + "\n" + prefix
+        elif memory_context:
+            prefix = memory_context
 
         if prefix:
             prefix_tokens = torch.tensor(
@@ -435,6 +552,11 @@ def main():
             c,
             tokenizer,
             context,
+        )
+
+        # Log the interaction to persistent agent memory.
+        interaction_id = memory.log_interaction(
+            line, text, metadata={"recalled": len(results)}
         )
 
         # Preserve the conversation in the active session.

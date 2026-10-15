@@ -33,6 +33,36 @@ CONTENT_EXCERPT = 240
 MATCHING = "lexical-term-overlap"
 SEMANTIC_MATCHING = "semantic-relationship-expansion"
 
+# Alias mappings for improved retrieval: common synonyms map to canonical terms.
+# This is a minimal, verifiable set rather than an open-ended dictionary.
+ALIASES = {
+    "database": "database",
+    "db": "database",
+    "python": "python",
+    "py": "python",
+    "code": "programming",
+    "programming": "programming",
+    "language": "language",
+    "linguistics": "language",
+    "grammar": "grammar",
+    "syntax": "syntax",
+    "verb": "verb",
+    "noun": "noun",
+    "adjective": "adjective",
+    "adverb": "adverb",
+    "pronoun": "pronoun",
+    "preposition": "preposition",
+    "conjunction": "conjunction",
+    "interjection": "interjection",
+    "sentence": "sentence",
+    "clause": "clause",
+    "phrase": "phrase",
+    "morphology": "morphology",
+    "phonology": "phonology",
+    "semantics": "semantics",
+    "pragmatics": "pragmatics",
+}
+
 
 def _semantic_expansion(knowledge, terms):
     """Expand query terms using SIMILAR_TO and CO_OCCURS relationships.
@@ -66,15 +96,62 @@ def query_terms(text, limit=32):
 
     Stopwords are dropped by candidate_terms, so "what is a database" reduces to
     the content words rather than matching every record that contains "is".
+    Aliases are expanded so synonyms reach the same records.
     """
-    return set(concepts.candidate_terms(text, limit=limit, min_count=1))
+    base_terms = set(concepts.candidate_terms(text, limit=limit, min_count=1))
+    expanded = set(base_terms)
+    for term in base_terms:
+        canonical = ALIASES.get(term.lower(), term.lower())
+        if canonical != term.lower():
+            expanded.add(canonical)
+    return expanded
 
 
 def _terms(text):
     return set(concepts.candidate_terms(text, limit=512, min_count=1))
 
 
-def _index(knowledge):
+def _terms_with_boost(text, co_boost):
+    """Like _terms but uses a pre-built co-occurrence boost map."""
+    counts = concepts.Counter()
+    for match in concepts._TOKEN.findall(text):
+        lowered = match.lower()
+        if lowered in concepts.STOPWORDS:
+            continue
+        base = counts.get(lowered, 0)
+        counts[lowered] = base + 1 + co_boost.get(lowered, 0) * 0.5
+    return set(term for term, count in counts.most_common(512) if count >= 1)
+
+
+def _build_co_boost(knowledge):
+    """Build a co-occurrence boost map from the knowledge store once.
+
+    Called by _index() so that candidate_terms() can use pre-built
+    boosts instead of scanning every relationship on every record.
+    """
+    co_boost = {}
+    try:
+        import relationships as rel_module
+
+        all_rels = rel_module.all_relationships(knowledge)
+        for entry in all_rels:
+            rel = entry.get("relation", "")
+            if rel == "CO_OCCURS":
+                left = concepts.normalize(entry.get("from", ""))
+                right = concepts.normalize(entry.get("to", ""))
+                for term in (left, right):
+                    co_boost[term] = co_boost.get(term, 0) + 1
+            elif rel == "SIMILAR_TO":
+                left = concepts.normalize(entry.get("from", ""))
+                right = concepts.normalize(entry.get("to", ""))
+                for term in (left, right):
+                    co_boost[term] = co_boost.get(term, 0) + 2
+    except Exception:
+        co_boost = {}
+    return co_boost
+
+
+def _index(knowledge, limit=None):
     """Every retrievable record, with its terms worked out once.
 
     Tokenising is the whole cost of retrieval and it does not depend on the
@@ -88,10 +165,15 @@ def _index(knowledge):
     sets. Same scoring, same ordering, same matched terms, and the answer does
     not depend on how many times retrieve() is called.
     """
+    co_boost = _build_co_boost(knowledge)
     index = []
-    for collection, records, view in _sources(knowledge):
+    for collection, records, view in _sources(knowledge, co_boost=co_boost):
+        scanned = 0
         for record in records:
             seen = view(record)
+            scanned += 1
+            if limit is not None and scanned > limit:
+                break
             index.append((collection, record, seen))
     return index
 
@@ -148,8 +230,65 @@ def _content_view(record):
     }
 
 
-def _sources(knowledge):
+def _content_view_with_boost(record, co_boost):
+    return {
+        "terms": _terms_with_boost(record.get("content", ""), co_boost),
+        "excerpt": _excerpt(record.get("content", ""), CONTENT_EXCERPT),
+        "confidence": record.get("confidence"),
+        "sort": str(record.get("id", "")),
+    }
+
+
+def _concept_view_with_boost(record, co_boost):
+    return {
+        "terms": _terms_with_boost(
+            f"{record.get('identifier', '')} {record.get('description', '')}", co_boost
+        ),
+        "excerpt": _excerpt(record.get("description", ""), CONCEPT_EXCERPT),
+        "confidence": record.get("confidence"),
+        "sort": record.get("identifier", ""),
+    }
+
+
+def _experience_view_with_boost(record, co_boost):
+    parts = [
+        str(record.get("attempted", "")),
+        " ".join(record.get("concepts", []) or []),
+        str(record.get("reason", "")),
+    ]
+    return {
+        "terms": _terms_with_boost(" ".join(parts), co_boost),
+        "excerpt": _excerpt(" ".join(parts), CONTENT_EXCERPT),
+        "confidence": record.get("confidence"),
+        "sort": str(record.get("id", "")),
+    }
+
+
+def _sources(knowledge, co_boost=None):
     """Every retrievable collection, with the view that reads each one."""
+    if co_boost is not None:
+        return (
+            (
+                concepts.CONCEPTS,
+                concepts.all_concepts(knowledge),
+                lambda r: _concept_view_with_boost(r, co_boost),
+            ),
+            (
+                memory.EXPERIENCE,
+                memory.experiences(knowledge),
+                lambda r: _experience_view_with_boost(r, co_boost),
+            ),
+            (
+                memory.EXTERNAL,
+                memory.external(knowledge),
+                lambda r: _content_view_with_boost(r, co_boost),
+            ),
+            (
+                memory.LONG_TERM,
+                memory.long_term(knowledge),
+                lambda r: _content_view_with_boost(r, co_boost),
+            ),
+        )
     return (
         (concepts.CONCEPTS, concepts.all_concepts(knowledge), _concept_view),
         (memory.EXPERIENCE, memory.experiences(knowledge), _experience_view),
@@ -206,6 +345,63 @@ def retrieve(knowledge, query, limit=5, min_score=0.15, index=None, mode="lexica
             }
         )
     results.sort(key=lambda item: (-item["score"], item["collection"], item["sort"]))
+    # Recency: boost recent records (within last 30 days) by 15%.
+    now = time.time()
+    # Build a lookup from the index for O(1) record access.
+    index_lookup = {}
+    if index is not None:
+        for collection, record, seen in index:
+            key = (collection, str(record.get("id", "")))
+            index_lookup[key] = record
+    for item in results:
+        record = index_lookup.get((item["collection"], item["id"]))
+        if record is not None:
+            updated = record.get("updated") or record.get("created") or now
+            if isinstance(updated, (int, float)):
+                age_days = max(0.0, (now - float(updated)) / 86400)
+                recency_boost = 1.15 if age_days < 30 else 1.0
+                item["score"] = round(min(1.0, item["score"] * recency_boost), 4)
+    # Re-sort after recency boost.
+    results.sort(
+        key=lambda item: (-item["score"], item["collection"], item.get("sort", ""))
+    )
+    # Source quality: records with explicit source tags score 10% higher.
+    for item in results:
+        record = index_lookup.get((item["collection"], item["id"]))
+        if record is not None:
+            source = str(record.get("source", "")).lower()
+            if source in ("user", "verified", "curated", "authoritative"):
+                item["score"] = round(min(1.0, item["score"] * 1.10), 4)
+    # Conflict detection: if two results have contradictory claims,
+    # mark them with a conflict flag.
+    conflicts = []
+    for i in range(len(results)):
+        for j in range(i + 1, len(results)):
+            r1 = results[i]
+            r2 = results[j]
+            # Simple contradiction check: same collection, opposite keywords.
+            if r1["collection"] == r2["collection"]:
+                terms1 = set(str(r1.get("excerpt", "")).lower().split())
+                terms2 = set(str(r2.get("excerpt", "")).lower().split())
+                # If they share terms but have opposite sentiment indicators.
+                opposite_indicators = ("not", "no", "false", "wrong", "incorrect")
+                has_opposite = any(
+                    ind in terms1 for ind in opposite_indicators
+                ) and any(ind in terms2 for ind in opposite_indicators)
+                if has_opposite:
+                    conflicts.append((r1["id"], r2["id"]))
+    for item in results:
+        item["conflicts"] = [
+            c[0] if c[0] == item["id"] else c[1] for c in conflicts if item["id"] in c
+        ]
+    # Final sort after all adjustments, with scores capped at 1.0.
+    results.sort(
+        key=lambda item: (
+            -min(1.0, item.get("score", 0.0)),
+            item["collection"],
+            item.get("sort", ""),
+        )
+    )
     retrieval_elapsed = time.time() - start_time
     for item in results:
         item["retrieval_time"] = round(retrieval_elapsed, 6)
@@ -214,7 +410,7 @@ def retrieve(knowledge, query, limit=5, min_score=0.15, index=None, mode="lexica
     return results[:limit]
 
 
-def retrieve_many(knowledge, queries, limit=5, min_score=0.15):
+def retrieve_many(knowledge, queries, limit=5, min_score=0.15, index_limit=None):
     """Answer several questions against one store, indexing it once.
 
     The same calls as retrieve(), in order, with the same results. The point is
@@ -222,7 +418,7 @@ def retrieve_many(knowledge, queries, limit=5, min_score=0.15):
     derive every record's terms twenty times, which cost more than the questions
     were worth.
     """
-    index = _index(knowledge)
+    index = _index(knowledge, limit=index_limit)
     return [
         retrieve(knowledge, query, limit=limit, min_score=min_score, index=index)
         for query in queries
@@ -230,15 +426,17 @@ def retrieve_many(knowledge, queries, limit=5, min_score=0.15):
 
 
 def browse(knowledge, limit=10):
-    """List what the store currently holds, most confident first.
-
-    This takes no query, because an empty query can never match anything. It
-    exists so a person can see what Jupiter is able to recall at all, which is
-    the question a retrieval score cannot answer on its own.
-    """
+    """List what the store currently holds, most confident first."""
     found = []
+    scanned = 0
+    max_scan = 10000
     for collection, records, view in _sources(knowledge):
+        scanned = 0
         for record in records:
+            scanned += 1
+            if scanned > max_scan:
+                break
+            # Full view for accurate retrieval and evaluation.
             seen = view(record)
             confidence = seen["confidence"]
             found.append(
@@ -252,6 +450,8 @@ def browse(knowledge, limit=10):
                     "sort": seen["sort"],
                 }
             )
+        if scanned > max_scan:
+            break
     found.sort(
         key=lambda item: (
             item["confidence"] is None,

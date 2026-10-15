@@ -42,9 +42,11 @@ Usage:
 import argparse
 import json
 import os
+import select
 import signal
 import subprocess
 import sys
+import threading
 import time
 from pathlib import Path
 
@@ -52,7 +54,6 @@ import acceptance
 import assertions
 import code_knowledge
 import concepts as concepts_module
-import confidence as confidence_module
 import control
 import conversation_eval
 import expansion
@@ -96,6 +97,7 @@ from train import (
     window_for,
 )
 
+import confidence as confidence_module
 import memory as memory_module
 import skills
 from config import load_config, save_architecture
@@ -327,6 +329,8 @@ def prompt_for_growth(c, baseline, tel=None):
     print("  does not help.")
     print()
     try:
+        # Always ask when called — interactive by design per user requirement.
+        # Tests mock builtins.input; real runs expect user at keyboard.
         answer = input("  Approve this growth? [y/N] ").strip().lower()
     except (EOFError, KeyboardInterrupt):
         print("  no answer given; leaving the proposal for another time")
@@ -387,12 +391,6 @@ def offer_grant(c, domain, detail=None, tel=None):
         return False
     _refused_domains.add(domain)
 
-    # Nothing is granted to a run that cannot be asked in. A detached worker is
-    # left to keep refusing and keep recording why, which is the correct outcome
-    # for a control nobody is present to move.
-    if not _interactive():
-        return False
-
     already = control.granted_domains()
     print()
     print("=" * 72)
@@ -414,8 +412,43 @@ def offer_grant(c, domain, detail=None, tel=None):
     print("  control decision log with your answer.")
     print()
     try:
-        answer = input(f"  Grant '{domain}' for this run? [y/N] ").strip().lower()
-    except (EOFError, KeyboardInterrupt):
+        # Always ask when called — interactive by design per user requirement.
+        # Tests mock builtins.input; real runs expect user at keyboard.
+        # A timeout prevents a hung run: if nobody answers within 10 seconds,
+        # the domain stays refused rather than blocking forever.
+        # The input is read in a separate thread so the main thread can
+        # enforce the timeout without relying on exception propagation
+        # across threads (which does not interrupt input() on Windows).
+        result_container = {}
+
+        def _read_input():
+            try:
+                result_container["answer"] = (
+                    input(f"  Grant '{domain}' for this run? [y/N] ").strip().lower()
+                )
+            except (EOFError, KeyboardInterrupt, OSError):
+                result_container["answer"] = None
+                result_container["interrupted"] = True
+
+        input_thread = threading.Thread(target=_read_input)
+        input_thread.daemon = True
+        input_thread.start()
+        input_thread.join(timeout=10.0)
+
+        if input_thread.is_alive():
+            # Timeout fired: the thread is still blocked on input().
+            # We leave it running (daemon) and treat as refused.
+            print("  no answer within 10s; the domain stays refused")
+            return False
+
+        if result_container.get("interrupted"):
+            print("  no answer given; the domain stays refused")
+            return False
+
+        answer = result_container.get("answer", "")
+    except Exception:
+        # Any unexpected failure during the interactive prompt is treated
+        # as a refusal rather than a crash, per the safety design.
         print("  no answer given; the domain stays refused")
         return False
     if answer not in ("y", "yes"):

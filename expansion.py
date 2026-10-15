@@ -725,6 +725,11 @@ def approve_growth(c, holdout_loss=None):
     if snapshot is not None:
         proposal["pre_growth_checkpoint"] = snapshot
     state["capacity_growth"] = proposal
+    # Mark the cadence entry as consumed so the next proposal can fire.
+    # Without this, an approved-but-not-yet-reviewed growth would block all
+    # later cadence proposals forever, because the check sees consumed: False.
+    if "capacity_gadence" in state:
+        state["capacity_gadence"]["consumed"] = True
     save(c, state)
     return proposal
 
@@ -808,6 +813,10 @@ def resolve_growth(c, holdout_loss):
         proposal["reverted_to"] = _revert_growth(c, proposal)
     proposal["reviewed_at"] = time.time()
     state["capacity_growth"] = proposal
+    # Mark the cadence as consumed: the growth was proposed and judged,
+    # so the next cadence proposal is free to fire.
+    if "capacity_gadence" in state:
+        state["capacity_gadence"]["consumed"] = True
     save(c, state)
     return proposal
 
