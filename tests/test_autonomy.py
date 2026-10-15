@@ -772,7 +772,9 @@ class GrowthPromptTests(TempDirTestCase):
     def test_no_prompt_without_the_expansion_grant(self):
         # Offering an action the Architecture 38 gate would refuse is asking a
         # person to approve something the system will not do.
+        original_interactive = learning_worker._interactive
         learning_worker._interactive = lambda: False
+        self.addCleanup(setattr, learning_worker, "_interactive", original_interactive)
         self.answer("y")
         learning_worker._last_best_holdout = 2.44
         self.assertIsNone(learning_worker.prompt_for_growth(self.config, {}))
