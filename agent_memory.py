@@ -47,7 +47,7 @@ class AgentMemory:
     def __init__(self, path: str | Path = "out/agent_memory.sqlite3"):
         self.path = Path(path)
         self.path.parent.mkdir(parents=True, exist_ok=True)
-        self.db = sqlite3.connect(str(self.path), timeout=10)
+        self.db = sqlite3.connect(str(self.path), timeout=10, check_same_thread=False)
         self.db.row_factory = sqlite3.Row
         self.db.execute("PRAGMA journal_mode=WAL")
         self.db.execute("PRAGMA foreign_keys=ON")
@@ -283,6 +283,67 @@ class AgentMemory:
                 )
         return chosen
 
+    def recall_corrections(self, query: str, *, limit: int = 4) -> list[dict[str, Any]]:
+        """Retrieve correction memories that are relevant to the current query.
+
+        Corrections are stored with kind='correction' and carry metadata
+        linking them to the content they supersede. A correction is considered
+        relevant when the query shares significant lexical overlap with either
+        the correction's own content or the original content it corrects.
+
+        This is separate from :meth:`recall` because corrections must always
+        appear in the generation context whenever they are relevant, regardless
+        of the normal result limit. They influence the very next answer
+        without changing model weights.
+        """
+        query_terms = _terms(query)
+        if not query_terms:
+            return []
+
+        rows = self.db.execute(
+            "SELECT * FROM memories WHERE kind='correction' AND status='active' "
+            "ORDER BY updated DESC"
+        ).fetchall()
+
+        if not rows:
+            return []
+
+        now = _now()
+        scored = []
+        for row in rows:
+            content = row["content"]
+            meta = json.loads(row["metadata"])
+            original = meta.get("corrects", "")
+
+            content_terms = _terms(content)
+            original_terms = _terms(original) if original else set()
+
+            # Score by overlap with correction content and/or the corrected text.
+            overlap_content = len(query_terms & content_terms) / max(
+                1, len(query_terms)
+            )
+            overlap_original = (
+                len(query_terms & original_terms) / max(1, len(query_terms))
+                if original_terms
+                else 0.0
+            )
+            overlap = max(overlap_content, overlap_original)
+
+            if overlap <= 0:
+                continue
+
+            age_days = max(0.0, (now - float(row["updated"])) / 86400)
+            recency = 1.0 / (1.0 + age_days / 30.0)
+            score = overlap * (0.5 + 0.5 * recency)
+
+            item = dict(row)
+            item["metadata"] = meta
+            item["score"] = round(score, 4)
+            scored.append(item)
+
+        scored.sort(key=lambda x: (-x["score"], -x["updated"]))
+        return scored[: max(0, int(limit))]
+
     def log_interaction(
         self,
         user_text: str,
@@ -393,6 +454,7 @@ class AgentMemory:
             "INSERT INTO events(created,event_type,detail) VALUES(?,?,?)",
             (_now(), event_type, detail[:2000]),
         )
+        self.db.commit()
 
     def recent_events(self, limit: int = 20) -> list[dict[str, Any]]:
         rows = self.db.execute(

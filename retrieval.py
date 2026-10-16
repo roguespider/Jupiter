@@ -91,6 +91,32 @@ def _semantic_expansion(knowledge, terms):
     return expanded
 
 
+def _phrase_terms(text, limit=16):
+    """Extract significant two-word phrases (bigrams) from text.
+
+    Phrases are formed from consecutive non-stopword tokens, so
+    "python import failure" produces ("python import", "import failure").
+    This improves retrieval for multi-word concepts that lexical term
+    overlap alone misses.
+    """
+    tokens = []
+    for match in concepts._TOKEN.findall(str(text)):
+        lowered = match.lower()
+        if lowered not in concepts.STOPWORDS:
+            tokens.append(lowered)
+    phrases = set()
+    for i in range(len(tokens) - 1):
+        phrase = f"{tokens[i]} {tokens[i + 1]}"
+        phrases.add(phrase)
+    # Return the most frequent phrases, bounded by limit.
+    from collections import Counter
+
+    counts = Counter()
+    for phrase in phrases:
+        counts[phrase] += 1
+    return set(p for p, _ in counts.most_common(limit))
+
+
 def query_terms(text, limit=32):
     """Reduce a question to the significant terms retrieval scores on.
 
@@ -100,6 +126,8 @@ def query_terms(text, limit=32):
     """
     base_terms = set(concepts.candidate_terms(text, limit=limit, min_count=1))
     expanded = set(base_terms)
+    phrase_terms = _phrase_terms(text, limit=limit // 2)
+    expanded.update(phrase_terms)
     for term in base_terms:
         canonical = ALIASES.get(term.lower(), term.lower())
         if canonical != term.lower():
@@ -108,7 +136,9 @@ def query_terms(text, limit=32):
 
 
 def _terms(text):
-    return set(concepts.candidate_terms(text, limit=512, min_count=1))
+    terms = set(concepts.candidate_terms(text, limit=512, min_count=1))
+    terms.update(_phrase_terms(text, limit=64))
+    return terms
 
 
 def _terms_with_boost(text, co_boost):
@@ -187,7 +217,13 @@ def score(terms, record_terms):
     """
     if not terms:
         return 0.0
-    return len(terms & record_terms) / len(terms)
+    overlap = terms & record_terms
+    phrase_boost = 0.0
+    for term in overlap:
+        if " " in term:
+            phrase_boost += 0.15
+    score_value = len(overlap) / len(terms)
+    return min(1.0, score_value + phrase_boost)
 
 
 def _excerpt(text, limit):

@@ -29,6 +29,17 @@ if /i "%~1"=="compare" goto :compare
 if /i "%~1"=="gate-compare" goto :gate_compare
 if /i "%~1"=="diagnose" goto :diagnose
 if /i "%~1"=="noise" goto :diagnose
+if /i "%~1"=="gradient" goto :gradient_worker
+if /i "%~1"=="hebbian" goto :hebbian_worker
+if /i "%~1"=="auto-gradient" goto :autonomous_gradient
+if /i "%~1"=="auto-hebbian" goto :autonomous_hebbian
+if /i "%~1"=="gradient-only" goto :gradient_worker
+if /i "%~1"=="hebbian-only" goto :hebbian_worker
+if /i "%~1"=="replay" goto :replay
+if /i "%~1"=="serve" goto :serve_chat
+if /i "%~1"=="serve-chat" goto :serve_chat
+if /i "%~1"=="api" goto :jupiter_api
+if /i "%~1"=="reset-events" goto :reset_events
 
 echo ========================================
 echo          JUPITER MICRO-LEARNING
@@ -83,8 +94,36 @@ rem signal; doubling the steps is the other half of that trade and is a
 rem separate decision rather than something to change blind.
 if "%JUPITER_MICRO_STEPS%"=="" set JUPITER_MICRO_STEPS=16
 
-python learning_worker.py
+rem Choose the learning worker. JUPITER_LEARNING_MODE can be set in the
+rem environment to skip the prompt; otherwise the user is asked.
+if not defined JUPITER_LEARNING_MODE (
+  echo.
+  echo Which learning algorithm should Jupiter use this run?
+  echo   [1] gradient  — back-propagation through time with SGD optimizer
+  echo   [2] hebbian   — direct reward-modulated plasticity (no back-prop)
+  echo.
+  set /p "JUPITER_LEARNING_MODE=  Choice (1=gradient, 2=hebbian, default=hebbian): "
+)
+if /i "%JUPITER_LEARNING_MODE%"=="gradient" set JUPITER_LEARNING_MODE=gradient
+if /i "%JUPITER_LEARNING_MODE%"=="1" set JUPITER_LEARNING_MODE=gradient
+if /i "%JUPITER_LEARNING_MODE%"=="hebbian" set JUPITER_LEARNING_MODE=plasticity
+if /i "%JUPITER_LEARNING_MODE%"=="2" set JUPITER_LEARNING_MODE=plasticity
+echo Using %JUPITER_LEARNING_MODE% learning.
+
+:run_gradient
+echo [learning mode: gradient/back-prop]
+python gradient_learning_worker.py
 if errorlevel 1 goto :error
+goto :learning_done
+
+:run_hebbian
+echo [learning mode: hebbian/plasticity]
+python Hebbian_learning_worker.py
+if errorlevel 1 goto :error
+
+goto :learning_done
+
+:learning_done
 
 echo.
 echo [5/9] Recent telemetry...
@@ -161,9 +200,38 @@ echo run_jupiter.bat autonomous to let Jupiter keep learning without you.
 exit /b 0
 
 :chat
+
 echo.
 echo [9/9] Conversation...
+rem Chat mode can be set in the environment to skip the prompt.
+if not defined JUPITER_CHAT_MODE (
+  echo Which chat mode?
+  echo   [1] console — sample.py (command-line chat)
+  echo   [2] web    — serve_chat.py + chat.html (browser at 127.0.0.1:8081/chat.html)
+  echo.
+  set /p "JUPITER_CHAT_MODE=  Choice (1=console, 2=web, default=console): "
+)
+if /i "%JUPITER_CHAT_MODE%"=="2" set JUPITER_CHAT_MODE=web
+if /i "%JUPITER_CHAT_MODE%"=="web" goto :chat_web
+if /i "%JUPITER_CHAT_MODE%"=="1" set JUPITER_CHAT_MODE=console
+if /i "%JUPITER_CHAT_MODE%"=="console" goto :chat_console
+if /i "%JUPITER_CHAT_MODE%"=="" set JUPITER_CHAT_MODE=console
+if /i "%JUPITER_CHAT_MODE%"=="console" goto :chat_console
+echo "%JUPITER_CHAT_MODE%" was not a valid choice; using console.
+set JUPITER_CHAT_MODE=console
+goto :chat_console
+
+:chat_console
+echo Using console chat (sample.py).
 python sample.py
+if errorlevel 1 goto :error
+exit /b 0
+
+:chat_web
+echo Using web chat (serve_chat.py + chat.html at 127.0.0.1:8081/chat.html).
+start /b python open_chat_browser.py
+echo Starting server at http://127.0.0.1:8081/chat.html ...
+python serve_chat.py
 if errorlevel 1 goto :error
 exit /b 0
 
@@ -223,6 +291,8 @@ rem it needs will keep learning and will keep recording why it did not expand.
 if "%JUPITER_TARGET_CHARS_PER_CYCLE%"=="" set JUPITER_TARGET_CHARS_PER_CYCLE=384000
 if "%JUPITER_MAX_WINDOWS_PER_CYCLE%"=="" set JUPITER_MAX_WINDOWS_PER_CYCLE=32
 if "%JUPITER_CONTROL_GRANTS%"=="" set JUPITER_CONTROL_GRANTS=expansion
+
+rem Autonomous mode also asks which learning algorithm to use.
 :autonomous
 echo ========================================
 echo   JUPITER CONTINUOUS LEARNING
@@ -234,7 +304,33 @@ echo   set JUPITER_CONTROL_GRANTS=expansion
 echo which lets it grow the model when a source is short of capacity.
 echo Without a grant it keeps learning and records why it did not grow.
 echo.
-python -u learning_worker.py --continuous
+
+if not defined JUPITER_LEARNING_MODE (
+  echo.
+  echo Which learning algorithm should Jupiter use?
+  echo   [1] gradient  — back-propagation through time with SGD optimizer
+  echo   [2] hebbian   — direct reward-modulated plasticity (no back-prop)
+  echo.
+  set /p "JUPITER_LEARNING_MODE=  Choice (1=gradient, 2=hebbian, default=hebbian): "
+)
+
+if /i "%JUPITER_LEARNING_MODE%"=="gradient" set JUPITER_LEARNING_MODE=gradient
+if /i "%JUPITER_LEARNING_MODE%"=="1" set JUPITER_LEARNING_MODE=gradient
+if /i "%JUPITER_LEARNING_MODE%"=="hebbian" set JUPITER_LEARNING_MODE=plasticity
+if /i "%JUPITER_LEARNING_MODE%"=="2" set JUPITER_LEARNING_MODE=plasticity
+echo Using %JUPITER_LEARNING_MODE% learning.
+
+:autonomous_gradient
+echo [autonomous learning mode: gradient/back-prop]
+python -u gradient_learning_worker.py --continuous
+pause
+exit /b 0
+
+:autonomous_hebbian
+echo [autonomous learning mode: hebbian/plasticity]
+python -u Hebbian_learning_worker.py --continuous
+pause
+exit /b 0
 echo.
 echo The agent stopped. Its decisions are in out\autonomy.json
 pause
@@ -409,6 +505,74 @@ rem started from when it finishes.
 :sweep
 python -u sweep_micro_steps.py
 exit /b %errorlevel%
+
+rem Direct learning-worker mode — skips curation/tests and runs only
+rem the selected learner. Useful when you want to retrain from the
+rem current checkpoint without re-running the full pipeline.
+:gradient_worker
+echo ========================================
+echo   GRADIENT LEARNING (direct)
+echo ========================================
+echo.
+echo Running gradient_learning_worker.py in foreground.
+echo Ctrl+C to stop.
+echo.
+python gradient_learning_worker.py
+exit /b %errorlevel%
+
+:hebbian_worker
+echo ========================================
+echo   HEBBIAN LEARNING (direct)
+echo ========================================
+echo.
+echo Running Hebbian_learning_worker.py in foreground.
+echo Ctrl+C to stop.
+echo.
+python Hebbian_learning_worker.py
+exit /b %errorlevel%
+
+:replay
+echo ========================================
+echo   EXPERIENCE REPLAY (decision evidence)
+echo ========================================
+echo.
+echo Showing past experiences grouped by outcome.
+echo Successes are evidence to reuse; failures are cautionary evidence.
+echo.
+python show_experiences.py
+exit /b 0
+
+:serve_chat
+echo ========================================
+echo   CHAT SERVER (web interface)
+echo ========================================
+echo.
+echo Starting web chat server at http://127.0.0.1:8081/chat.html
+echo Ctrl+C to stop.
+echo.
+python serve_chat.py
+exit /b %errorlevel%
+
+:jupiter_api
+echo ========================================
+echo   JUPITER API SERVER
+echo ========================================
+echo.
+echo Starting Jupiter API server
+echo Ctrl+C to stop.
+echo.
+python jupiter_api.py
+exit /b %errorlevel%
+
+:reset_events
+echo ========================================
+echo   RESET EVENT STORE
+echo ========================================
+echo.
+echo Resetting the global event store.
+echo.
+python reset_events.py
+exit /b 0
 
 :error
 echo.

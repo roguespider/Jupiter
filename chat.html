@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jupiter Chat</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 820px; margin: 2rem auto; padding: 1rem; background: #0b0c15; color: #e8e6e3; }
+  h1 { font-size: 1.5rem; margin-bottom: 0.25rem; }
+  .subtitle { color: #8a8f98; font-size: 0.85rem; margin-bottom: 0.75rem; }
+  .panel { border: 1px solid #2a2d3a; border-radius: 8px; padding: 0.75rem; background: #12131a; margin-bottom: 0.75rem; }
+  #chat { border: 1px solid #2a2d3a; border-radius: 8px; padding: 1rem; height: 440px; overflow-y: auto; background: #12131a; }
+  .msg { margin: 0.5rem 0; line-height: 1.45; padding: 0.4rem 0.6rem; border-radius: 6px; }
+  .msg.you { background: #1a2e1a; color: #7ee787; }
+  .msg.jupiter { background: #1a1e2e; color: #c0caf5; white-space: pre-wrap; }
+  .msg.system { color: #8a8f98; font-size: 0.8rem; padding-left: 0.5rem; border-left: 2px solid #565f89; }
+  .msg.event { color: #e0af68; font-size: 0.8rem; border-left: 2px solid #e0af68; padding-left: 0.5rem; }
+  input { width: 100%; padding: 0.6rem; border-radius: 6px; border: 1px solid #2a2d3a; background: #16161e; color: #e8e6e3; font-size: 1rem; }
+  button { margin-top: 0.5rem; padding: 0.5rem 1rem; border-radius: 6px; border: none; background: #7aa2f7; color: #0b0c15; font-weight: 600; cursor: pointer; }
+  button:hover { background: #89b4fa; }
+  button:disabled { background: #565f89; cursor: not-allowed; }
+  .commands { margin-top: 0.75rem; font-size: 0.8rem; color: #8a8f98; }
+  .status-bar { margin-top: 0.5rem; font-size: 0.75rem; display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; }
+  .indicator { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 0.35rem; }
+  .indicator.idle { background: #565f89; }
+  .indicator.connected { background: #7ee787; }
+  .indicator.busy { background: #e0af68; animation: pulse 1s infinite; }
+  .indicator.error { background: #f7768e; }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+  .session-select { margin-top: 0.5rem; font-size: 0.8rem; }
+  .session-select select { background: #16161e; color: #e8e6e3; border: 1px solid #2a2d3a; border-radius: 4px; padding: 0.25rem 0.5rem; }
+  .feedback-row { display: flex; gap: 0.5rem; margin-top: 0.25rem; }
+  .feedback-row button { font-size: 0.75rem; padding: 0.35rem 0.6rem; }
+  .event-id { font-family: monospace; font-size: 0.7rem; color: #565f89; }
+  .history-panel { max-height: 200px; overflow-y: auto; border-top: 1px solid #2a2d3a; padding-top: 0.5rem; }
+  .history-entry { border-bottom: 1px solid #2a2d3a; padding: 0.25rem 0; font-size: 0.85rem; }
+  .history-entry .time { color: #565f89; font-size: 0.7rem; }
+</style>
+</head>
+<body>
+<h1>Jupiter Chat</h1>
+<p class="subtitle">Runtime API with streaming, session history, live events, and feedback</p>
+
+<div class="panel">
+  <div class="session-select">
+    <label for="sessionSelect"><strong>Session:</strong></label>
+    <select id="sessionSelect" onchange="switchSession(this.value)">
+      <option value="current">Current session</option>
+    </select>
+    <button onclick="newSession()" style="margin-left:0.5rem; font-size:0.75rem; padding:0.25rem 0.5rem;">New Session</button>
+  </div>
+  <div class="status-bar" id="status">
+    <span><span class="indicator idle" id="indConnection"></span>Connection</span>
+    <span><span class="indicator idle" id="indState"></span>State</span>
+    <span id="statusText">Initializing...</span>
+  </div>
+</div>
+
+<div id="chat"></div>
+
+<div class="panel">
+  <input id="line" placeholder="Type a message or command (e.g. /remember fact ...)" autocomplete="off" />
+  <div style="display:flex; gap:0.5rem; margin-top:0.5rem; align-items:center;">
+    <button onclick="send()">Send</button>
+    <button onclick="cancelResponse()" id="btnCancel" disabled>Cancel</button>
+    <button onclick="clearChat()">Clear</button>
+  </div>
+  <div class="feedback-row">
+    <span style="font-size:0.75rem; color:#8a8f98;">Feedback:</span>
+    <button onclick="sendFeedback('helpful')">Helpful</button>
+    <button onclick="sendFeedback('wrong')">Wrong</button>
+    <button onclick="sendFeedback('partial')">Partial</button>
+    <button onclick="sendFeedback('uncertain')">Uncertain</button>
+  </div>
+</div>
+
+<div class="commands">
+  /remember &lt;kind&gt; &lt;text&gt; &nbsp;|&nbsp; /correct &lt;old&gt; =&gt; &lt;new&gt; &nbsp;|&nbsp; /feedback &lt;rating&gt; &nbsp;|&nbsp; /memory &nbsp;|&nbsp; /exit
+</div>
+
+<div class="panel history-panel">
+  <strong>Conversation History</strong>
+  <div id="history"></div>
+</div>
+
+<script>
+const chat = document.getElementById('chat');
+const input = document.getElementById('line');
+const statusEl = document.getElementById('status');
+const indConnection = document.getElementById('indConnection');
+const indState = document.getElementById('indState');
+const btnCancel = document.getElementById('btnCancel');
+const historyDiv = document.getElementById('history');
+
+let lastEventId = null;
+const seenEventIds = new Set();
+let currentSessionId = null;
+let conversationHistory = [];
+let activeController = null;
+let isStreaming = false;
+let streamingDiv = null;
+
+function setIndicator(el, state) {
+  el.className = 'indicator ' + state;
+}
+
+function setStatus(text, connState, busyState) {
+  document.getElementById('statusText').textContent = text;
+  setIndicator(indConnection, connState);
+  setIndicator(indState, busyState);
+}
+
+function append(cls, text, eventId) {
+  const d = document.createElement('div');
+  d.className = 'msg ' + cls;
+  d.textContent = text;
+  if (eventId) {
+    const idSpan = document.createElement('span');
+    idSpan.className = 'event-id';
+    idSpan.textContent = ' [' + eventId.substring(0, 8) + ']';
+    d.appendChild(idSpan);
+  }
+  chat.appendChild(d);
+  chat.scrollTop = chat.scrollHeight;
+  return d;
+}
+
+function addHistoryEntry(role, content, interactionId) {
+  const entry = document.createElement('div');
+  entry.className = 'history-entry';
+  entry.innerHTML = '<span class="time">' + new Date().toLocaleTimeString() + '</span> <strong>' + role + ':</strong> ' + content.substring(0, 120) + (content.length > 120 ? '...' : '');
+  historyDiv.appendChild(entry);
+  historyDiv.scrollTop = historyDiv.scrollHeight;
+}
+
+function clearChat() {
+  chat.innerHTML = '';
+  conversationHistory = [];
+  historyDiv.innerHTML = '';
+  append('system', 'Chat cleared.');
+}
+
+function newSession() {
+  currentSessionId = 'session-' + Date.now();
+  document.getElementById('sessionSelect').value = currentSessionId;
+  conversationHistory = [];
+  historyDiv.innerHTML = '';
+  append('system', 'New session started: ' + currentSessionId);
+}
+
+function switchSession(sessionId) {
+  currentSessionId = sessionId === 'current' ? null : sessionId;
+  append('system', 'Switched to session: ' + (currentSessionId || 'current'));
+}
+
+function sendFeedback(rating) {
+  fetch('http://127.0.0.1:8081/api/chat', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({message: '/feedback ' + rating})
+  })
+  .then(r => r.json())
+  .then(data => {
+    append('system', '[feedback] ' + (data.reply || '[recorded]'));
+  })
+  .catch(err => {
+    append('system', '[feedback error]');
+  });
+}
+
+function cancelResponse() {
+  if (activeController) {
+    activeController.abort();
+    activeController = null;
+    btnCancel.disabled = true;
+    setStatus('Response cancelled', 'connected', 'idle');
+    append('system', '[response cancelled by user]');
+    isStreaming = false;
+  }
+}
+
+function send() {
+  const line = input.value.trim();
+  if (!line) return;
+  append('you', 'you> ' + line);
+  input.value = '';
+  conversationHistory.push({role: 'user', content: line, time: new Date().toISOString()});
+  addHistoryEntry('you', line);
+
+  setStatus('Sending...', 'connected', 'busy');
+  btnCancel.disabled = false;
+  isStreaming = true;
+  streamingDiv = null;
+
+  activeController = new AbortController();
+
+  // Use streaming endpoint for real-time response display
+  fetch('http://127.0.0.1:8081/api/chat/stream', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({message: line}),
+    signal: activeController.signal
+  })
+  .then(async r => {
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    const reader = r.body.getReader();
+    const decoder = new TextDecoder();
+    let buffer = '';
+    let responseText = '';
+
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      buffer += decoder.decode(value, {stream: true});
+      const lines = buffer.split('\n');
+      buffer = lines.pop();
+
+      for (const lineStr of lines) {
+        if (!lineStr.trim()) continue;
+        try {
+          const chunkData = JSON.parse(lineStr);
+          if (chunkData.chunk !== undefined) {
+            responseText += chunkData.chunk;
+            if (!streamingDiv) {
+              streamingDiv = append('jupiter', 'jupiter> ' + chunkData.chunk);
+            } else {
+              streamingDiv.textContent = 'jupiter> ' + responseText;
+              chat.scrollTop = chat.scrollHeight;
+            }
+          } else if (chunkData.done) {
+            conversationHistory.push({role: 'assistant', content: chunkData.full_reply || responseText, interaction_id: chunkData.interaction_id, time: new Date().toISOString()});
+            addHistoryEntry('jupiter', chunkData.full_reply || responseText);
+            setStatus('Response complete', 'connected', 'idle');
+            btnCancel.disabled = true;
+            isStreaming = false;
+          }
+        } catch (e) {
+          // Ignore non-JSON chunks
+        }
+      }
+    }
+  })
+  .catch(err => {
+    if (err.name === 'AbortError') {
+      // Cancelled by user
+    } else {
+      append('system', '[connection error — is serve_chat.py running?]');
+      setStatus('Connection error', 'error', 'idle');
+    }
+    btnCancel.disabled = true;
+    isStreaming = false;
+  })
+  .finally(() => {
+    activeController = null;
+  });
+}
+
+// WebSocket for live events
+const wsUrl = 'ws://127.0.0.1:8081/ws/events';
+let ws = null;
+
+function connectWs() {
+  ws = new WebSocket(wsUrl);
+  ws.onopen = () => {
+    setStatus('Live events connected', 'connected', 'idle');
+  };
+  ws.onmessage = (event) => {
+    try {
+      const data = JSON.parse(event.data);
+      const eventId = data.event_id || data.id;
+      if (eventId && seenEventIds.has(eventId)) return;
+      if (eventId) {
+        seenEventIds.add(eventId);
+        lastEventId = eventId;
+      }
+      // Skip duplicate response events (shown via streaming)
+      if (data.event_type === 'message.received' && data.data && data.data.action === 'response') {
+        return;
+      }
+      if (data.event_type === 'chat') {
+        return; // Shown via streaming
+      }
+      append('event', '[' + (data.event_type || 'event') + '] ' + (data.data ? JSON.stringify(data.data) : ''), eventId);
+    } catch (e) {
+      append('system', '[ws event parse error]');
+    }
+  };
+  ws.onclose = () => {
+    setStatus('Live events disconnected — reconnecting...', 'connected', 'idle');
+    setTimeout(connectWs, 2000);
+  };
+  ws.onerror = () => {
+    setStatus('WebSocket error', 'error', 'idle');
+  };
+}
+
+function pollHealth() {
+  fetch('http://127.0.0.1:8081/api/health')
+    .then(r => r.json())
+    .then(data => {
+      setStatus('Health: ' + (data.status || 'unknown') + ' | Service: ' + (data.service || 'unknown'), 'connected', 'idle');
+    })
+    .catch(() => {
+      setStatus('Health check failed', 'error', 'idle');
+    });
+}
+
+function syncEvents() {
+  const url = lastEventId ? 'http://127.0.0.1:8081/api/events?since=' + lastEventId : 'http://127.0.0.1:8081/api/events';
+  fetch(url)
+    .then(r => r.json())
+    .then(data => {
+      if (data.events && data.events.length > 0) {
+        for (const ev of data.events) {
+          const eventId = ev.event_id || ev.id;
+          if (eventId && !seenEventIds.has(eventId)) {
+            seenEventIds.add(eventId);
+            lastEventId = eventId;
+          }
+        }
+      }
+    })
+    .catch(() => {});
+}
+
+connectWs();
+setInterval(pollHealth, 5000);
+setInterval(syncEvents, 3000);
+pollHealth();
+
+input.addEventListener('keydown', e => { if (e.key === 'Enter') send(); });
+append('system', 'Type /help for commands, /exit to finish. Streaming enabled.');
+</script>
+</body>
+</html>
