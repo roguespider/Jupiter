@@ -117,9 +117,10 @@ class ConnectivityTests(unittest.TestCase):
         # save, reload, verify. A chain that only calls train.py reaches
         # none of the acceptance, confidence, regression or knowledge code,
         # so the loop the architecture describes is not the loop that runs.
-        self.assertIn(
-            "learning_worker.py",
-            entry_scripts(),
+        scripts = entry_scripts()
+        self.assertTrue(
+            "gradient_learning_worker.py" in scripts
+            or "Hebbian_learning_worker.py" in scripts,
             f"{ENTRY_POINT} does not invoke the learning controller, so "
             "update acceptance and regression detection never run",
         )

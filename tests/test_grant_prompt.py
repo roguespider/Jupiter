@@ -37,15 +37,15 @@ class GrantPromptTests(TempDirTestCase):
     def setUp(self):
         super().setUp()
         self.saved_environment = dict(os.environ)
-        self.saved_interactive = learning_worker._interactive
-        self.saved_refused = set(learning_worker._refused_domains)
+        self.saved_interactive = learning_worker._gradient._interactive
+        self.saved_refused = set(learning_worker._gradient._refused_domains)
         self.saved_input = builtins.input
 
         def restore():
             os.environ.clear()
             os.environ.update(self.saved_environment)
-            learning_worker._interactive = self.saved_interactive
-            learning_worker._refused_domains = set(self.saved_refused)
+            learning_worker._gradient._interactive = self.saved_interactive
+            learning_worker._gradient._refused_domains = set(self.saved_refused)
             builtins.input = self.saved_input
 
         self.addCleanup(restore)
@@ -73,11 +73,11 @@ class GrantPromptTests(TempDirTestCase):
             return learning_worker.offer_grant(self.config, domain, detail, tel=None)
 
     def test_nobody_to_ask_is_not_granted(self):
-        learning_worker._interactive = lambda: False
+        learning_worker._gradient._interactive = lambda: False
         self.assertFalse(self.run_prompt())
 
     def test_a_clear_yes_grants_and_the_gate_sees_it(self):
-        learning_worker._interactive = lambda: True
+        learning_worker._gradient._interactive = lambda: True
         os.environ[control.GRANT_VARIABLE] = "expansion"
         self.answer("y")
 
@@ -87,8 +87,8 @@ class GrantPromptTests(TempDirTestCase):
 
     def test_yes_in_either_case_is_accepted(self):
         for reply in ("y", "Y", "yes", "YES"):
-            learning_worker._refused_domains = set()
-            learning_worker._interactive = lambda: True
+            learning_worker._gradient._refused_domains = set()
+            learning_worker._gradient._interactive = lambda: True
             os.environ[control.GRANT_VARIABLE] = ""
             self.answer(reply)
             self.assertTrue(self.run_prompt(), f"{reply!r} should be a clear yes")
@@ -102,8 +102,8 @@ class GrantPromptTests(TempDirTestCase):
         """
         for reply in ("", "n", "N", "no", "maybe", "sure", "1", "why not"):
             with self.subTest(reply=reply):
-                learning_worker._refused_domains = set()
-                learning_worker._interactive = lambda: True
+                learning_worker._gradient._refused_domains = set()
+                learning_worker._gradient._interactive = lambda: True
                 os.environ[control.GRANT_VARIABLE] = "expansion"
                 self.answer(reply)
 
@@ -118,8 +118,8 @@ class GrantPromptTests(TempDirTestCase):
         """
         for reply in (EOFError(), KeyboardInterrupt()):
             with self.subTest(reply=type(reply).__name__):
-                learning_worker._refused_domains = set()
-                learning_worker._interactive = lambda: True
+                learning_worker._gradient._refused_domains = set()
+                learning_worker._gradient._interactive = lambda: True
                 os.environ[control.GRANT_VARIABLE] = "expansion"
                 self.answer(reply)
 
@@ -127,8 +127,8 @@ class GrantPromptTests(TempDirTestCase):
                 self.assertNotIn("architecture", control.granted_domains())
 
     def test_it_asks_once_per_domain(self):
-        learning_worker._refused_domains = set()
-        learning_worker._interactive = lambda: True
+        learning_worker._gradient._refused_domains = set()
+        learning_worker._gradient._interactive = lambda: True
         os.environ[control.GRANT_VARIABLE] = ""
         self.answer("n")
 
@@ -140,7 +140,7 @@ class GrantPromptTests(TempDirTestCase):
         )
 
     def test_a_grant_keeps_the_domains_already_given(self):
-        learning_worker._interactive = lambda: True
+        learning_worker._gradient._interactive = lambda: True
         os.environ[control.GRANT_VARIABLE] = "expansion,memory"
         self.answer("y")
 
@@ -157,7 +157,7 @@ class GrantPromptTests(TempDirTestCase):
         and the caller re-raises, so the run stops rather than proceeding as
         though the question had never been asked.
         """
-        learning_worker._interactive = lambda: True
+        learning_worker._gradient._interactive = lambda: True
         os.environ[control.GRANT_VARIABLE] = ""
         self.answer("n")
 

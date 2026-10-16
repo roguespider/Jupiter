@@ -163,18 +163,18 @@ class PromptIsReachableTests(TempDirTestCase):
                 os.environ.update(self.saved_environment),
             )
         )
-        self.saved_stdin = learning_worker.sys.stdin
-        self.saved_refused = set(learning_worker._refused_domains)
+        self.saved_stdin = learning_worker._gradient.sys.stdin
+        self.saved_refused = set(learning_worker._gradient._refused_domains)
 
         class Terminal:
             def isatty(self):
                 return True
 
-        learning_worker.sys.stdin = Terminal()
+        learning_worker._gradient.sys.stdin = Terminal()
 
         def restore():
-            learning_worker.sys.stdin = self.saved_stdin
-            learning_worker._refused_domains = set(self.saved_refused)
+            learning_worker._gradient.sys.stdin = self.saved_stdin
+            learning_worker._gradient._refused_domains = set(self.saved_refused)
 
         self.addCleanup(restore)
         os.environ.pop("JUPITER_NO_PROMPT", None)
@@ -187,29 +187,29 @@ class PromptIsReachableTests(TempDirTestCase):
         could ask was the one that already did not need to.
         """
         self.assertTrue(
-            learning_worker._interactive(),
+            learning_worker._gradient._interactive(),
             "a terminal with no grant must still be able to ask",
         )
 
     def test_the_domain_is_only_required_when_named(self):
         self.assertFalse(
-            learning_worker._interactive("expansion"),
+            learning_worker._gradient._interactive("expansion"),
             "a domain that has not been granted is correctly reported as absent",
         )
         os.environ[control.GRANT_VARIABLE] = "expansion"
-        self.assertTrue(learning_worker._interactive("expansion"))
+        self.assertTrue(learning_worker._gradient._interactive("expansion"))
 
     def test_no_prompt_still_silences_everything(self):
         os.environ["JUPITER_NO_PROMPT"] = "1"
-        self.assertFalse(learning_worker._interactive())
+        self.assertFalse(learning_worker._gradient._interactive())
 
     def test_a_pipe_is_not_a_person(self):
         class Pipe:
             def isatty(self):
                 return False
 
-        learning_worker.sys.stdin = Pipe()
-        self.assertFalse(learning_worker._interactive())
+        learning_worker._gradient.sys.stdin = Pipe()
+        self.assertFalse(learning_worker._gradient._interactive())
 
 
 if __name__ == "__main__":

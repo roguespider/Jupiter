@@ -59,7 +59,7 @@ class ContinuousPromptTests(TempDirTestCase):
         self.saved_environment = dict(os.environ)
         self.saved_stdin = sys.stdin
         self.saved_input = builtins.input
-        self.saved_refused = set(learning_worker._refused_domains)
+        self.saved_refused = set(learning_worker._gradient._refused_domains)
         sys.stdin = Terminal()
         os.environ.pop("JUPITER_NO_PROMPT", None)
 
@@ -68,7 +68,7 @@ class ContinuousPromptTests(TempDirTestCase):
             os.environ.update(self.saved_environment)
             sys.stdin = self.saved_stdin
             builtins.input = self.saved_input
-            learning_worker._refused_domains = set(self.saved_refused)
+            learning_worker._gradient._refused_domains = set(self.saved_refused)
 
         self.addCleanup(restore)
 

@@ -33,7 +33,7 @@ class RetrievalTests(TempDirTestCase):
     def test_query_terms_drop_stopwords(self):
         self.assertEqual(
             retrieval.query_terms("what is a neutrino observatory"),
-            {"neutrino", "observatory"},
+            {"neutrino", "observatory", "neutrino observatory"},
         )
 
     def test_score_is_the_fraction_of_the_query_matched(self):

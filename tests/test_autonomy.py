@@ -765,18 +765,20 @@ class GrowthPromptTests(TempDirTestCase):
 
     def as_interactive(self):
         """Pretend there is a person at the keyboard."""
-        original = learning_worker._interactive
-        learning_worker._interactive = lambda: True
-        self.addCleanup(setattr, learning_worker, "_interactive", original)
+        original = learning_worker._gradient._interactive
+        learning_worker._gradient._interactive = lambda: True
+        self.addCleanup(setattr, learning_worker._gradient, "_interactive", original)
 
     def test_no_prompt_without_the_expansion_grant(self):
         # Offering an action the Architecture 38 gate would refuse is asking a
         # person to approve something the system will not do.
-        original_interactive = learning_worker._interactive
-        learning_worker._interactive = lambda: False
-        self.addCleanup(setattr, learning_worker, "_interactive", original_interactive)
+        original_interactive = learning_worker._gradient._interactive
+        learning_worker._gradient._interactive = lambda: False
+        self.addCleanup(
+            setattr, learning_worker._gradient, "_interactive", original_interactive
+        )
         self.answer("y")
-        learning_worker._last_best_holdout = 2.44
+        learning_worker._gradient._last_best_holdout = 2.44
         self.assertIsNone(learning_worker.prompt_for_growth(self.config, {}))
         self.assertFalse(
             expansion.load(self.config)["capacity_growth"]["approved"],
@@ -791,7 +793,9 @@ class GrowthPromptTests(TempDirTestCase):
         import sys
 
         original = sys.stdin
+        original_stdin = sys.stdin
         sys.stdin = None
+        self.addCleanup(setattr, sys, "stdin", original_stdin)
         self.addCleanup(setattr, sys, "stdin", original)
         self.assertFalse(
             learning_worker._interactive(),
@@ -808,7 +812,7 @@ class GrowthPromptTests(TempDirTestCase):
     def test_saying_no_changes_nothing(self):
         self.as_interactive()
         self.answer("n")
-        learning_worker._last_best_holdout = 2.44
+        learning_worker._gradient._last_best_holdout = 2.44
         self.assertIsNone(learning_worker.prompt_for_growth(self.config, {}))
         self.assertFalse(expansion.load(self.config)["capacity_growth"]["approved"])
 
@@ -821,7 +825,7 @@ class GrowthPromptTests(TempDirTestCase):
                 expansion.save(self.config, expansion.load(self.config))
                 self.as_interactive()
                 self.answer(answer)
-                learning_worker._last_best_holdout = 2.44
+                learning_worker._gradient._last_best_holdout = 2.44
                 learning_worker.prompt_for_growth(self.config, {})
                 self.assertFalse(
                     expansion.load(self.config)["capacity_growth"]["approved"],
@@ -833,7 +837,7 @@ class GrowthPromptTests(TempDirTestCase):
         # later is against a number rather than against a feeling.
         self.as_interactive()
         self.answer("yes")
-        learning_worker._last_best_holdout = 2.44
+        learning_worker._gradient._last_best_holdout = 2.44
         result = learning_worker.prompt_for_growth(self.config, {})
         self.assertIsNotNone(result)
         self.assertTrue(result["approved"])
@@ -848,7 +852,7 @@ class GrowthPromptTests(TempDirTestCase):
         expansion.approve_growth(self.config, holdout_loss=4.0)
         self.as_interactive()
         self.answer("y")
-        learning_worker._last_best_holdout = 2.44
+        learning_worker._gradient._last_best_holdout = 2.44
         self.assertIsNone(learning_worker.prompt_for_growth(self.config, {}))
 
     def test_no_prompt_when_there_is_no_proposal(self):
@@ -858,7 +862,7 @@ class GrowthPromptTests(TempDirTestCase):
         )
         self.as_interactive()
         self.answer("y")
-        learning_worker._last_best_holdout = 2.44
+        learning_worker._gradient._last_best_holdout = 2.44
         self.assertIsNone(learning_worker.prompt_for_growth(self.config2, {}))
 
     def judge_and_roll_back(self):
@@ -887,7 +891,7 @@ class GrowthPromptTests(TempDirTestCase):
         self.judge_and_roll_back()
         self.as_interactive()
         self.answer("y")
-        learning_worker._last_best_holdout = 2.44
+        learning_worker._gradient._last_best_holdout = 2.44
         result = learning_worker.prompt_for_growth(self.config, {})
         self.assertIsNotNone(
             result,
@@ -903,7 +907,7 @@ class GrowthPromptTests(TempDirTestCase):
         self.judge_and_roll_back()
         self.as_interactive()
         self.answer("n")
-        learning_worker._last_best_holdout = 2.44
+        learning_worker._gradient._last_best_holdout = 2.44
         import contextlib
         import io
 
@@ -923,7 +927,7 @@ class GrowthPromptTests(TempDirTestCase):
         self.config.n_layer = 9
         self.as_interactive()
         self.answer("y")
-        learning_worker._last_best_holdout = 2.44
+        learning_worker._gradient._last_best_holdout = 2.44
         result = learning_worker.prompt_for_growth(self.config, {})
         self.assertIsNotNone(result, "a new shape has not been judged, so ask")
         self.assertTrue(result["approved"])

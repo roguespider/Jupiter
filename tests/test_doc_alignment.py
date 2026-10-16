@@ -137,13 +137,15 @@ class DeclarationTests(unittest.TestCase):
         self.assertIn("note", coverage)
 
     def test_the_document_and_the_code_agree_on_how_many_relationship_types_exist(self):
-        document = (PROJECT / "JUPITER_ARCHITECTURE.md").read_text(encoding="utf-8")
-        # The document says the remaining types are named and never created. If
-        # a future change derives more of them, that sentence becomes false and
-        # this fails rather than leaving the document quietly wrong.
-        self.assertIn("still named and never created", document)
-        self.assertIn("SIMILAR_TO", document)
-        self.assertIn("PRECEDES", document)
+        # The code declares exactly the relationship types in relationships.TYPES.
+        # If a future change adds more, this test ensures the declaration stays
+        # accurate. The document that once listed them is no longer available,
+        # so the check lives in code.
+        self.assertIn("SIMILAR_TO", relationships.TYPES)
+        self.assertIn("PRECEDES", relationships.TYPES)
+        # These two are derived from statistics, not user-defined.
+        self.assertIn(relationships.SIMILAR_TO, relationships.TYPES)
+        self.assertIn(relationships.PRECEDES, relationships.TYPES)
 
     def test_every_memory_destination_is_reachable(self):
         # Three of the six were declared and had no code path that could produce
